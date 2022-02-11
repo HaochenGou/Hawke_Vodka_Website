@@ -12,7 +12,6 @@ import products from "./data/products.json";
 import App from "./App";
 import "./assets/scss/style.scss";
 import * as serviceWorker from "./serviceWorker";
-import Client from 'shopify-buy';
 import { composeWithDevTools } from "redux-devtools-extension";
 
 const store = createStore(
@@ -23,8 +22,6 @@ const store = createStore(
 
 // fetch products from json file
 store.dispatch(fetchProducts(products));
-const client = Client.buildClient({storefrontAccessToken:'bb8a3b7fc78464bc90535dd3c34987a8',domain:'baby-x-vodka.myshopify.com'});
-
 
 
 
