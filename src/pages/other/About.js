@@ -6,7 +6,6 @@ import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import SectionTitleWithText from "../../components/section-title/SectionTitleWithText";
 import TextGridOne from "../../wrappers/text-grid/TextGridOne";
-import FunFactOne from "../../wrappers/fun-fact/FunFactOne";
 import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
@@ -39,12 +38,7 @@ const About = ({ location }) => {
         {/* text grid */}
         <TextGridOne spaceBottomClass="pb-70" />
 
-        {/* fun fact */}
-        <FunFactOne
-          spaceTopClass="pt-100"
-          spaceBottomClass="pb-70"
-          bgClass="bg-gray-3"
-        />
+       
 
         {/* team member */}
         <TeamMemberOne spaceTopClass="pt-95" spaceBottomClass="pb-70" />

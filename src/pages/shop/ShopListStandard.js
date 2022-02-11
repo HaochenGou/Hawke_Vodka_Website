@@ -10,6 +10,7 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import ShopTopbar from "../../wrappers/product/ShopTopbar";
 import ShopProducts from "../../wrappers/product/ShopProducts";
 
+
 const ShopListStandard = ({ location, products }) => {
   const [layout, setLayout] = useState("list");
   const [sortType, setSortType] = useState("");
@@ -27,6 +28,7 @@ const ShopListStandard = ({ location, products }) => {
   const getLayout = layout => {
     setLayout(layout);
   };
+
 
   const getSortParams = (sortType, sortValue) => {
     setSortType(sortType);
