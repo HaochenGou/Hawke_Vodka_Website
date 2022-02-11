@@ -27,8 +27,10 @@ const About = ({ location }) => {
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         About us
       </BreadcrumbsItem>
+     
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
+        <Breadcrumb />
 
         {/* section title with text */}
         <SectionTitleWithText spaceTopClass="pt-100" spaceBottomClass="pb-95" />

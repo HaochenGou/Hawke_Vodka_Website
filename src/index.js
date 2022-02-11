@@ -24,6 +24,20 @@ const store = createStore(
 // fetch products from json file
 store.dispatch(fetchProducts(products));
 const client = Client.buildClient({storefrontAccessToken:'bb8a3b7fc78464bc90535dd3c34987a8',domain:'baby-x-vodka.myshopify.com'});
+store.dispatch({type: 'CLIENT_CREATED', payload: client});
+
+client.product.fetchAll().then((res) => {
+  store.dispatch({type: 'PRODUCTS_FOUND', payload: res});
+});
+client.checkout.create().then((res) => {
+  store.dispatch({type: 'CHECKOUT_FOUND', payload: res});
+});
+client.shop.fetchInfo().then((res) => {
+  store.dispatch({type: 'SHOP_FOUND', payload: res});
+});
+
+
+
 
 ReactDOM.render(
   <Provider store={store}>
