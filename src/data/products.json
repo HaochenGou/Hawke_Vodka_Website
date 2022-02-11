@@ -1,6 +1,6 @@
 [
     {
-        "id": "7298436628631",
+        "id": "1",
         "sku": "asdf123",
         "name": "William's Londaon Dry",
         "price": 28.00,
@@ -11,7 +11,7 @@
         "fullDescription": "Williams London dry gin is not your average gin, we use our Alberta spirits gold metal award winning baby-X-vodka. We then macerate 11 different botanicals putting much emphasis on orange, lemon and grapefruit. This is where the journey of freshness begins. Blending with our chosen teas has created a truly fresh and balanced spirit."
     },
     {
-        "id": "6100943896727",
+        "id": "2",
         "sku": "asdf124",
         "name": "baby-X-vodka",
         "price": 25.00,
@@ -23,7 +23,7 @@
     },
  
     {
-        "id": "7298420834455",
+        "id": "3",
         "sku": "asdf125",
         "name": "Sir Peri Winkle's",
         "price": 32.00,
