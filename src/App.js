@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { ToastProvider } from "react-toast-notifications";
 import { multilanguage, loadLanguages } from "redux-multilanguage";
 import { connect } from "react-redux";
+import 'react-toastify/dist/ReactToastify.css';
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 
 // home pages
@@ -49,6 +50,7 @@ import Checkout from "./pages/other/Checkout";
 
 import NotFound from "./pages/other/NotFound";
 
+
 const App = props => {
   useEffect(() => {
     props.dispatch(
@@ -68,6 +70,7 @@ const App = props => {
         <BrowserRouter>
           <ScrollToTop>
             <Switch>
+            
               <Route
                 exact
                 path={process.env.PUBLIC_URL + "/"}
