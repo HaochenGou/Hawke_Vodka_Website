@@ -1,4 +1,4 @@
-import React,{Component, useState, useEffect} from 'react';
+import React,{Component} from 'react';
 import Carousel from "react-spring-3d-carousel";
 import  { v4 as uuidv4 } from "uuid";
 import { config } from "react-spring";
