@@ -1,11 +1,13 @@
 import PropTypes from "prop-types";
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import { connect } from "react-redux";
 import { getDiscountPrice } from "../../helpers/product";
+import { ShopContext } from "./realCheakout";
+
 import {
   addToCart,
   decrementQty,
@@ -28,6 +30,8 @@ const Cart = ({
   const [quantityCount] = useState(1);
   const { addToast } = useToasts();
   const { pathname } = location;
+  const{checkout} = useContext(ShopContext)
+
   let cartTotalPrice = 0;
 
   return (
@@ -323,7 +327,8 @@ const Cart = ({
                           {currency.currencySymbol + cartTotalPrice.toFixed(2)}
                         </span>
                       </h4>
-                      <Link to={process.env.PUBLIC_URL + "/checkout"}>
+
+                      <Link  href={checkout.webUrl}>
                         Proceed to Checkout
                       </Link>
                     </div>
