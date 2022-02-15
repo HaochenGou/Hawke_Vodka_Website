@@ -17,7 +17,7 @@ const ProductFixedImage = ({ location, product }) => {
         <title>Hawke Vodka | Product Page</title>
         <meta
           name="description"
-          content="Product page of flone react minimalist eCommerce template."
+          content="Product page of flone Hawke Prohibition Distilleries."
         />
       </MetaTags>
 
