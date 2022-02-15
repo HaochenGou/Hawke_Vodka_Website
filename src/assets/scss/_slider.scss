@@ -434,7 +434,7 @@
     h1{
         font-size: 72px;
         line-height: 97px;
-        color: #010101;
+        color: #ffffff;
         margin: 6px 0 37px;
         @media #{$xl-layout}{
             font-size: 60px;
@@ -474,9 +474,9 @@
     }
     &.slider-content-fruits {
         h3 {
-            color: #6eab49;
+            color: #ffffff;
             &::before {
-                background-color: #6eab49;
+                background-color: #ffffff;
                 @media #{$sm-layout}{
                     left: 45px;
                 }

@@ -5,26 +5,26 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Mr.",
+    "name": "Douglas Hawke",
     "position": "CEO"
   },
   {
     "id": "2",
-    "image": "/assets/img/team/team-3.jpg",
-    "fbLink": "//www.facebook.com",
-    "twitterLink": "//www.twitter.com",
-    "instagramLink": "//www.instagram.com",
-    "name": "Ms.",
-    "position": "CFO"
-  },
-  {
-    "id": "3",
     "image": "/assets/img/team/team-2.jpg",
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Ms.",
-    "position": "Manager"
+    "name": "Alana Braaten",
+    "position": "CFO"
+  },
+  {
+    "id": "3",
+    "image": "/assets/img/team/team-3.jpg",
+    "fbLink": "//www.facebook.com",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "//www.instagram.com",
+    "name": ""
+    
   },
   {
     "id": "4",
@@ -32,7 +32,15 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Mr.",
-    "position": "Designer"
+    "name": ""
+  },
+  {
+    "id": "5",
+    "image": "/assets/img/team/team-5.jpg",
+    "fbLink": "//www.facebook.com",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "//www.instagram.com",
+    "name": "Haochen Gou",
+    "position": "Developer"
   }
 ]

@@ -9,7 +9,7 @@ const HeroSliderThree = () => {
     loop: true,
     speed: 300,
     autoplay: {
-      delay: 10000,
+      delay: 10000000,
       disableOnInteraction: false
     },
     watchSlidesVisibility: true,

@@ -3,14 +3,12 @@
     "id": 1,
     "title": "Baby-X-Vodka",
     "subtitle": "Hawke Prohibition Distilleries' very first product",
-    "image": "/assets/img/slider/single-slide-3.png",
     "url": "/shop-list-standard"
   },
   {
     "id": 2,
     "title": "Williams London Dry Gin",
     "subtitle": " Alberta spirits gold metal award winning",
-    "image": "/assets/img/slider/single-slide-6.png",
     "url": "/shop-list-standard"
   }
 ]
