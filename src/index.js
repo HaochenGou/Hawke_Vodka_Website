@@ -13,6 +13,8 @@ import App from "./App";
 import "./assets/scss/style.scss";
 import * as serviceWorker from "./serviceWorker";
 import { composeWithDevTools } from "redux-devtools-extension";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 const store = createStore(
   rootReducer,
@@ -22,8 +24,17 @@ const store = createStore(
 
 // fetch products from json file
 store.dispatch(fetchProducts(products));
-
-
+const firebaseConfig = {
+  apiKey: "AIzaSyAUuLcZ3DGderbhff7YXom3nm9TFLMY1bY",
+  authDomain: "hawke-prohibition.firebaseapp.com",
+  projectId: "hawke-prohibition",
+  storageBucket: "hawke-prohibition.appspot.com",
+  messagingSenderId: "887683857141",
+  appId: "1:887683857141:web:1f1eb74c06aa452fd4e3bc",
+  measurementId: "G-8JK1YY7HBS"
+};
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 
 
