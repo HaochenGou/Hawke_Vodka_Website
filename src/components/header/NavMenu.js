@@ -27,11 +27,6 @@ const NavMenu = ({ strings }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/checkout"}>
-                      {strings["checkout"]}
-                    </Link>
-                  </li>
-                  <li>
                   <Link to={process.env.PUBLIC_URL + "/wishlist"}>
                     {strings["wishlist"]}
                   </Link>
