@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes, { string } from "prop-types";
 import React, { Fragment, useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
@@ -6,7 +6,6 @@ import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import { connect } from "react-redux";
 import { getDiscountPrice } from "../../helpers/product";
-import { ShopContext } from "./realCheakout";
 
 import {
   addToCart,
@@ -17,6 +16,10 @@ import {
 } from "../../redux/actions/cartActions";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+
+
+
+
 
 const Cart = ({
   location,
@@ -30,10 +33,12 @@ const Cart = ({
   const [quantityCount] = useState(1);
   const { addToast } = useToasts();
   const { pathname } = location;
-  const{checkout} = useContext(ShopContext)
 
   let cartTotalPrice = 0;
+  let buylink = 'https://baby-x-vodka.myshopify.com/cart/';
+  let buyurl = '?channel=buy_button';
 
+  
   return (
     <Fragment>
       <MetaTags>
@@ -83,6 +88,8 @@ const Cart = ({
                             const finalDiscountedPrice = (
                               discountedPrice * currency.currencyRate
                             ).toFixed(2);
+                            
+                            buylink += cartItem.id+':'+cartItem.quantity +','
 
                             discountedPrice != null
                               ? (cartTotalPrice +=
@@ -328,9 +335,13 @@ const Cart = ({
                         </span>
                       </h4>
 
-                      <Link  href={checkout.webUrl}>
+                      
+                      {/* to real shopify */}
+                    
+                      <a href={buylink+buyurl} target = "_blank" rel="noopener noreferrer">Proceed to Checkout</a>
+                      {/* <Link to={process.env.PUBLIC_URL + "/checkout"}>
                         Proceed to Checkout
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

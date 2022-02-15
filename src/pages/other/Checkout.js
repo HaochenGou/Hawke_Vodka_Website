@@ -161,6 +161,7 @@ const Checkout = ({ location, cartItems, currency }) => {
                                 <li key={key}>
                                   <span className="order-middle-left">
                                     {cartItem.name} X {cartItem.quantity}
+                                 
                                   </span>{" "}
                                   <span className="order-price">
                                     {discountedPrice !== null

@@ -8,6 +8,7 @@ import SectionTitleWithText from "../../components/section-title/SectionTitleWit
 import TextGridOne from "../../wrappers/text-grid/TextGridOne";
 import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
+import HeroSliderFive from "../../wrappers/hero-slider/HeroSliderFive";
 
 const About = ({ location }) => {
   const { pathname } = location;
@@ -29,6 +30,7 @@ const About = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
+        <HeroSliderFive/>
 
         {/* section title with text */}
         <SectionTitleWithText spaceTopClass="pt-100" spaceBottomClass="pb-95" />

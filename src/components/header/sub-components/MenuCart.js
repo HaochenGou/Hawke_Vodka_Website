@@ -85,12 +85,12 @@ const MenuCart = ({ cartData, currency, removeFromCart }) => {
             <Link className="default-btn" to={process.env.PUBLIC_URL + "/cart"}>
               view cart
             </Link>
-            <Link
+            {/* <Link
               className="default-btn"
               to={process.env.PUBLIC_URL + "/checkout"}
             >
               checkout
-            </Link>
+            </Link> */}
           </div>
         </Fragment>
       ) : (

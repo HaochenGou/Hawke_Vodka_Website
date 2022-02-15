@@ -43,6 +43,7 @@ const ProductFixedImage = ({ location, product }) => {
           spaceBottomClass="pb-90"
           productFullDesc={product.fullDescription}
         />
+        
 
         {/* related product slider */}
       </LayoutOne>

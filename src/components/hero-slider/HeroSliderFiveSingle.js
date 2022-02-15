@@ -16,14 +16,14 @@ const HeroSliderFiveSingle = ({ data, sliderClass }) => {
             <div className="slider-content-2 slider-content-fruits slider-animated-1">
               <h3 className="animated">{data.title}</h3>
               <h1 className="animated">{data.subtitle}</h1>
-              <div className="slider-btn btn-hover">
+              {/* <div className="slider-btn btn-hover">
                 <Link
                   className="animated"
                   to={process.env.PUBLIC_URL + data.url}
                 >
                   SHOP NOW
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
