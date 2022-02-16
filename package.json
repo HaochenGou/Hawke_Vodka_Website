@@ -33,6 +33,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "react-scroll": "^1.7.14",
+    "react-spotify-web-playback": "^0.9.1",
     "react-spring": "^9.4.2",
     "react-spring-3d-carousel": "^1.2.1",
     "react-sticky-el": "^1.1.0",

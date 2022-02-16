@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { animateScroll } from "react-scroll";
 import FooterCopyright from "../../components/footer/FooterCopyright";
 import FooterNewsletter from "../../components/footer/FooterNewsletter";
-import ReactPlayer from 'react-player';
-import './musicplayer.css'
+import SpotifyPlayer from 'react-spotify-web-playback';
+
 
 const FooterOne = ({
   backgroundColorClass,
@@ -40,14 +40,11 @@ const FooterOne = ({
       }`}
     >
       <div className="container">
-      <ReactPlayer 
-      className='react-player'
-      volume={0.2}
-      url='https://youtube.com/playlist?list=PLhLDQXER3Ev-kjjYCmlu6l95MxFCHjgm-'
-      playing={true}
-      height='10px'
-      width='10px'
-      />
+      <SpotifyPlayer
+  token="BQAbAcAwhBTpLeZuSlhrWj3ChFhHvxTvRoVaAjpk1_OVYRSEZEOa2Ep3rx16hF6qRotZf4LAGyVh0USvldHyydF-F5Z3XMlSiyCQCD5shKw8kBj2sauE4fcD-w9CCg7PgEW1XZ6SR42exOyleLDbvqPloDX-6wxVpjAnI6kmZo6aKd8Q6lO3jIJ5OKj_L3VichcTJKwAksHni6QjpQ"
+  uris={['spotify:playlist:2SH6vYQEa0zbSSCsEChkND']}
+  autoPlay='1'
+/>;
         <div className="row">
           <div className="col-lg-2 col-sm-4">
             {/* footer copyright */}
