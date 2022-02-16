@@ -19,27 +19,27 @@ export default class Example extends Component {
 	slides = [
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product1.png' alt="1" />
+		content: <img src='/assets/img/Product1.webp' alt="1" />
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product2.png' alt="2" />
+		content: <img src='/assets/img/Product2.webp' alt="2" />
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product3.png' alt="3" />
+		content: <img src='/assets/img/Product3.webp' alt="3" />
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product1.png' alt="4" />
+		content: <img src='/assets/img/Product1.webp' alt="4" />
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product2.png' alt="5" />
+		content: <img src='/assets/img/Product2.webp' alt="5" />
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product3.png' alt="6" />
+		content: <img src='/assets/img/Product3.webp' alt="6" />
 	  },
 	 
 	].map((slide, index) => {

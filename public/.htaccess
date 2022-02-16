@@ -2,3 +2,8 @@ Options -MultiViews
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.html [QSA,L]
+
+
+    <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|mp4|scss)$">
+      Header set Cache-Control "max-age=172800, public"
+    </FilesMatch>

@@ -41,10 +41,11 @@ const FooterOne = ({
     >
       <div className="container">
       <SpotifyPlayer
-  token="BQAbAcAwhBTpLeZuSlhrWj3ChFhHvxTvRoVaAjpk1_OVYRSEZEOa2Ep3rx16hF6qRotZf4LAGyVh0USvldHyydF-F5Z3XMlSiyCQCD5shKw8kBj2sauE4fcD-w9CCg7PgEW1XZ6SR42exOyleLDbvqPloDX-6wxVpjAnI6kmZo6aKd8Q6lO3jIJ5OKj_L3VichcTJKwAksHni6QjpQ"
-  uris={['spotify:playlist:2SH6vYQEa0zbSSCsEChkND']}
-  autoPlay='1'
-/>;
+        token="BQAbAcAwhBTpLeZuSlhrWj3ChFhHvxTvRoVaAjpk1_OVYRSEZEOa2Ep3rx16hF6qRotZf4LAGyVh0USvldHyydF-F5Z3XMlSiyCQCD5shKw8kBj2sauE4fcD-w9CCg7PgEW1XZ6SR42exOyleLDbvqPloDX-6wxVpjAnI6kmZo6aKd8Q6lO3jIJ5OKj_L3VichcTJKwAksHni6QjpQ"
+        uris={['spotify:playlist:2SH6vYQEa0zbSSCsEChkND']}
+        syncExternalDevice ='0'
+        autoPlay='1'
+      />;
         <div className="row">
           <div className="col-lg-2 col-sm-4">
             {/* footer copyright */}
