@@ -1051,6 +1051,7 @@
     h3 {
         font-size: 16px;
         font-weight: 500;
+        text-shadow: 0px 0px 10px #000000;
         color: #ffffff;
         margin: 0;
         letter-spacing: .3px;
@@ -1058,6 +1059,7 @@
     }
     h1 {
         font-size: 48px;
+        text-shadow: 0px 0px 10px #000000;
         font-weight: 500;
         color: #ffffff;
         margin: 17px 0 37px;
@@ -1079,10 +1081,12 @@
         }
     }
     .slider-btn-9 a {
-        font-size: 16px;
+        font-size: 25px;
+        text-shadow: 0px 0px 10px #000000;
         color: #ffffff;
         display: inline-block;
         border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px #000000;
         text-transform: uppercase;
         line-height: 1;
         padding: 19px 50px 19px;

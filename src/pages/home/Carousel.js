@@ -11,7 +11,7 @@ import './Carousel.css';
 export default class Example extends Component {
 	state = {
 	  goToSlide: 0,
-	  offsetRadius: 4,
+	  offsetRadius: 2,
 	  showNavigation: false,
 	  config: config.gentle
 	};
