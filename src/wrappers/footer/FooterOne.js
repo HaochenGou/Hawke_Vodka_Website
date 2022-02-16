@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { animateScroll } from "react-scroll";
 import FooterCopyright from "../../components/footer/FooterCopyright";
 import FooterNewsletter from "../../components/footer/FooterNewsletter";
-import ReactHowler from 'react-howler';
+import ReactPlayer from 'react-player';
+import './musicplayer.css'
 
 const FooterOne = ({
   backgroundColorClass,
@@ -39,9 +40,14 @@ const FooterOne = ({
       }`}
     >
       <div className="container">
-        <ReactHowler
-        src='/assets/Ready_or_Not.mp3'
-        playing={true}/>
+      <ReactPlayer 
+      className='react-player'
+      volume={0.2}
+      url='https://youtube.com/playlist?list=PLhLDQXER3Ev-kjjYCmlu6l95MxFCHjgm-'
+      playing={true}
+      height='10px'
+      width='10px'
+      />
         <div className="row">
           <div className="col-lg-2 col-sm-4">
             {/* footer copyright */}
