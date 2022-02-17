@@ -41,7 +41,7 @@ const FooterOne = ({
     >
       <div className="container">
       <SpotifyPlayer
-        token="BQAbAcAwhBTpLeZuSlhrWj3ChFhHvxTvRoVaAjpk1_OVYRSEZEOa2Ep3rx16hF6qRotZf4LAGyVh0USvldHyydF-F5Z3XMlSiyCQCD5shKw8kBj2sauE4fcD-w9CCg7PgEW1XZ6SR42exOyleLDbvqPloDX-6wxVpjAnI6kmZo6aKd8Q6lO3jIJ5OKj_L3VichcTJKwAksHni6QjpQ"
+        token="BQC7cT0jqcxCN0pS-yBjz4rL8GRE8nAXo9n7K4BhP--Ma4UjjUJION4oMA9XBrKhj1tQUVL3G5PN17NIUu57C7CSJJTzmGlcNLWbssgMneAYVEFYj_4Ov2hNjS4-yPJPnYHE2njBRTv6AmkzvP9NczIXX12zZ7T585gB23be9FqGEW-HLyH5RGw9xdVr1y7ZHMTYBz-3M2ksEyeu6Q"
         uris={['spotify:playlist:2SH6vYQEa0zbSSCsEChkND']}
         syncExternalDevice ='0'
         autoPlay='1'
