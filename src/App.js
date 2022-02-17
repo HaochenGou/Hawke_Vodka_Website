@@ -23,7 +23,7 @@ import About from "./pages/other/About";
 import Contact from "./pages/other/Contact";
 import MyAccount from "./pages/other/MyAccount";
 import LoginRegister from "./pages/other/LoginRegister";
-
+import Recipes from "./pages/other/Recipes";
 import Cart from "./pages/other/Cart";
 import Wishlist from "./pages/other/Wishlist";
 import Compare from "./pages/other/Compare";
@@ -94,6 +94,11 @@ const App = props => {
               <Route 
                 path={process.env.PUBLIC_URL + "/cart"} 
                 component={Cart}
+               />
+
+              <Route 
+                path={process.env.PUBLIC_URL + "/recipes"} 
+                component={Recipes}
                />
 
               <Route
