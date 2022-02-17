@@ -5,6 +5,8 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import HeroSliderTwo from "../../wrappers/hero-slider/HeroSliderTwo";
+import SimpleAccordion from "./Accordion";
+
 
 const Recipes = ({ location }) => {
   const { pathname } = location;
@@ -27,7 +29,12 @@ const Recipes = ({ location }) => {
         {/* breadcrumb */}
         <Breadcrumb />
         <HeroSliderTwo/>
-      
+        <p style={{margin: "100px"}}></p>
+        <div className="container">
+          <div className="row">
+            <SimpleAccordion/>
+          </div>
+        </div>
 
 
       </LayoutOne>

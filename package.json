@@ -4,6 +4,11 @@
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/material": "^5.4.2",
     "@shopify/app-bridge": "^2.0.8",
     "@shopify/shopify-api": "^2.1.0",
     "animate.css": "^3.7.2",
