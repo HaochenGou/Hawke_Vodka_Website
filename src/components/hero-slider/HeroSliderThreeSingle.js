@@ -10,7 +10,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
         sliderClass ? sliderClass : ""
       }`}
     >
-      <section>
+      <section >
             <video autoPlay muted loop className="videoStyle">
               <source src="/assets/img/background.webm" type ="video/webm"></source>
             </video>

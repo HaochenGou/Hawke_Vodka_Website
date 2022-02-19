@@ -48,7 +48,7 @@ const HeaderTwo = ({
             <div className="col-lg-2 d-none d-lg-block text-center">
               {/* header logo */}
               <Logo
-                imageUrl="/assets/img/logo/logo.png"
+                imageUrl="/assets/img/logo/logo.webp"
                 logoClass="logo-hm-9"
               />
             </div>
@@ -68,7 +68,7 @@ const HeaderTwo = ({
           <div className="row">
             <div className="col-6 d-block d-lg-none">
               {/* header logo */}
-              <Logo imageUrl="/assets/img/logo/logo.png" />
+              <Logo imageUrl="/assets/img/logo/logo.webp" />
             </div>
             <div className="col-6 d-block d-lg-none">
               {/* Icon group */}

@@ -19,8 +19,10 @@ const HomeElectronics = () => {
         />
       </MetaTags>
       <LayoutTwo>
+    
         {/* hero slider */}
         <HeroSliderThree />
+        
 
         <p style={{margin: "100px"}}></p>
         {/* section title with text */}
@@ -45,8 +47,11 @@ const HomeElectronics = () => {
 
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-95" spaceTopClass="pt-100" />
+        
       </LayoutTwo>
+  
     </Fragment>
+   
   );
 };
 
