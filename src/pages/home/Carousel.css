@@ -4,8 +4,10 @@
 .startContainer
 {
 	margin: 0;
+  position: relative;
 	text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  z-index: 10;
 }
 
 /***********************************************************/
@@ -13,10 +15,14 @@
 .button
 {
   color: rgb(130, 102, 255);
+  position: relative;
   font-family: 'Orbitron', Verdana, sans-serif;
+  padding-bottom: 10px;
   font-size: 2.2em;
   background: none;
+  z-index: 10;
 }
+
 .button:hover
 {
   color: rgb(207, 170, 255);
@@ -31,43 +37,43 @@
   color: rgb(0, 0, 0);
   font-weight: bold;
   background: #000000;
-  background: -moz-linear-gradient(top,  #492e7a 0%, #aaffaa 70%, #66ff66 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66ff66), color-stop(70%,#aaffaa), color-stop(100%,#66ff66));
-  background: -webkit-linear-gradient(top,  #66ff66 0%,#aaffaa 70%,#66ff66 100%);
-  background: -o-linear-gradient(top,  #66ff66 0%,#aaffaa 70%,#66ff66 100%);
-  background: -ms-linear-gradient(top,  #66ff66 0%,#aaffaa 70%,#66ff66 100%);
-  background: linear-gradient(to bottom,  #66ff66 0%,#aaffaa 70%,#66ff66 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ff66', endColorstr='#66ff66',GradientType=0 );
+  background: -moz-linear-gradient(top,  #492e7a 0%, #aaccff 70%, #a749ff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a749ff), color-stop(70%,#aaccff), color-stop(100%,#a749ff));
+  background: -webkit-linear-gradient(top,  #a749ff 0%,#aaccff 70%,#a749ff 100%);
+  background: -o-linear-gradient(top,  #a749ff 0%,#aaccff 70%,#a749ff 100%);
+  background: -ms-linear-gradient(top,  #a749ff 0%,#aaccff 70%,#a749ff 100%);
+  background: linear-gradient(to bottom,  #a749ff 0%,#aaccff 70%,#a749ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a749ff', endColorstr='#a749ff',GradientType=0 );
 }
 .button3:hover
 {
   color: #000;
-  background: #44ee44;
-  background: -moz-linear-gradient(top,  #44ee44 0%, #aaffaa 70%, #44ee44 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#44ee44), color-stop(70%,#aaffaa), color-stop(100%,#44ee44));
-  background: -webkit-linear-gradient(top,  #44ee44 0%,#aaffaa 70%,#44ee44 100%);
-  background: -o-linear-gradient(top,  #44ee44 0%,#aaffaa 70%,#44ee44 100%);
-  background: -ms-linear-gradient(top,  #44ee44 0%,#aaffaa 70%,#44ee44 100%);
-  background: linear-gradient(to bottom,  #44ee44 0%,#aaffaa 70%,#44ee44 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44ee44', endColorstr='#44ee44',GradientType=0 );
+  background: #3349ff;
+  background: -moz-linear-gradient(top,  #3349ff 0%, #aaccff 70%, #3349ff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3349ff), color-stop(70%,#aaccff), color-stop(100%,#3349ff));
+  background: -webkit-linear-gradient(top,  #3349ff 0%,#aaccff 70%,#3349ff 100%);
+  background: -o-linear-gradient(top,  #3349ff 0%,#aaccff 70%,#3349ff 100%);
+  background: -ms-linear-gradient(top,  #3349ff 0%,#aaccff 70%,#3349ff 100%);
+  background: linear-gradient(to bottom,  #3349ff 0%,#aaccff 70%,#3349ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3349ff', endColorstr='#3349ff',GradientType=0 );
 }
 
 /***********************************************************/
 @-webkit-keyframes pulseBox {
-  0% {-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 255, 0, 0.6);}
-  100% {-webkit-box-shadow: 0px 0px 18px 0px rgba(0, 255, 0, 0.9);}
+  0% {-webkit-box-shadow: 0px 0px 10px 0px rgba(55, 0, 255, 0.6);}
+  100% {-webkit-box-shadow: 0px 0px 18px 0px rgba(55, 0, 255, 0.9);}
 }
 @-moz-keyframes pulseBox {
-  0% {-moz-box-shadow: 0px 0px 10px 0px rgba(0, 255, 0, 0.6);}
-  100% {-moz-box-shadow: 0px 0px 18px 0px rgba(0, 255, 0, 0.9);}
+  0% {-moz-box-shadow: 0px 0px 10px 0px rgba(55, 0, 255, 0.6);}
+  100% {-moz-box-shadow: 0px 0px 18px 0px rgba(55, 0, 255, 0.9);}
 }
 @-o-keyframes pulseBox {
-  0% {-o-box-shadow: 0px 0px 10px 0px rgba(0, 255, 0, 0.6);}
-  100% {-o-box-shadow: 0px 0px 18px 0px rgba(0, 255, 0, 0.9);}
+  0% {-o-box-shadow: 0px 0px 10px 0px rgba(55, 0, 255, 0.6);}
+  100% {-o-box-shadow: 0px 0px 18px 0px rgba(55, 0, 255, 0.9);}
 }
 @keyframes pulseBox {
-  0% {box-shadow: 0px 0px 10px 0px rgba(0, 255, 0, 0.6);}
-  100% {box-shadow: 0px 0px 18px 0px rgba(0, 255, 0, 0.9);}
+  0% {box-shadow: 0px 0px 10px 0px rgba(55, 0, 255, 0.6);}
+  100% {box-shadow: 0px 0px 18px 0px rgba(55, 0, 255, 0.9);}
 }
 
 .pulseBox {
@@ -97,20 +103,20 @@
 /********************/
 
 @-webkit-keyframes pulseText {
-  0% {text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);}
-  100% {text-shadow: 0px 0px 22px rgba(0, 255, 0, 1);}
+  0% {text-shadow: 0px 0px 8px rgba(55, 0, 255, 0.7);}
+  100% {text-shadow: 0px 0px 22px rgba(55, 0, 255, 1);}
 }
 @-moz-keyframes pulseText {
-  0% {text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);}
-  100% {text-shadow: 0px 0px 22px rgba(0, 255, 0, 1);}
+  0% {text-shadow: 0px 0px 8px rgba(55, 0, 255, 0.7);}
+  100% {text-shadow: 0px 0px 22px rgba(55, 0, 255, 1);}
 }
 @-o-keyframes pulseText {
-  0% {text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);}
-  100% {text-shadow: 0px 0px 22px rgba(0, 255, 0, 1);}
+  0% {text-shadow: 0px 0px 8px rgba(55, 0, 255, 0.7);}
+  100% {text-shadow: 0px 0px 22px rgba(55, 0, 255, 1);}
 }
 @keyframes pulseText {
-  0% {text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);}
-  100% {text-shadow: 0px 0px 22px rgba(0, 255, 0, 1);}
+  0% {text-shadow: 0px 0px 8px rgba(55, 0, 255, 0.7);}
+  100% {text-shadow: 0px 0px 22px rgba(55, 0, 255, 1);}
 }
 
 .pulseText {

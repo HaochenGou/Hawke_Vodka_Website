@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment,useRef } from "react";
 import MetaTags from "react-meta-tags";
 import LayoutTwo from "../../layouts/LayoutTwo";
 import HeroSliderThree from "../../wrappers/hero-slider/HeroSliderThree";
@@ -6,9 +6,19 @@ import SectionTitleWithText from "../../components/section-title/SectionTitleWit
 import BannerThree from "../../wrappers/banner/BannerThree";
 import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
+import { Link } from "react-router-dom";
 import Carousel from './Carousel';
+import ReactPlayer from "react-player";
+import usePictureInPicture from 'react-use-pip'
 
 const HomeElectronics = () => {
+  const videoRef = useRef(null)
+  const {
+    isPictureInPictureActive,
+    isPictureInPictureAvailable,
+    togglePictureInPicture,
+  } = usePictureInPicture(videoRef)
+  
   return (
     <Fragment>
       <MetaTags>
@@ -28,12 +38,29 @@ const HomeElectronics = () => {
         {/* section title with text */}
         <SectionTitleWithText spaceBottomClass="pb-90" />
 
-
         <Carousel/>
 
+        <p style={{margin: "250px"}}></p>
+        <div style={{width: "100%", height: "512px",backgroundImage: "url('/assets/img/bg/bg-1.jpg')"}}>
+          <h1 style={{paddingLeft: "800px", paddingTop:"35px", fontSize:"50px",color:"white", fontfamily: "Cormorant Garamond"}}>Cocktail Recipes</h1>
+          <div style={{paddingLeft: "1500px", paddingTop:"300px" }}>
+            <div className="slider-content-7 slider-animated-1">
+              <div className="slider-btn-9 btn-hover">
+                  <Link
+                    className="animated"
+                    to={process.env.PUBLIC_URL + "/recipes"}
+                  >
+                    LEARN MORE
+                  </Link>
+              </div>       
+            </div> 
+            </div>      
+        </div>
         <p style={{margin: "100px"}}></p>
         {/* banner */}
         <BannerThree spaceBottomClass="pb-100" />
+
+        
 
 
         {/* testimonial */}
@@ -47,6 +74,17 @@ const HomeElectronics = () => {
 
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-95" spaceTopClass="pt-100" />
+        <div className="container">
+          <video ref={videoRef} autoPlay controls loop width="1px" height="1px">
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4" />
+          </video>
+          {isPictureInPictureAvailable && (
+          <button id = "button1"
+            onClick={() => togglePictureInPicture(!isPictureInPictureActive)}
+          >
+          {isPictureInPictureActive ? 'Disable' : 'Enable'} background Music
+            </button>)}
+        </div>
         
       </LayoutTwo>
   

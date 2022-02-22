@@ -13036,6 +13036,11 @@ react-transition-group@^4.4.1, react-transition-group@^4.4.2:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+react-use-pip@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-use-pip/-/react-use-pip-1.5.0.tgz#3ac5a5e1bd8b351c6cc90a68990142d711653cee"
+  integrity sha512-mpg1jLZbXOok8HeJwPiKW60FbR31CcFu1uVMAWIcots7UyCLS2AfYkQS4Sljky50QGqDnWfIyqPF/wjYg08i9g==
+
 react-visibility-sensor@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-visibility-sensor/-/react-visibility-sensor-5.1.1.tgz#5238380960d3a0b2be0b7faddff38541e337f5a9"

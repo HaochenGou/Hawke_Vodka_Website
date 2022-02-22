@@ -19,27 +19,27 @@ export default class Example extends Component {
 	slides = [
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product1.webp' alt="1" />
+		content:<a href={process.env.PUBLIC_URL +"/product-fixed-image/" +37852889809047}><img width="380" height="400"src='/assets/img/Product1.webp' alt="1"/></a>
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product2.webp' alt="2" />
+		content: <a href={process.env.PUBLIC_URL +"/product-fixed-image/" + 41435485995159}><img width="380" height="400" src='/assets/img/Product2.webp' alt="2"/></a>
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product3.webp' alt="3" />
+		content:  <a href={process.env.PUBLIC_URL +"/product-fixed-image/" + 41435507064983}><img width="380" height="400" src='/assets/img/Product3.webp' alt="3"/></a>
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product1.webp' alt="4" />
+		content: <a href={process.env.PUBLIC_URL +"/product-fixed-image/" +37852889809047}><img width="380" height="400"src='/assets/img/Product1.webp' alt="4"/></a>
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product2.webp' alt="5" />
+		content: <a href={process.env.PUBLIC_URL +"/product-fixed-image/" + 41435485995159}><img width="380" height="400" src='/assets/img/Product2.webp' alt="5"/></a>
 	  },
 	  {
 		key: uuidv4(),
-		content: <img src='/assets/img/Product3.webp' alt="6" />
+		content: <a href={process.env.PUBLIC_URL +"/product-fixed-image/" + 41435507064983}><img width="380" height="400" src='/assets/img/Product3.webp' alt="6"/></a>
 	  },
 	 
 	].map((slide, index) => {
@@ -54,8 +54,14 @@ export default class Example extends Component {
   
 	render() {
 	  return (
-		<div style={{width: "100%", height: "500px",backgroundImage: `url('/assets/img/test.jpg')`}}>
-		<div style={{ width: "50%", height: "500px", margin: "0 auto", backgroundImage: `url('/assets/img/test.jpg')`}}>
+		<div style={{ width: "100%", height: "500px",backgroundImage: `url('/assets/img/test.jpg')`}}>
+		<div style={{ width: "40%", height: "500px", margin: "0 auto", backgroundImage: `url('/assets/img/test.jpg')`}}>
+		<div class="startContainer">
+				<form action="/shop-list-standard">
+
+  				<button class="button pulseBox button3">BUY</button>
+				</form>
+			</div>
 			<Carousel
 				slides={this.slides}
 				goToSlide={this.state.goToSlide}
@@ -64,12 +70,6 @@ export default class Example extends Component {
 				animationConfig={this.state.config}
 				
 			/>
-			<div class="startContainer">
-				<form action="/shop-list-standard">
-
-  				<button class="button pulseBox button3">BUY</button>
-				</form>
-			</div>
 			
 		</div>
 		</div>

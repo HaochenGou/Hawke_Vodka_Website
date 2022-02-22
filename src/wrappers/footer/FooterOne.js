@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { animateScroll } from "react-scroll";
 import FooterCopyright from "../../components/footer/FooterCopyright";
 import FooterNewsletter from "../../components/footer/FooterNewsletter";
-import SpotifyPlayer from 'react-spotify-web-playback';
 
 
 const FooterOne = ({
@@ -40,12 +39,6 @@ const FooterOne = ({
       }`}
     >
       <div className="container">
-      <SpotifyPlayer
-        token="BQCXyjPuGF9uPmk0A8EJgyn6HonCb2y50OF6hRbsMjdhzX1kI6L25Yl2SSt67ZfN8Qgm4fBC9H-zCO_munUECugGmaskBnlN_0AvUcxoXwaht0W1CmylJF2N6kf-5qkzTHcj9KiZTCzEhvw1BjM_yfQxkvXzICGE1eKxJPsfG8Wpl_S2fBhffX9gVjtvmMMHhFIdQ_JOAgrI7xSo6g"
-        uris={['spotify:playlist:2SH6vYQEa0zbSSCsEChkND']}
-        syncExternalDevice ='0'
-        autoPlay='1'
-      />;
         <div className="row">
           <div className="col-lg-2 col-sm-4">
             {/* footer copyright */}
