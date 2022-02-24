@@ -94,7 +94,7 @@ const Wishlist = ({
                                         process.env.PUBLIC_URL +
                                         wishlistItem.image[0]
                                       }
-                                      alt=""
+                                      alt={wishlistItem.alt}
                                     />
                                   </Link>
                                 </td>

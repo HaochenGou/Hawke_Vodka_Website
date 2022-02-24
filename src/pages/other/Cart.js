@@ -112,7 +112,7 @@ const Cart = ({
                                         process.env.PUBLIC_URL +
                                         cartItem.image[0]
                                       }
-                                      alt=""
+                                      alt={cartItem.alt}
                                     />
                                   </Link>
                                 </td>

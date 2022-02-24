@@ -75,9 +75,7 @@ const HomeElectronics = () => {
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-95" spaceTopClass="pt-100" />
         <div className="container">
-          <video ref={videoRef} autoPlay controls loop width="1px" height="1px">
-            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4" />
-          </video>
+        <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' width='30%' height="30%" pip= {true}/>
           {isPictureInPictureAvailable && (
           <button id = "button1"
             onClick={() => togglePictureInPicture(!isPictureInPictureActive)}

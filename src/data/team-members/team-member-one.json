@@ -5,6 +5,7 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
+    "alt":"Douglas Hawke",
     "name": "Douglas Hawke",
     "position": "CEO"
   },
@@ -14,6 +15,7 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
+    "alt": "Alana Braaten",
     "name": "Alana Braaten",
     "position": "CFO"
   },
@@ -23,6 +25,7 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
+    "alt": "James Dallner",
     "name": "James Dallner"
     
   },
@@ -32,6 +35,7 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
+    "alt": "Tamara Conlon",
     "name": "Tamara Conlon"
   },
   {
@@ -40,6 +44,7 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
+    "alt": "Haochen Gou",
     "name": "Haochen Gou",
     "position": "Developer"
   }

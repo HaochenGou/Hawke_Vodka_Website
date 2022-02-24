@@ -17,7 +17,7 @@ const Recipes = ({ location }) => {
         <title>Hawke Vodka | Recipes</title>
         <meta
           name="description"
-          content="About page of Hawke Prohibition Distilleries."
+          content="Recipes page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>

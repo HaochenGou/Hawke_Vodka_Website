@@ -79,7 +79,7 @@ const Compare = ({
                                         process.env.PUBLIC_URL +
                                         compareItem.image[0]
                                       }
-                                      alt=""
+                                      alt={compareItem.alt}
                                     />
                                   </Link>
                                   <div className="product-title">

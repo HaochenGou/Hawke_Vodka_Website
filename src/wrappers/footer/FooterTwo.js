@@ -48,7 +48,7 @@ const FooterTwo = ({
           <div className="footer-logo">
             <Link to={process.env.PUBLIC_URL}>
               <img
-                alt=""
+                alt="Logo"
                 src={process.env.PUBLIC_URL + "/assets/img/logo/logo.webp"}
               />
             </Link>
