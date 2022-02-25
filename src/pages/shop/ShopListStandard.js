@@ -13,8 +13,6 @@ import ShopProducts from "../../wrappers/product/ShopProducts";
 
 const ShopListStandard = ({ location, products }) => {
   const [layout, setLayout] = useState("list");
-  const [sortType, setSortType] = useState("");
-  const [sortValue, setSortValue] = useState("");
   const [filterSortType, setFilterSortType] = useState("");
   const [filterSortValue, setFilterSortValue] = useState("");
   const [offset, setOffset] = useState(0);
@@ -30,18 +28,13 @@ const ShopListStandard = ({ location, products }) => {
   };
 
 
-  const getSortParams = (sortType, sortValue) => {
-    setSortType(sortType);
-    setSortValue(sortValue);
-  };
-
   const getFilterSortParams = (sortType, sortValue) => {
     setFilterSortType(sortType);
     setFilterSortValue(sortValue);
   };
 
   useEffect(() => {
-    let sortedProducts = getSortedProducts(products, sortType, sortValue);
+    let sortedProducts = getSortedProducts(products);
     const filterSortedProducts = getSortedProducts(
       sortedProducts,
       filterSortType,
@@ -50,7 +43,7 @@ const ShopListStandard = ({ location, products }) => {
     sortedProducts = filterSortedProducts;
     setSortedProducts(sortedProducts);
     setCurrentData(sortedProducts.slice(offset, offset + pageLimit));
-  }, [offset, products, sortType, sortValue, filterSortType, filterSortValue]);
+  }, [offset, products, filterSortType, filterSortValue]);
 
   return (
     <Fragment>
