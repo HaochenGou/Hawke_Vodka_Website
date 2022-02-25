@@ -22,7 +22,7 @@ const ProductFixedImage = ({ location, product }) => {
       </MetaTags>
 
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/shop-list-standard"}>Shop</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/shop"}>Shop</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         Shop Product
       </BreadcrumbsItem>

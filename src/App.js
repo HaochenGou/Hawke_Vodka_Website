@@ -62,13 +62,13 @@ const App = props => {
 
               {/* Shop pages */}
               <Route
-                path={process.env.PUBLIC_URL + "/shop-list-standard"}
+                path={process.env.PUBLIC_URL + "/shop"}
                 component={ShopListStandard}
               />
 
               {/* Shop product pages */}
               <Route
-                path={process.env.PUBLIC_URL + "/product-fixed-image/:id"}
+                path={process.env.PUBLIC_URL + "/product/:id"}
                 component={ProductFixedImage}
               />
 

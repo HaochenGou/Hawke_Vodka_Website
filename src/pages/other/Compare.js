@@ -68,7 +68,7 @@ const Compare = ({
                                   <Link
                                     to={
                                       process.env.PUBLIC_URL +
-                                      "/product-fixed-image/" +
+                                      "/product/" +
                                       compareItem.id
                                     }
                                     className="image"
@@ -224,7 +224,7 @@ const Compare = ({
                     </div>
                     <div className="item-empty-area__text">
                       No items found in compare <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/shop-list-standard"}>
+                      <Link to={process.env.PUBLIC_URL + "/shop"}>
                         Add Items
                       </Link>
                     </div>

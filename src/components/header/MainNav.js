@@ -14,7 +14,7 @@ const NavMenu = ({ strings }) => {
             </Link>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/shop-list-standard"}>
+            <Link to={process.env.PUBLIC_URL + "/shop"}>
               {" "}
               {strings["shop"]} <i className="fa fa-angle-down" />{" "}
             </Link>

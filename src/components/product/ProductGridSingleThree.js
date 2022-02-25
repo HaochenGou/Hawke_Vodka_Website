@@ -79,7 +79,7 @@ const ProductGridSingleThree = ({
                 </a>
               ) : product.variation && product.variation.length >= 1 ? (
                 <Link
-                  to={`${process.env.PUBLIC_URL}/product-fixed-image/${product.id}`}
+                  to={`${process.env.PUBLIC_URL}/product/${product.id}`}
                   title="Select options"
                 >
                   <i class="fa fa-cog"></i>
