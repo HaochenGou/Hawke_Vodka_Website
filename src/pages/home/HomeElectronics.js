@@ -46,12 +46,14 @@ const HomeElectronics = () => {
           <div style={{paddingLeft: "1500px", paddingTop:"300px" }}>
             <div className="slider-content-7 slider-animated-1">
               <div className="slider-btn-9 btn-hover">
+              <p style={{fontSize:"15px",color:"white", fontfamily: "Cormorant Garamond"}}>To see all of our Cocktail videos,
                   <Link
                     className="animated"
                     to={process.env.PUBLIC_URL + "/recipes"}
                   >
-                    LEARN MORE
+                    WATCH HERE
                   </Link>
+                  .</p>
               </div>       
             </div> 
             </div>      
