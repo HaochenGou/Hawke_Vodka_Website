@@ -53,7 +53,29 @@ const NavMenu = ({ strings }) => {
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/tech"}>
-              {strings["tech"]}
+              {" "}
+              {strings["tech"]} <i className="fa fa-angle-down" />{" "}
+            </Link>
+            <ul className="submenu">
+              <li>
+                <ul>
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/silk"}>
+                      {strings["silk"]}
+                    </Link>
+                  </li>
+                  <li>
+                  <Link to={process.env.PUBLIC_URL + "/web"}>
+                    {strings["web"]}
+                  </Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/friend"}>
+              {strings["friend"]}
             </Link>
           </li>
         </ul>

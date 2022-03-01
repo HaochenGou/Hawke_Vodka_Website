@@ -17,7 +17,9 @@ import ShopListStandard from "./pages/shop/ShopListStandard";
 
 // product pages
 import ProductFixedImage from "./pages/shop-product/ProductFixedImage";
+import Friend from "./pages/other/Friend";
 import Tech from "./pages/other/TechServices";
+import Web from "./pages/other/web";
 
 // other pages
 import About from "./pages/other/About";
@@ -29,6 +31,7 @@ import Cart from "./pages/other/Cart";
 import Wishlist from "./pages/other/Wishlist";
 import Compare from "./pages/other/Compare";
 import Checkout from "./pages/other/Checkout";
+import Silk from "./pages/other/silk";
 
 import NotFound from "./pages/other/NotFound";
 
@@ -92,11 +95,27 @@ const App = props => {
                 component={LoginRegister}
               />
 
+              <Route
+                path={process.env.PUBLIC_URL + "/silk"}
+                component={Silk}
+              />
+
               <Route 
                 path={process.env.PUBLIC_URL + "/cart"} 
                 component={Cart}
                />
+
+              <Route 
+                path={process.env.PUBLIC_URL + "/friend"} 
+                component={Friend}
+               />
+
                
+              <Route 
+                path={process.env.PUBLIC_URL + "/web"} 
+                component={Web}
+               />
+
                 <Route 
                 path={process.env.PUBLIC_URL + "/tech"} 
                 component={Tech}
