@@ -41,19 +41,17 @@ const HomeElectronics = () => {
         <Carousel/>
 
         <p style={{margin: "250px"}}></p>
-        <div style={{width: "100%", height: "512px",backgroundImage: "url('/assets/img/bg/bg-1.jpg')"}}>
-          <h1 style={{paddingLeft: "800px", paddingTop:"35px", fontSize:"50px",color:"white", fontfamily: "Cormorant Garamond"}}>Cocktail Recipes</h1>
-          <div style={{paddingLeft: "1500px", paddingTop:"300px" }}>
+        <div style={{width: "100%", height: "512px",backgroundImage: "url('/assets/img/bg/bg-1.webp')",alt:"background"}}>
+          <h1 style={{paddingLeft: "150px", paddingTop:"35px", fontSize:"50px",color:"white", fontfamily: "Cormorant Garamond"}}>Cocktail Recipes</h1>
+          <div style={{paddingLeft: "150px", paddingTop:"300px" }}>
             <div className="slider-content-7 slider-animated-1">
               <div className="slider-btn-9 btn-hover">
-              <p style={{fontSize:"15px",color:"white", fontfamily: "Cormorant Garamond"}}>To see all of our Cocktail videos,
                   <Link
                     className="animated"
                     to={process.env.PUBLIC_URL + "/recipes"}
                   >
-                    WATCH HERE
+                    WATCH HOW TO MAKE
                   </Link>
-                  .</p>
               </div>       
             </div> 
             </div>      
