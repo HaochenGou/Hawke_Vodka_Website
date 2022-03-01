@@ -50,7 +50,7 @@ const FooterOne = ({
           <div className="col-lg-2 col-md-4 col-sm-4">
             <div className="footer-widget mb-30 ml-30">
               <div className="footer-title">
-                <h3>ABOUT US</h3>
+                <h3>CONTACT US</h3>
               </div>
               <div className="footer-list">
                 <ul>
@@ -58,19 +58,19 @@ const FooterOne = ({
                     <Link to={process.env.PUBLIC_URL + "/about"}>About us</Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
-                      Store location
-                    </Link>
+                    <a href="https://goo.gl/maps/7iedxhZNktvnBgH69" target="_blank" rel="noopener noreferrer">
+                    426 Kaska Road,Sherwood Park, Alberta T8A 4G8.
+                    </a>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/contact"}>
-                      Contact
-                    </Link>
+                    <a href="mailto:info@hawkepro.com" target="_blank" rel="noopener noreferrer">
+                      info@hawkepro.com
+                    </a>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
-                      Orders tracking
-                    </Link>
+                    <a href="tel://7804495331" target="_blank" rel="noopener noreferrer">
+                      +1 780-449-5331
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -84,16 +84,14 @@ const FooterOne = ({
               <div className="footer-list">
                 <ul>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>Returns</Link>
+                    <Link to={process.env.PUBLIC_URL + "#/"}>Track Your Order</Link>
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "#/"}>
                       Support Policy
                     </Link>
                   </li>
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>Size guide</Link>
-                  </li>
+        
                   <li>
                     <Link to={process.env.PUBLIC_URL + "#/"}>FAQs</Link>
                   </li>
