@@ -51,6 +51,11 @@ const NavMenu = ({ strings }) => {
               {strings["recipes"]}
             </Link>
           </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/tech"}>
+              {strings["tech"]}
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

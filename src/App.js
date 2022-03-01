@@ -17,6 +17,7 @@ import ShopListStandard from "./pages/shop/ShopListStandard";
 
 // product pages
 import ProductFixedImage from "./pages/shop-product/ProductFixedImage";
+import Tech from "./pages/other/TechServices";
 
 // other pages
 import About from "./pages/other/About";
@@ -95,6 +96,12 @@ const App = props => {
                 path={process.env.PUBLIC_URL + "/cart"} 
                 component={Cart}
                />
+               
+                <Route 
+                path={process.env.PUBLIC_URL + "/tech"} 
+                component={Tech}
+               />
+
 
               <Route 
                 path={process.env.PUBLIC_URL + "/recipes"} 
