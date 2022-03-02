@@ -25,22 +25,12 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "alt": "James Dallner",
-    "name": "James Dallner"
-    
-  },
-  {
-    "id": "4",
-    "image": "/assets/img/team/team-4.webp",
-    "fbLink": "//www.facebook.com",
-    "twitterLink": "//www.twitter.com",
-    "instagramLink": "//www.instagram.com",
     "alt": "Tamara Conlon",
     "name": "Tamara Conlon"
   },
   {
-    "id": "5",
-    "image": "/assets/img/team/team-5.webp",
+    "id": "4",
+    "image": "/assets/img/team/team-4.webp",
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
