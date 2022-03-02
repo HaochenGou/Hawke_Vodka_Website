@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
 import './HeroSlider.css';
 
 const HeroSliderThreeSingle = ({ data, sliderClass }) => {
@@ -10,12 +11,11 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
         sliderClass ? sliderClass : ""
       }`}
     >
-      <section>
+      <Container fluid>
             <video autoPlay muted loop className="videoStyle">
               <source src="/assets/img/background.webm" type ="video/webm" alt="backgroud"></source>
             </video>
-      </section> 
-      <div className="container">
+            <div className="container">
         <div className="row align-items-left slider-h9-mrg">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
             <div className="slider-singleimg-hm9 slider-animated-1">
@@ -42,6 +42,8 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
           </div>      
         </div>
       </div>
+      </Container> 
+      
     </div>
   );
 };
