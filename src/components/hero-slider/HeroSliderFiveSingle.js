@@ -1,24 +1,47 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { Carousel } from "react-bootstrap";
 
-const HeroSliderFiveSingle = ({ data, sliderClass }) => {
+const HeroSliderFiveSingle = () => {
   return (
-    <div
-      className={`single-slider-2 slider-height-1 slider-height-res15 d-flex align-items-center slider-height-res ${
-        sliderClass ? sliderClass : ""
-      }`}  style={{ backgroundImage: "url('/assets/img/slider/slider-1.webp')",backgroundrepeat: "no-repeat", backgroundsize: "100% 100%",alt:"background"}}  
-    >
-     {/* <div className="container">
-        <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-7 ml-auto">
-            <div className="slider-content-2 slider-content-fruits slider-animated-1">
-              <h3 className="animated">{data.title}</h3>
-              <h1 className="animated">{data.subtitle}</h1>
-            </div>
-          </div>
-        </div>
-      </div> */}
-    </div> 
+    <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/assets/img/slider/slider-1.webp"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/assets/img/slider/slider-1.webp"
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="/assets/img/slider/slider-1.webp"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+    
   );
 };
 
