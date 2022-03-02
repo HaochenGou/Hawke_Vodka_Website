@@ -6,10 +6,9 @@ const HeroSliderFiveSingle = ({ data, sliderClass }) => {
     <div
       className={`single-slider-2 slider-height-1 slider-height-res15 d-flex align-items-center slider-height-res ${
         sliderClass ? sliderClass : ""
-      }`}
-      style={{ backgroundImage: "url('/assets/img/slider/slider-1.webp')",backgroundrepeat: "no-repeat", backgroundsize: "100% 100%",alt:"background"}}
+      }`}  style={{ backgroundImage: "url('/assets/img/slider/slider-1.webp')",backgroundrepeat: "no-repeat", backgroundsize: "100% 100%",alt:"background"}}  
     >
-      {/* <div className="container">
+     {/* <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-7 ml-auto">
             <div className="slider-content-2 slider-content-fruits slider-animated-1">
@@ -18,7 +17,7 @@ const HeroSliderFiveSingle = ({ data, sliderClass }) => {
             </div>
           </div>
         </div>
-      </div>*/}
+      </div> */}
     </div> 
   );
 };
