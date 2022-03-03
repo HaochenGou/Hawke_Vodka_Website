@@ -13,13 +13,6 @@ function Window({ title, overview, vote_average }) {
     <div>
       {isOpen && (
         <Popup
-          content={
-            <>
-              <b>{title}</b>
-              <p>Some text</p>
-            </>
-          }
-          handleClose={togglePopup}
         />
       )}
     </div>
