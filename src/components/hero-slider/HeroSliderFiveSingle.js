@@ -19,7 +19,7 @@ const HeroSliderFiveSingle = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/assets/img/slider/slider-1.webp"
+      src="/assets/img/slider/slider-2.webp"
       alt="Second slide"
     />
 
@@ -31,7 +31,7 @@ const HeroSliderFiveSingle = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/assets/img/slider/slider-1.webp"
+      src="/assets/img/slider/slider-3.webp"
       alt="Third slide"
     />
 
