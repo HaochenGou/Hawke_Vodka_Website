@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import Carousel from './Carousel';
 import ReactPlayer from "react-player";
 import usePictureInPicture from 'react-use-pip'
-import PopUp from "./ageverf";
+import PopUp from "./Popup";
 import { Card, Button} from "react-bootstrap";
 
 
