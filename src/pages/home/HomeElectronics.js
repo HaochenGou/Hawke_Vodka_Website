@@ -6,11 +6,11 @@ import SectionTitleWithText from "../../components/section-title/SectionTitleWit
 import BannerThree from "../../wrappers/banner/BannerThree";
 import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
-import { Link } from "react-router-dom";
+
 import Carousel from './Carousel';
-import ReactPlayer from "react-player";
+import Window from "./Window";
 import usePictureInPicture from 'react-use-pip'
-import PopUp from "./Popup";
+
 import { Card, Button} from "react-bootstrap";
 
 
@@ -35,6 +35,7 @@ const HomeElectronics = () => {
     
         {/* hero slider */}
         <HeroSliderThree />
+        <Window/>
         
 
         <p style={{margin: "100px"}}></p>
