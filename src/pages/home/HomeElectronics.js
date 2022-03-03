@@ -71,14 +71,14 @@ const HomeElectronics = () => {
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-95" spaceTopClass="pt-100" />
         <div className="container">
-        <video ref={videoRef} autoPlay muted controls loop width="0.1%">
+        <video ref={videoRef} controls loop width="0.1%">
         <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" />
           </video>
           {isPictureInPictureAvailable && (
-          <button
+          <button className="button"
             onClick={() => togglePictureInPicture(!isPictureInPictureActive)}
           >
-          {isPictureInPictureActive ? 'Disable' : 'Enable'} background Music
+          {isPictureInPictureActive ? 'Close' : 'Open'} Video
             </button>)}
         </div>
         
