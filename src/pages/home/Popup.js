@@ -1,23 +1,8 @@
-import React from "react"
-import "./Popup.css"
-import { Button} from "@mui/material";
+import React from 'react';
+import Popup from 'reactjs-popup';
 
-
-const Popup = (props) => {
-  const [Modal, open, close, isOpen] = useModal('root', {
-    preventScroll: true,
-    closeOnOverlayClick: false
-  });
-  return (
-    <div className="popup-box">
-      <div className="box">
-        <Button variant="primary" onClick={close}>Agree</Button>{' '}
-        <Button variant="primary" onclick="location.href = 'https://www.drinksmart.com/';">Disagree</Button>
-
-        {props.content}
-      </div>
-    </div>
-  )
-}
-
-export default Popup
+const PopupExample = () => (
+  <Popup trigger={<button> Trigger</button>} position="right center">
+    <div>Popup content here !!</div>
+  </Popup>
+);
