@@ -12,7 +12,7 @@ function Window({ title, overview, vote_average }) {
   return (
     <div>
       <input
-        className="btn"
+        className="btn2"
         type="button"
         value="Read More"
         onClick={togglePopup}
