@@ -65,42 +65,6 @@
       gtag('config', 'AW-10858842834');
     </script>
 
-    <style type="text/css">
-      * { font-size: x-large; }
-      #overlay {
-        display: block;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        bottom: 0%;
-        min-width: 100%;
-        min-height: 100%;
-        background-color: rgba(0,0,0,0.7);
-            
-        z-index:2;
-  
-      }
-      #text{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        font-size: 50px;
-        color: white;
-        -ms-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-       
-      }
-      #button{
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        font-size: 50px;
-        color: white;
-        -ms-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-       
-      }
-      </style>
 
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -120,35 +84,6 @@
     
   </head>
   <body>
-    <div id="overlay">
-      <div id = "text">
-        I certify that I am over the age of 21 
-      </div>
-      <div id ="button">
-      <input type="button" id="ofAge" value="Yes" />
-      <input type="button" onclick="window.location.href='https://www.drinksmart.com/';" value="no" />
-      </div>
-       
-  </div>
-  
-  
-  <script type="text/javascript">
-  var pop = document.getElementById("overlay");
-  
-  if ( document.cookie.indexOf("CERTIFIEDAGE18") >= 0 ) 
-  {
-       pop.style.display = "none";
-  }
-  
-  document.getElementById("ofAge").onclick = function() 
-  {
-       document.cookie = "CERTIFIEDAGE18=true";
-       // should add document.cookie.expires
-       // as is, this will just be a session cookie
-  
-      pop.style.display = "none";
-  }
-  </script>
   <div id="root"></div>
 
    
