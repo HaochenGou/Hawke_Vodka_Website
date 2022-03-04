@@ -6,6 +6,11 @@ import { Button, Modal} from "@mui/material";
 const Popup = (props) => {
   const[isVerify, setIsVerify] = useState(false)
   useEffect(() =>{localStorage.setItem("verify",JSON.stringify(isVerify));},[isVerify]);
+  const verify = localStorage.getItem("verify");
+  // if (verify){
+
+  // }
+  
 
   return (
     <Modal
