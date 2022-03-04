@@ -86,7 +86,7 @@
                     position: relative;
                     ul.submenu {
                         background: #fff none repeat scroll 0 0;
-                        box-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                        box-shadow: 0 0 7px 0.5px rgba(0, 0, 0, 0.15);
                         display: block;
                         left: 0;
                         padding: 20px 0 22px;
@@ -103,19 +103,19 @@
                             padding: 0 20px;
                             margin-left: 0;
                             a {
-                                color: #333;
+                                color: rgb(0, 0, 0);
                                 display: block;
-                                font-size: 13px;
+                                font-size: 15px;
                                 font-weight: 400;
                                 line-height: 32px;
                                 text-align: left;
                                 text-transform: capitalize;
                                 padding-top: 0;
                                 &:hover {
-                                    color: $theme-color;
+                                    color: black;
                                 }
                                 &::before {
-                                    background: $theme-color none repeat scroll 0 0;
+                                    background: $black none repeat scroll 0 0;
                                     border-radius: 50%;
                                     content: "";
                                     height: 7px;
@@ -192,10 +192,10 @@
                                         text-transform: capitalize;
                                         padding-top: 0px;
                                         &:hover {
-                                            color: $theme-color;
+                                            color: $black;
                                         }
                                         &::before {
-                                            background: $theme-color none repeat scroll 0 0;
+                                            background: $black none repeat scroll 0 0;
                                             border-radius: 50%;
                                             content: "";
                                             height: 7px;
@@ -249,10 +249,10 @@
                     padding: 0 10px;
                 }
                 > a{
-                    font-size: 20px;
+                    font-size: 25px;
                     color: #ffffff;
-                    text-shadow: 0 0 10px #000;
                     font-weight: 600;
+                    -webkit-text-stroke: 0.8px black;
                     letter-spacing: .8px;
                     display: inline-block;
                     line-height: 94px;
@@ -264,7 +264,7 @@
                     }
                 }
                 &:hover a {
-                    color: $theme-color;
+                    color: black;
                 }
             }
         }
@@ -296,7 +296,7 @@
 .stick .main-menu.menu-white nav ul li a{
     color: #555252;
     &:hover {
-        color: $theme-color;
+        color: black;
     }
 }
 
@@ -368,7 +368,7 @@
             margin-left: 0px;
         }
         &:hover > a, &:hover > button {
-            color: $theme-color;
+            color: $black;
         }
         .account-dropdown {
             background: #fff none repeat scroll 0 0;
@@ -415,7 +415,7 @@
                         color: #000;
                         &:hover {
                             padding-left: 5px;
-                            color: $theme-color;
+                            color: black;
                         }
                     }
                 }
@@ -471,7 +471,7 @@
             }
         }
         &:hover > button {
-            color: $theme-color;
+            color: $black;
         }
         .shopping-cart-content{
             background: #fff none repeat scroll 0 0;
@@ -539,7 +539,7 @@
                                 color: #000;
                                 line-height: 1.2;
                                 &:hover {
-                                    color: $theme-color;
+                                    color: $black;
                                 }
                             }
                         }
@@ -557,7 +557,7 @@
                         right: 0;
                         a, button {
                             font-size: 16px;
-                            color: $theme-color;
+                            color: $black;
                             &:hover {
                                 color: #333;
                             }
@@ -654,7 +654,7 @@
                     background: transparent;
                 }
                 .button-search {
-                    background: $theme-color;
+                    background: $black;
                     border-color: #ce9634;
                     color: #ffffff;
                     position: absolute;
@@ -696,14 +696,14 @@
         > a {
             color: #000;
             &:hover {
-                color: $theme-color;
+                color: $black;
             }
         }
         &.cart-wrap {
             > button {
                 color: #000;
                 &:hover {
-                    color: $theme-color;
+                    color: $black;
                 }
                 span{
                     &.count-style {
@@ -846,7 +846,7 @@
                         line-height: 27px;
                         font-size: 13px;
                         &:hover {
-                            color: $theme-color;
+                            color: $black;
                         }
                     }
                 }
@@ -860,7 +860,7 @@
         }
         &:hover {
             & > a, span{
-                color: $theme-color;
+                color: $black;
             }
 
             .lang-car-dropdown{
@@ -1080,10 +1080,10 @@
                             text-transform: capitalize;
                             padding-top: 0px;
                             &:hover {
-                                color: $theme-color;
+                                color: $black;
                             }
                             &::before {
-                                background: $theme-color none repeat scroll 0 0;
+                                background: $black none repeat scroll 0 0;
                                 border-radius: 50%;
                                 content: "";
                                 height: 7px;
@@ -1170,10 +1170,10 @@
                                     text-transform: capitalize;
                                     padding-top: 0px;
                                     &:hover {
-                                        color: $theme-color;
+                                        color: $black;
                                     }
                                     &::before {
-                                        background: $theme-color none repeat scroll 0 0;
+                                        background: $black none repeat scroll 0 0;
                                         border-radius: 50%;
                                         content: "";
                                         height: 7px;
@@ -1235,7 +1235,7 @@
                     }
                 }
                 &:hover a{
-                    color: $theme-color;
+                    color: $black;
                 }
             }
         }
@@ -1300,7 +1300,7 @@
         line-height: 1;
         display: inline-block;
         &:hover {
-            color: $theme-color;
+            color: $black;
         }
     }
     @media #{$md-layout}{
@@ -1343,7 +1343,7 @@
             top: 20px;
             transition: all 0.3s ease 0s;
             &:hover {
-                color: $theme-color;
+                color: $black;
             }
         }
     }
@@ -1364,7 +1364,7 @@
                     padding: 0 0 20px;
                     &:hover {
                         background: transparent;
-                        color: $theme-color;
+                        color: $black;
                     }
                 }
             }
@@ -1439,7 +1439,7 @@
         a {
             color: #282828;
             &:hover {
-                color: $theme-color;
+                color: $black;
             }
         }
         @media #{$md-layout}{
@@ -1749,7 +1749,7 @@
     
                 a{
                     &:hover{
-                        color: $theme-color;
+                        color: $black;
                     }
                 }
     
@@ -1917,7 +1917,7 @@
                 padding: 10px 0;
                 display: block;
                 &:hover{
-                    color: $theme-color;
+                    color: $black;
                 }
   
                 @media #{$sm-layout}{
@@ -1939,7 +1939,7 @@
                     font-weight: 400;
                     padding: 10px 0;
                     &:hover{
-                        color: $theme-color;
+                        color: $black;
                     }
   
                     @media #{$sm-layout}{
@@ -2022,7 +2022,7 @@
         }
   
         &:hover{
-            color: $theme-color;
+            color: $black;
         }
   
     }
@@ -2112,7 +2112,7 @@
                 button{
                     font-size: 12px;
                     &:hover, &.active{
-                        color: $theme-color;
+                        color: $black;
                     }
                 }
             }
