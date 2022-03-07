@@ -10,10 +10,6 @@ const Popup = (props) => {
   const toggle=()=>{
     setIsVerify(!verify);
   }
-
-
-  
-
   return (
     <div>
     {toggle &&
@@ -21,7 +17,7 @@ const Popup = (props) => {
         <div className="box">
           <b>Are you of legal drinking alcohol age?</b>
           <p>By click the Yes button, you certify that you are of legal drinking alcohol age in the state in which you reside</p>
-          <Button variant="contained" size="small" onClick={props.handleClose}>Yes</Button>{' '}
+          <Button variant="contained" size="small" onClick={}>Yes</Button>{' '}
           <Button variant="contained" size="small" href = "https://www.drinksmart.com/">No</Button>
         </div>
       </div>
