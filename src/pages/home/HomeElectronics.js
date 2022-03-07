@@ -43,7 +43,9 @@ const HomeElectronics = () => {
         <SectionTitleWithText spaceBottomClass="pb-90" />
 
         <Carousel/>
+ 
         <Popup/>
+    
 
         <p style={{margin: "250px"}}></p>
         <Card className="bg-dark text-white">
