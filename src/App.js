@@ -57,13 +57,14 @@ const App = props => {
         <BrowserRouter>
           <ScrollToTop>
             <Switch>
+
             
               <Route
                 exact
                 path={process.env.PUBLIC_URL + "/"}
                 component={HomeElectronics}
               />
-
+             
               {/* Shop pages */}
               <Route
                 path={process.env.PUBLIC_URL + "/shop"}
