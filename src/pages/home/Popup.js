@@ -11,8 +11,9 @@ const Popup = (props) => {
  
   const toggle=()=>{
     setIsShow(!isShow)
+
   }
- 
+
   return (
     <div>
     {isShow &&
