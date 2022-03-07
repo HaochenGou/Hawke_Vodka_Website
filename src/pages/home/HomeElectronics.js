@@ -8,7 +8,7 @@ import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 import Carousel from './Carousel';
-import Window from "./Window";
+import Popup from "./Popup";
 import usePictureInPicture from 'react-use-pip'
 
 import { Card, Button} from "react-bootstrap";
@@ -35,7 +35,7 @@ const HomeElectronics = () => {
     
         {/* hero slider */}
         <HeroSliderThree />
-        <Window/>
+        <Popup/>
         
 
         <p style={{margin: "100px"}}></p>
