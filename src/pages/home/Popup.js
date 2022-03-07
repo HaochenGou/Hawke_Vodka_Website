@@ -6,17 +6,16 @@ import { Button} from "@mui/material";
 
 
 const Popup = (props) => {
-  const[isVerify, setIsVerify] = useState(false);
-  useEffect(() =>{localStorage.setItem("verify",JSON.stringify('verify'));},[isVerify]);
-  const verify = localStorage.getItem("verify");
-  const toggle=()=>{
-    setIsVerify(!isVerify)
-  }
+  const[isShow, setIsShow] = useState(true);
+
  
+  const toggle=()=>{
+    setIsShow(!isShow)
+  }
  
   return (
     <div>
-    {toggle &&
+    {isShow &&
       (
       <div className="popup-box">
         <div className="box">
