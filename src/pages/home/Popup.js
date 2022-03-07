@@ -7,15 +7,18 @@ import { Button} from "@mui/material";
 
 const Popup = (props) => {
   const[isShow, setIsShow] = useState(true);
+ 
+  
 
  
   const toggle=()=>{
     setIsShow(!isShow)
+    window.localStorage.setItem("show",JSON.stringify(isShow))
   }
 
   return (
     <div>
-    {isShow &&
+    {isShow && 
       (
       <div className="popup-box">
         <div className="box">
