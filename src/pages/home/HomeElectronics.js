@@ -49,7 +49,7 @@ const HomeElectronics = () => {
 
         <p style={{margin: "250px"}}></p>
         <Card className="bg-dark text-white">
-        <Card.Img src="/assets/img/bg/bg-1.webp" alt="Card image" />
+        <Card.Img src="/assets/img/bg/bg-1.webp" alt="Card image"/>
         <Card.ImgOverlay>
         <Card.Title style={{fontSize:"30px"}}>Cocktail Recipes</Card.Title>
         <Button variant="primary"  size="lg" href={process.env.PUBLIC_URL + "/recipes"}>WATCH HOW TO MAKE</Button>
