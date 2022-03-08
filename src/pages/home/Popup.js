@@ -7,6 +7,8 @@ import { Button} from "@mui/material";
 
 const Popup = (props) => {
   const[isShow, setIsShow] = useState(true);
+  const showcase=(window.localStorage.getItem("show")===null)
+
   
   function toggle(){
     setIsShow(!isShow)
@@ -14,9 +16,10 @@ const Popup = (props) => {
     window.localStorage.setItem("show",JSON.stringify(isShow))
   }
 
-
   return (
-    <div id = 'pop' style={{visibility:'visible'}}>
+    <div>
+    {showcase &&
+    (<div id = 'pop' style={{visibility:'visible'}}>
       <div className="popup-box">
         <div className="box">
           <b>Are you of legal drinking alcohol age?</b>
@@ -25,6 +28,7 @@ const Popup = (props) => {
           <Button variant="contained" size="small" href = "https://www.drinksmart.com/">No</Button>
         </div>
       </div>
+    </div>)}
     </div>
   )
 }
