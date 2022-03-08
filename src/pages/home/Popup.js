@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./Popup.css"
-import { Button} from "@mui/material";
+import { Button, Stack} from "@mui/material";
 
 
 
@@ -23,9 +23,11 @@ const Popup = (props) => {
       <div className="popup-box">
         <div className="box">
           <b className="title">Are you of legal drinking alcohol age?</b><br></br>
-          <p style={{margin: "20px"}}></p>
+          <p style={{margin: "40px"}}></p>
+          <Stack justifyContent="center" direction="row" spacing={10} alignItems="center">
           <Button variant="contained" size="large" onClick={toggle}>Yes</Button>
           <Button variant="contained" size="large" href = "https://www.drinksmart.com/">No</Button><br></br>
+          </Stack>
           <p style={{margin: "40px"}}></p>
           <p className="word">By click the <b>YES</b> button, you certify that you are of legal drinking alcohol age in the state in which you reside</p>
           
