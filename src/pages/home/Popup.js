@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import "./Popup.css"
 import { Button, Stack} from "@mui/material";
 import Logo from "../../components/header/Logo";
