@@ -4,11 +4,8 @@ import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import SectionTitleWithText from "../../components/section-title/SectionTitleWithText";
-import TextGridOne from "../../wrappers/text-grid/TextGridOne";
-import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
-import HeroSliderFive from "../../wrappers/hero-slider/HeroSliderFive";
+
 
 const Friend = ({ location }) => {
   const { pathname } = location;
