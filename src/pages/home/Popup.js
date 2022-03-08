@@ -23,8 +23,10 @@ const Popup = (props) => {
       <div className="popup-box">
         <div className="box">
           <b className="title">Are you of legal drinking alcohol age?</b><br></br>
-          <Button variant="contained" size="small" onClick={toggle}>Yes</Button>
-          <Button variant="contained" size="small" href = "https://www.drinksmart.com/">No</Button><br></br>
+          <p style={{margin: "20px"}}></p>
+          <Button variant="contained" size="large" onClick={toggle}>Yes</Button>
+          <Button variant="contained" size="large" href = "https://www.drinksmart.com/">No</Button><br></br>
+          <p style={{margin: "40px"}}></p>
           <p className="word">By click the <b>YES</b> button, you certify that you are of legal drinking alcohol age in the state in which you reside</p>
           
         </div>
