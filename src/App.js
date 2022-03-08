@@ -20,6 +20,7 @@ import ProductFixedImage from "./pages/shop-product/ProductFixedImage";
 import Friend from "./pages/other/Friend";
 import Tech from "./pages/other/TechServices";
 import Web from "./pages/other/web";
+import Wholesale from "./pages/other/Whole";
 
 // other pages
 import About from "./pages/other/About";
@@ -83,6 +84,12 @@ const App = props => {
                 path={process.env.PUBLIC_URL + "/about"}
                 component={About}
               />
+
+              <Route
+                path={process.env.PUBLIC_URL + "/wholesale"}
+                component={Wholesale}
+              />
+
               <Route
                 path={process.env.PUBLIC_URL + "/contact"}
                 component={Contact}

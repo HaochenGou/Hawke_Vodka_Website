@@ -40,6 +40,17 @@ const NavMenu = ({ strings }) => {
                 <Link to={process.env.PUBLIC_URL + "/about"}>
                   {strings["about_us"]}
                 </Link>
+                <ul className="submenu">
+              <li>
+                <ul>
+                  <li>
+                    <Link to={process.env.PUBLIC_URL + "/wholesale"}>
+                      {strings["wholesale"]}
+                    </Link>
+                  </li>
+                  </ul>
+                  </li>
+                  </ul>
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>

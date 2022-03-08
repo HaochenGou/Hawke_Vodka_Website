@@ -7,13 +7,13 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 
-const Web = ({ location }) => {
+const Wholesale = ({ location }) => {
   const { pathname } = location;
 
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Web Services </title>
+        <title>Hawke Vodka | Shop Sign </title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."
@@ -21,7 +21,7 @@ const Web = ({ location }) => {
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Web Services
+        Wholesale
       </BreadcrumbsItem>
      
       <LayoutOne headerTop="visible">
@@ -35,8 +35,8 @@ const Web = ({ location }) => {
   );
 };
 
-Web.propTypes = {
+Wholesale.propTypes = {
   location: PropTypes.object
 };
 
-export default Web;
+export default Wholesale;
