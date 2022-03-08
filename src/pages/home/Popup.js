@@ -22,10 +22,11 @@ const Popup = (props) => {
     (<div id = 'pop' style={{visibility:'visible'}}>
       <div className="popup-box">
         <div className="box">
-          <b>Are you of legal drinking alcohol age?</b>
-          <p>By click the Yes button, you certify that you are of legal drinking alcohol age in the state in which you reside</p>
+          <b>Are you of legal drinking alcohol age?</b><br></br>
+          <p>By click the <b>YES</b> button, you certify that you are of legal drinking alcohol age in the state in which you reside</p><br></br>
           <Button variant="contained" size="small" onClick={toggle}>Yes</Button>
           <Button variant="contained" size="small" href = "https://www.drinksmart.com/">No</Button>
+          
         </div>
       </div>
     </div>)}
