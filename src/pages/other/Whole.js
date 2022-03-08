@@ -5,6 +5,9 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
+import Tab from "react-bootstrap/Tab";
+import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 
 const Wholesale = ({ location }) => {
@@ -27,104 +30,87 @@ const Wholesale = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        <div className="contact-area pt-100 pb-100">
+        <div className="login-register-area pt-100 pb-100">
           <div className="container">
-            <div className="custom-row-2">
-              <div className="col-lg-4 col-md-5">
-                <div className="contact-info-wrap">
-                  <div className="single-contact-info">
-                    <div className="contact-icon">
-                      <i className="fa fa-phone" />
-                    </div>
-                    <div className="contact-info-dec">
-                        <p>
-                          <a href="tel://7804495331">+1 780-449-5331</a>
-                        </p>
-                    </div>
-                  </div>
-                  <div className="single-contact-info">
-                    <div className="contact-icon">
-                      <i className="fa fa-globe" />
-                    </div>
-                    <div className="contact-info-dec">
-                    <p>
-                        <a href="mailto:info@hawkepro.com" rel="noopener noreferrer" target="_blank">info@hawkepro.com</a>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="single-contact-info">
-                    <div className="contact-icon">
-                      <i className="fa fa-map-marker" />
-                    </div>
-                    <div className="contact-info-dec">
-                    <p>
-                      <a href="https://goo.gl/maps/7iedxhZNktvnBgH69" target="_blank" rel="noopener noreferrer">
-                    426 Kaska Road,Sherwood Park, Alberta T8A 4G8.
-                    </a>
-                    </p>
-                    </div>
-                  </div>
-                  <div className="contact-social text-center">
-                    <h3>Follow Us</h3>
-                    <ul>
-                      <li>
-                        <a href="//facebook.com">
-                          <i className="fa fa-facebook" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//pinterest.com">
-                          <i className="fa fa-pinterest-p" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//twitter.com">
-                          <i className="fa fa-twitter" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-8 col-md-7">
-                <div className="contact-form">
-                  <div className="contact-title mb-30">
-                    <h2>Get In Touch</h2>
-                  </div>
-                  <form className="contact-form-style">
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <input name="name" placeholder="Name*" type="text" />
-                      </div>
-                      <div className="col-lg-6">
-                        <input name="email" placeholder="Email*" type="email" />
-                      </div>
-                      <div className="col-lg-6">
-                        <input name="address" placeholder="Address*" type="address" />
-                      </div>
-                      <div className="col-lg-6">
-                        <input name="phone" placeholder="Phone*" type="phone" />
-                      </div>
-                      <div className="col-lg-12">
-                        <input
-                          name="subject"
-                          placeholder="Subject*"
-                          type="text"
-                        />
-                      </div>
-                      <div className="col-lg-12">
-                        <textarea
-                          name="message"
-                          placeholder="Your Massege*"
-                          defaultValue={""}
-                        />
-                        <button className="submit" type="submit">
-                          SEND
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                  <p className="form-messege" />
+            <div className="row">
+              <div className="col-lg-7 col-md-12 ml-auto mr-auto">
+                <div className="login-register-wrapper">
+                  <Tab.Container defaultActiveKey="login">
+                    <Nav variant="pills" className="login-register-tab-list">
+                      <Nav.Item>
+                        <Nav.Link eventKey="login">
+                          <h4>Login</h4>
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="register">
+                          <h4>Register</h4>
+                        </Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                    <Tab.Content>
+                      <Tab.Pane eventKey="login">
+                        <div className="login-form-container">
+                          <div className="login-register-form">
+                            <form>
+                              <input
+                                type="text"
+                                name="user-name"
+                                placeholder="Username"
+                              />
+                              <input
+                                type="password"
+                                name="user-password"
+                                placeholder="Password"
+                              />
+                              <div className="button-box">
+                                <div className="login-toggle-btn">
+                                  <input type="checkbox" />
+                                  <label className="ml-10">Remember me</label>
+                                  <input type="checkbox" />
+                                  <label className="ml-10">Con</label>
+                                  <Link to={process.env.PUBLIC_URL + "/"}>
+                                    Forgot Password?
+                                  </Link>
+                                </div>
+                                <button type="submit">
+                                  <span>Login</span>
+                                </button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="register">
+                        <div className="login-form-container">
+                          <div className="login-register-form">
+                            <form>
+                              <input
+                                type="text"
+                                name="user-name"
+                                placeholder="Username"
+                              />
+                              <input
+                                type="password"
+                                name="user-password"
+                                placeholder="Password"
+                              />
+                              <input
+                                name="user-email"
+                                placeholder="Email"
+                                type="email"
+                              />
+                              <div className="button-box">
+                                <button type="submit">
+                                  <span>Register</span>
+                                </button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container>
                 </div>
               </div>
             </div>
