@@ -17,7 +17,6 @@ const Popup = (props) => {
 
   return (
     <div id = 'pop' style={{visibility:'visible'}}>
-      <script>
       <div className="popup-box">
         <div className="box">
           <b>Are you of legal drinking alcohol age?</b>
@@ -26,7 +25,6 @@ const Popup = (props) => {
           <Button variant="contained" size="small" href = "https://www.drinksmart.com/">No</Button>
         </div>
       </div>
-      </script>
     </div>
   )
 }
