@@ -38,8 +38,9 @@ const Contact = ({ location }) => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+1 780-449-5331</p>
-                      <p>+1 780-449-5331</p>
+                        <p>
+                          <a href="tel://7804495331">+1 780-449-5331</a>
+                        </p>
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -48,10 +49,7 @@ const Contact = ({ location }) => {
                     </div>
                     <div className="contact-info-dec">
                       <p>
-                        <a href="mailto:urname@email.com">info@hawkepro.com</a>
-                      </p>
-                      <p>
-                        <a href="//urwebsitenaem.com">info@hawkepro.com</a>
+                        <a href="mailto:info@hawkepro.com" rel="noopener noreferrer" target="_blank">info@hawkepro.com</a>
                       </p>
                     </div>
                   </div>
@@ -60,8 +58,11 @@ const Contact = ({ location }) => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>426 Kaska Road,  </p>
-                      <p>Sherwood Park, Alberta T8A 4G8.</p>
+                    <p>
+                      <a href="https://goo.gl/maps/7iedxhZNktvnBgH69" target="_blank" rel="noopener noreferrer">
+                    426 Kaska Road,Sherwood Park, Alberta T8A 4G8.
+                    </a>
+                    </p>
                     </div>
                   </div>
                   <div className="contact-social text-center">
