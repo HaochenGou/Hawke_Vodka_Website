@@ -90,7 +90,7 @@ export default function SimpleAccordion() {
           aria-controls="panel4a-content"
           id="panel4a-header"
         >
-               <ReactPlayer url='https://www.youtube.com/watch?v=q0hyYWKXF0Q' 
+          <ReactPlayer url='https://www.youtube.com/watch?v=q0hyYWKXF0Q' 
             playing = {true}
             muted = {true}
             width = '400px'
