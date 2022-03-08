@@ -42,8 +42,8 @@ const NavMenu = ({ strings }) => {
                 </Link>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/contact"}>
-              {strings["contact_us"]}
+            <Link to={process.env.PUBLIC_URL + "/contact"}>{" "}
+              {strings["contact_us"]}<i className="fa fa-angle-down" />{" "}
             </Link>
             <ul className="submenu">
               <li>

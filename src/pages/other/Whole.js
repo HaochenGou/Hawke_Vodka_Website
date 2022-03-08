@@ -5,7 +5,6 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
-import LocationMap from "../../components/contact/LocationMap";
 
 
 const Wholesale = ({ location }) => {
@@ -30,9 +29,6 @@ const Wholesale = ({ location }) => {
         <Breadcrumb />
         <div className="contact-area pt-100 pb-100">
           <div className="container">
-            <div className="contact-map mb-10">
-              <LocationMap latitude="53.536850" longitude="-113.331281" />
-            </div>
             <div className="custom-row-2">
               <div className="col-lg-4 col-md-5">
                 <div className="contact-info-wrap">
@@ -101,6 +97,12 @@ const Wholesale = ({ location }) => {
                       </div>
                       <div className="col-lg-6">
                         <input name="email" placeholder="Email*" type="email" />
+                      </div>
+                      <div className="col-lg-6">
+                        <input name="address" placeholder="Address*" type="address" />
+                      </div>
+                      <div className="col-lg-6">
+                        <input name="phone" placeholder="Phone*" type="phone" />
                       </div>
                       <div className="col-lg-12">
                         <input
