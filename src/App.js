@@ -33,6 +33,7 @@ import Wishlist from "./pages/other/Wishlist";
 import Compare from "./pages/other/Compare";
 import Checkout from "./pages/other/Checkout";
 import Silk from "./pages/other/silk";
+import Buy from "./pages/other/quickbuy";
 
 import NotFound from "./pages/other/NotFound";
 
@@ -83,6 +84,11 @@ const App = props => {
               <Route
                 path={process.env.PUBLIC_URL + "/about"}
                 component={About}
+              />
+
+              <Route
+                path={process.env.PUBLIC_URL + "/buy"}
+                component={Buy}
               />
 
               <Route
