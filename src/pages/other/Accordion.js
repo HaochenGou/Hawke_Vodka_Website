@@ -4,18 +4,37 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
+import { styled } from '@mui/material/styles';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Paper from '@mui/material/Paper';
 
 
 export default function SimpleAccordion() {
+  const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  }));
+
   return (
     <div>
       <Stack
       direction="row"
       divider={<Divider orientation="vertical" flexItem />}
       >
-      
+      <Item>
       <img src="assets/img/recipes/1.webp" alt="recipes"/>
+      </Item>
+      <Stack>
+        <b>Ingredients</b>
+        <p>2 oz. gin
+        1 oz. lemon juice
+        ¾ oz. crème de mûre
+        ½ oz. simple syrup
+        Garnish: Lemon wheel, blackberry
+        </p><br></br>
       
       <Accordion>
         <AccordionSummary
@@ -24,8 +43,7 @@ export default function SimpleAccordion() {
           id="panel1a-header"
         >
            
-            <p style={{margin: "100px"}}></p>
-            <Typography fontSize="20px">Ingredients</Typography>
+        <Typography fontSize="20px">Read More</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -34,6 +52,7 @@ export default function SimpleAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>
+      </Stack>
     
       </Stack>
 
