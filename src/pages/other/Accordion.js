@@ -1,32 +1,42 @@
 import * as React from 'react';
+import {Stack, Divider} from '@mui/material';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import ReactPlayer from 'react-player';
+
 
 export default function SimpleAccordion() {
   return (
     <div>
-      <Accordion>
+      <Stack
+      direction="row"
+      divider={<Divider orientation="vertical" flexItem />}
+      spacing={2}
+      >
       
+      <img src="assets/img/recipes/1.webp" alt="recipes"/>
+      
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-            <img src="assets/img/recipes/1.webp" alt="recipes"/>
+           
             <p style={{margin: "100px"}}></p>
             <Typography fontSize="20px">Ingredients</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          combine the gin, lemon juice, and simple syrup with ice into a shaker and shake until chilled. Strain into a glass filled with crushed or pebble ice, then add the crème de mûre. Garnish with a lemon wheel and a blackberry.
+
           </Typography>
         </AccordionDetails>
       </Accordion>
+    
+      </Stack>
 
       <p style={{margin: "100px"}}></p>
 
@@ -147,8 +157,7 @@ export default function SimpleAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          combine all of the ingredients in a mixing glass and stir with ice until chilled. Strain into a chilled glass, and garnish with your choice of a lemon twist or olive.
           </Typography>
         </AccordionDetails>
       </Accordion>
