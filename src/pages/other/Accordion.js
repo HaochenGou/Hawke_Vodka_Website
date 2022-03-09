@@ -29,7 +29,7 @@ export default function SimpleAccordion() {
       </Item>
       <Stack style={{width:'40%'}}>
         <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>BRAMBLE Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
         <i className="fa fa-circle" /> 1 oz. lemon juice<br></br>
         <i className="fa fa-circle" /> ¾ oz. crème de mûre<br></br>
@@ -70,7 +70,7 @@ export default function SimpleAccordion() {
       </Item>
       <Stack style={{width:'40%'}}>
         <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>GIN & TONIC Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 25 ml Hope on William’s London Dry Gin<br></br>
         <i className="fa fa-circle" /> 75 ml ml Tonic Watere<br></br>
         <i className="fa fa-circle" /> lemon and a sprig of rosemary<br></br>
@@ -109,7 +109,7 @@ export default function SimpleAccordion() {
       </Item>
       <Stack style={{width:'40%'}}>
         <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>GIN FIZZ Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
         <i className="fa fa-circle" /> ¾ oz. simple syrup<br></br>
         <i className="fa fa-circle" /> ¾ oz. heavy cream<br></br>
@@ -152,7 +152,7 @@ export default function SimpleAccordion() {
       </Item>
       <Stack style={{width:'40%'}}>
         <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>GIN MARTINI Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
         <i className="fa fa-circle" /> 1 oz. dry vermouth<br></br>
         <i className="fa fa-circle" /> Garnish: Lemon twist or olive
@@ -190,7 +190,7 @@ export default function SimpleAccordion() {
       </Item>
       <Stack style={{width:'40%'}}>
         <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>NEGRONI Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 1 oz. gin<br></br>
         <i className="fa fa-circle" /> 1 oz. Campari<br></br>
         <i className="fa fa-circle" /> 1 oz. sweet vermouth<br></br>
@@ -229,7 +229,7 @@ export default function SimpleAccordion() {
       </Item>
       <Stack style={{width:"40%"}}>
         <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>PURPLE SUMMER KISS Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
         <i className="fa fa-circle" /> 1 oz. lemon juice<br></br>
         <i className="fa fa-circle" /> ¾ oz. crème de mûre<br></br>
