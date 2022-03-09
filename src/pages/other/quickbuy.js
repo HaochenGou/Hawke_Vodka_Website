@@ -28,6 +28,9 @@ const Buy = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
+        <div>
+            
+        </div>
         
         
        
