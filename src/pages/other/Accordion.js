@@ -270,7 +270,7 @@ export default function SimpleAccordion() {
       </Item>
       <Stack style={{width:"40%"}}>
         <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>TOM COLLINS Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 50 ml Hope On Hopkins London Dry Gin<br></br>
         <i className="fa fa-circle" /> 25 ml lemon juice<br></br>
         <i className="fa fa-circle" /> 15 ml sugar syrup<br></br>
@@ -313,7 +313,7 @@ export default function SimpleAccordion() {
       </Item>
       <Stack style={{width:"40%"}}>
         <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>WINKLE 75 Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 1 oz. gin<br></br>
         <i className="fa fa-circle" /> 2 oz. champagne<br></br>
         <i className="fa fa-circle" /> ½ oz. simple syrup<br></br>
