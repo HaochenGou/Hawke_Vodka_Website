@@ -13,7 +13,6 @@ export default function SimpleAccordion() {
       <Stack
       direction="row"
       divider={<Divider orientation="vertical" flexItem />}
-      spacing={2}
       >
       
       <img src="assets/img/recipes/1.webp" alt="recipes"/>
