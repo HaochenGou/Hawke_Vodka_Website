@@ -67,8 +67,6 @@ const Wholesale = ({ location }) => {
                                 <div className="login-toggle-btn">
                                   <input type="checkbox" />
                                   <label className="ml-10">Remember me</label><br></br>
-                                  <input type="checkbox" />
-                                  <label className="ml-10">By click the box, I consent to receive newsletters via email.</label>
                                   <Link to={process.env.PUBLIC_URL + "/"}>
                                     Forgot Password?
                                   </Link>
@@ -100,6 +98,24 @@ const Wholesale = ({ location }) => {
                                 placeholder="Email"
                                 type="email"
                               />
+                              <input
+                                name="user-address"
+                                placeholder="Address"
+                                type="address"
+                              />
+                            <input
+                                name="user-phone"
+                                placeholder="Phone"
+                                type="phone"
+                              />
+                            <input
+                                name="user-license"
+                                placeholder="License"
+                                type="license"
+                              />
+                              
+                               <input type="checkbox" />
+                                  <label className="ml-10">By click the box, I consent to receive newsletters via email.</label>
                               <div className="button-box">
                                 <button type="submit">
                                   <span>Register</span>
