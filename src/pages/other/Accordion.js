@@ -16,11 +16,7 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-            <ReactPlayer url='https://www.youtube.com/watch?v=q0hyYWKXF0Q' 
-            playing = {true}
-            muted = {true}
-            width = '400px'
-            height='380px'/>
+            <img src="assets/img/recipes/1.webp" alt="recipes"/>
             <p style={{margin: "100px"}}></p>
             <Typography fontSize="20px">Ingredients</Typography>
         </AccordionSummary>
@@ -41,11 +37,7 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-            <ReactPlayer url='https://www.youtube.com/watch?v=q0hyYWKXF0Q' 
-            playing = {true}
-            muted = {true}
-            width = '400px'
-            height='380px'/>
+            <img src="assets/img/recipes/2.webp" alt="recipes"/>
             <p style={{margin: "100px"}}></p>
             <Typography fontSize="20px">Ingredients</Typography>
         </AccordionSummary>
@@ -65,11 +57,7 @@ export default function SimpleAccordion() {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-            <ReactPlayer url='https://www.youtube.com/watch?v=q0hyYWKXF0Q' 
-            playing = {true}
-            muted = {true}
-            width = '400px'
-            height='380px'/>
+            <img src="assets/img/recipes/3.webp" alt="recipes"/>
             <p style={{margin: "100px"}}></p>
             <Typography fontSize="20px">Ingredients</Typography>
         </AccordionSummary>
