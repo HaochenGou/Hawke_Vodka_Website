@@ -65,9 +65,7 @@ const Wholesale = ({ location }) => {
                               />
                               <div className="button-box">
                                 <div className="login-toggle-btn">
-                                  <input type="checkbox" />
-                                  <label className="ml-10">Remember me</label><br></br>
-                                  <Link to={process.env.PUBLIC_URL + "/"}>
+                                  <Link to={process.env.PUBLIC_URL + "/my-account"}>
                                     Forgot Password?
                                   </Link>
                                 </div>
