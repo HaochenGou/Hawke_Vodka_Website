@@ -22,10 +22,91 @@ export default function SimpleAccordion() {
     <div>
       <Stack
       direction="row"
-      spacing={2}
+      spacing={5}
       >
       <Item>
       <img src="assets/img/recipes/1.webp" alt="recipes"/>
+      </Item>
+      <Stack style={{width:'40%'}}>
+        <Stack>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
+        <i className="fa fa-circle" /> 1 oz. lemon juice<br></br>
+        <i className="fa fa-circle" /> ¾ oz. crème de mûre<br></br>
+        <i className="fa fa-circle" /> ½ oz. simple syrup<br></br>
+        <i className="fa fa-circle" /> Garnish: Lemon wheel, blackberry
+        </p><br></br>
+        </Stack>
+      
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+           
+        <Typography fontSize="25px">Read More</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography fontSize="20px">
+          Combine the gin, lemon juice, and simple syrup with ice into a shaker and shake until chilled. Strain into a glass filled with crushed or pebble ice, then add the crème de mûre. Garnish with a lemon wheel and a blackberry.
+
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      </Stack>
+    
+      </Stack>
+
+      <p style={{margin: "100px"}}></p>
+
+
+      <Stack
+      direction="row"
+      spacing={2}
+      >
+      <Item>
+      <img src="assets/img/recipes/2.webp" alt="recipes"/>
+      </Item>
+      <Stack>
+        <Stack>
+        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
+        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
+        <i className="fa fa-circle" /> 1 oz. lemon juice<br></br>
+        <i className="fa fa-circle" /> ¾ oz. crème de mûre<br></br>
+        <i className="fa fa-circle" /> ½ oz. simple syrup<br></br>
+        <i className="fa fa-circle" /> Garnish: Lemon wheel, blackberry
+        </p><br></br>
+        </Stack>
+      
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+           
+        <Typography fontSize="25px">Read More</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography fontSize="20px">
+          Combine the gin, lemon juice, and simple syrup with ice into a shaker and shake until chilled. Strain into a glass filled with crushed or pebble ice, then add the crème de mûre. Garnish with a lemon wheel and a blackberry.
+
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      </Stack>
+    
+      </Stack>
+
+      <p style={{margin: "100px"}}></p>
+
+      <Stack
+      direction="row"
+      spacing={2}
+      >
+      <Item>
+      <img src="assets/img/recipes/3.webp" alt="recipes"/>
       </Item>
       <Stack>
         <Stack>
@@ -66,7 +147,7 @@ export default function SimpleAccordion() {
       spacing={2}
       >
       <Item>
-      <img src="assets/img/recipes/1.webp" alt="recipes"/>
+      <img src="assets/img/recipes/4.webp" alt="recipes"/>
       </Item>
       <Stack>
         <Stack>
@@ -101,21 +182,20 @@ export default function SimpleAccordion() {
 
       <p style={{margin: "100px"}}></p>
 
+
       <Stack
       direction="row"
-      spacing={2}
+      spacing={5}
       >
       <Item>
-      <img src="assets/img/recipes/1.webp" alt="recipes"/>
+      <img src="assets/img/recipes/5.webp" alt="recipes"/>
       </Item>
-      <Stack>
+      <Stack style={{width:'40%'}}>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
-        <i className="fa fa-circle" /> 1 oz. lemon juice<br></br>
-        <i className="fa fa-circle" /> ¾ oz. crème de mûre<br></br>
-        <i className="fa fa-circle" /> ½ oz. simple syrup<br></br>
-        <i className="fa fa-circle" /> Garnish: Lemon wheel, blackberry
+        <i className="fa fa-circle" /> 1 oz. dry vermouth<br></br>
+        <i className="fa fa-circle" /> Garnish: Lemon twist or olive
         </p><br></br>
         </Stack>
       
@@ -130,8 +210,7 @@ export default function SimpleAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontSize="20px">
-          Combine the gin, lemon juice, and simple syrup with ice into a shaker and shake until chilled. Strain into a glass filled with crushed or pebble ice, then add the crème de mûre. Garnish with a lemon wheel and a blackberry.
-
+          Combine all of the ingredients in a mixing glass and stir with ice until chilled. Strain into a chilled glass, and garnish with your choice of a lemon twist or olive.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -144,12 +223,12 @@ export default function SimpleAccordion() {
 
       <Stack
       direction="row"
-      spacing={2}
+      spacing={5}
       >
       <Item>
-      <img src="assets/img/recipes/1.webp" alt="recipes"/>
+      <img src="assets/img/recipes/6.webp" alt="recipes"/>
       </Item>
-      <Stack>
+      <Stack style={{width:"40%"}}>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
@@ -185,23 +264,23 @@ export default function SimpleAccordion() {
 
       <Stack
       direction="row"
-      spacing={2}
+      spacing={5}
       >
       <Item>
-      <img src="assets/img/recipes/1.webp" alt="recipes"/>
+      <img src="assets/img/recipes/7.webp" alt="recipes"/>
       </Item>
-      <Stack>
+      <Stack style={{width:"40%"}}>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
-        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
-        <i className="fa fa-circle" /> 1 oz. lemon juice<br></br>
-        <i className="fa fa-circle" /> ¾ oz. crème de mûre<br></br>
-        <i className="fa fa-circle" /> ½ oz. simple syrup<br></br>
-        <i className="fa fa-circle" /> Garnish: Lemon wheel, blackberry
+        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 50 ml Hope On Hopkins London Dry Gin<br></br>
+        <i className="fa fa-circle" /> 25 ml lemon juice<br></br>
+        <i className="fa fa-circle" /> 15 ml sugar syrup<br></br>
+        <i className="fa fa-circle" /> Soda water<br></br>
+        <i className="fa fa-circle" /> Lemon
         </p><br></br>
         </Stack>
       
-      <Accordion>
+      <Accordion> 
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -212,7 +291,9 @@ export default function SimpleAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontSize="20px">
-          Combine the gin, lemon juice, and simple syrup with ice into a shaker and shake until chilled. Strain into a glass filled with crushed or pebble ice, then add the crème de mûre. Garnish with a lemon wheel and a blackberry.
+          1. Mix the gin, lemon juice and sugar syrup over ice.<br></br>
+          2. Pour into a tall glass and top with soda water.<br></br>
+          3. Garnish with a lemon slice.<br></br>
 
           </Typography>
         </AccordionDetails>
@@ -226,94 +307,12 @@ export default function SimpleAccordion() {
 
       <Stack
       direction="row"
-      spacing={2}
-      >
-      <Item>
-      <img src="assets/img/recipes/1.webp" alt="recipes"/>
-      </Item>
-      <Stack>
-        <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
-        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
-        <i className="fa fa-circle" /> 1 oz. lemon juice<br></br>
-        <i className="fa fa-circle" /> ¾ oz. crème de mûre<br></br>
-        <i className="fa fa-circle" /> ½ oz. simple syrup<br></br>
-        <i className="fa fa-circle" /> Garnish: Lemon wheel, blackberry
-        </p><br></br>
-        </Stack>
-      
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-           
-        <Typography fontSize="25px">Read More</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography fontSize="20px">
-          Combine the gin, lemon juice, and simple syrup with ice into a shaker and shake until chilled. Strain into a glass filled with crushed or pebble ice, then add the crème de mûre. Garnish with a lemon wheel and a blackberry.
-
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      </Stack>
-    
-      </Stack>
-
-      <p style={{margin: "100px"}}></p>
-
-
-      <Stack
-      direction="row"
-      spacing={2}
-      >
-      <Item>
-      <img src="assets/img/recipes/1.webp" alt="recipes"/>
-      </Item>
-      <Stack>
-        <Stack>
-        <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
-        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
-        <i className="fa fa-circle" /> 1 oz. lemon juice<br></br>
-        <i className="fa fa-circle" /> ¾ oz. crème de mûre<br></br>
-        <i className="fa fa-circle" /> ½ oz. simple syrup<br></br>
-        <i className="fa fa-circle" /> Garnish: Lemon wheel, blackberry
-        </p><br></br>
-        </Stack>
-      
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-           
-        <Typography fontSize="25px">Read More</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography fontSize="20px">
-          Combine the gin, lemon juice, and simple syrup with ice into a shaker and shake until chilled. Strain into a glass filled with crushed or pebble ice, then add the crème de mûre. Garnish with a lemon wheel and a blackberry.
-
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      </Stack>
-    
-      </Stack>
-
-      <p style={{margin: "100px"}}></p>
-
-
-      <Stack
-      direction="row"
-      spacing={2}
+      spacing={5}
       >
       <Item>
       <img src="assets/img/recipes/8.webp" alt="recipes"/>
       </Item>
-      <Stack>
+      <Stack style={{width:"40%"}}>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 1 oz. gin<br></br>
