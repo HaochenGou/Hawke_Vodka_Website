@@ -11,7 +11,6 @@ import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 const Buy = ({ location }) => {
   const { pathname } = location;
-  var htmlContent = require('quickbuy.html');
 
   return (
     <Fragment>
@@ -30,7 +29,6 @@ const Buy = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        <div dangerouslySetInnerHTML={ {__html: htmlContent} } />
         
        
         {/* brand logo slider */}
