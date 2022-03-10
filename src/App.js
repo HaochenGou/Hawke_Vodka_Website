@@ -93,6 +93,7 @@ const App = props => {
 
               <Route
                 path={process.env.PUBLIC_URL + "/wholesale"}
+               
                 component={Wholesale}
               />
 
