@@ -12,25 +12,18 @@ import ShopifyBuy from "shopify-buy";
 
 const Buy = ({ location }) => {
   const { pathname } = location;
-  var client = ShopifyBuy.buildClient({
+  const client = ShopifyBuy.buildClient({
     domain: 'baby-x-vodka.myshopify.com',
     apiKey: '97b7d775564daddb58a8aca065adcf83',
   });
   
-  var ui = ShopifyBuy.UI.init(client);
+  const ui = ShopifyBuy.UI.init(client);
   
-  var productNodes = document.querySelectorAll('[data-shopify-product]');
-  
-  Array.prototype.forEach.call(productNodes, function(node) {
-    var productId = node.dataset.shopifyProduct;
-    
-  
+
   ui.createComponent('collection', {
-    id: 283202879639,
-    
+    id: 283202879639, 
   });
   
- 
   return (
     <Fragment>
       <MetaTags>
