@@ -5,24 +5,19 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
-import ShopifyBuy from "shopify-buy";
+import Client from "shopify-buy";
 
 
 
 
 const Buy = ({ location }) => {
   const { pathname } = location;
-  const client = ShopifyBuy.buildClient({
+  const client = Client.buildClient({
     domain: 'baby-x-vodka.myshopify.com',
     apiKey: '97b7d775564daddb58a8aca065adcf83',
   });
+   
   
-  const ui = ShopifyBuy.UI.init(client);
-  
-
-  ui.createComponent('collection', {
-    id: 283202879639, 
-  });
   
   return (
     <Fragment>
@@ -41,7 +36,6 @@ const Buy = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        
         
        
         {/* brand logo slider */}
