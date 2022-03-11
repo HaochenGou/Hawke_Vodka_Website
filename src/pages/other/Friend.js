@@ -42,13 +42,12 @@ const Friend = ({ location }) => {
         {/* breadcrumb */}
         <Breadcrumb />
         <p style={{margin: "100px"}}></p>
-
+        <Stack spacing={15}>
         <Stack direction="row" spacing={15}>
         <p style={{margin: "100px"}}></p>
           <Item>
           <div class="canvas-wrapper">
-            <a href="http://www.crossroadsliquorstore.com/" class="canvas" rel="noopener noreferrer"
-              target="_blank">
+            <a href="http://www.crossroadsliquorstore.com/" class="canvas" rel="noopener noreferrer" target="_blank">
               <div class="canvas_border">
                 <svg>
                   <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
@@ -67,7 +66,7 @@ const Friend = ({ location }) => {
           </Item>
           <Item>
           <div class="canvas-wrapper">
-            <a href="http://www.crossroadsliquorstore.com/" class="canvas">
+            <a href="https://littleguyliquorstore.com/" class="canvas" rel="noopener noreferrer" target="_blank">
               <div class="canvas_border">
                 <svg>
                   <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
@@ -78,17 +77,16 @@ const Friend = ({ location }) => {
                 <img class="canvas_img" src="assets/img/logo/2.webp" alt="logo"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
-                <span class="canvas_copy_subtitle">Heading</span>
-                <strong class="canvas_copy_title">Hello</strong>
-                <strong class="canvas_copy_title">World</strong>
-                <span class="canvas_copy_details">Details and stuff</span>
+                <strong class="canvas_copy_title">Little</strong>
+                <strong class="canvas_copy_title">Guy</strong>
+                <span class="canvas_copy_details">WE LOVE CRAFT BEER</span>
               </div>
             </a>
           </div>
           </Item>
           <Item>
           <div class="canvas-wrapper">
-            <a href="http://www.crossroadsliquorstore.com/" class="canvas">
+            <a href="https://www.everythingwineandmore.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
               <div class="canvas_border">
                 <svg>
                   <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
@@ -99,15 +97,78 @@ const Friend = ({ location }) => {
                 <img class="canvas_img" src="assets/img/logo/3.svg" alt="logo"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
-                <span class="canvas_copy_subtitle">Heading</span>
-                <strong class="canvas_copy_title">Hello</strong>
-                <strong class="canvas_copy_title">World</strong>
-                <span class="canvas_copy_details">Details and stuff</span>
+                <strong class="canvas_copy_title">everything</strong>
+                <strong class="canvas_copy_title">WINE</strong>
+                <span class="canvas_copy_details">AND MORE</span>
               </div>
             </a>
           </div>
           </Item>
-          </Stack>
+        </Stack>
+        <Stack direction="row" spacing={15}>
+        <p style={{margin: "100px"}}></p>
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="http://www.crossroadsliquorstore.com/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/1.webp" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+                <strong class="canvas_copy_title">CROSSROADS</strong>
+                <span class="canvas_copy_details">LIQUOR</span>
+              </div>
+            </a>
+          </div>
+          </Item>
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="https://littleguyliquorstore.com/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/2.webp" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+                <strong class="canvas_copy_title">Little</strong>
+                <strong class="canvas_copy_title">Guy</strong>
+                <span class="canvas_copy_details">WE LOVE CRAFT BEER</span>
+              </div>
+            </a>
+          </div>
+          </Item>
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="https://www.everythingwineandmore.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/3.svg" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+                <strong class="canvas_copy_title">everything</strong>
+                <strong class="canvas_copy_title">WINE</strong>
+                <span class="canvas_copy_details">AND MORE</span>
+              </div>
+            </a>
+          </div>
+          </Item>
+        </Stack>
+
+        </Stack>
        
         {/* brand logo slider */}
         <p style={{margin: "100px"}}></p>
