@@ -20,9 +20,9 @@ const Buy = ({location}) => {
   // ui.createComponent('collection', {
   //   id: '283202879639',
   //   node: document.getElementById('collection-component-1646953377427'),});
-  componentDidMount() {
-    const script = document.createElement("script");    script.async = true;    script.src = "https://some-scripturl.js";    this.div.appendChild(script);  }
-  render() {
+  // componentDidMount() {
+  //   const script = document.createElement("script");    script.async = true;    script.src = "https://some-scripturl.js";    this.div.appendChild(script);  }
+  // render() {
 
   
 
