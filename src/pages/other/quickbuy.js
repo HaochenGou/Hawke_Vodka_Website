@@ -6,8 +6,10 @@ import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
+var htmlContent = require('buy.html');
 const Buy = ({location}) => {
   const { pathname } = location;
+  
 
   
  
@@ -27,6 +29,7 @@ const Buy = ({location}) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
+        <div dangerouslySetInnerHTML={ {__html: htmlContent} } />
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-70" />
       </LayoutOne>
