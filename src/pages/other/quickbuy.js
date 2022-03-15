@@ -8,7 +8,8 @@ import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 const Buy = ({location}) => {
   const { pathname } = location;
-  const script = document.getElementById("collection-component-1647372717930")
+
+  
  
   return (
     <Fragment>
@@ -23,7 +24,6 @@ const Buy = ({location}) => {
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         Buy
       </BreadcrumbsItem>
-      <div id='collection-component-1647372717931'></div>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
