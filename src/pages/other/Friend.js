@@ -9,6 +9,7 @@ import "./Friend.css";
 import { Stack } from "@mui/material";
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
+import LocationMap from "../../components/contact/LocationMap";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -152,6 +153,13 @@ const Friend = ({ location }) => {
        
         {/* brand logo slider */}
         <p style={{margin: "100px"}}></p>
+        <div className="contact-area pt-100 pb-100">
+          <div className="container">
+            <div className="contact-map mb-10">
+                  <LocationMap latitude="53.540202" longitude="-113.320967"/>
+            </div>
+          </div>
+        </div>
         <BrandLogoSliderOne spaceBottomClass="pb-70" />
       </LayoutOne>
     </Fragment>

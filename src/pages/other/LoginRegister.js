@@ -7,9 +7,13 @@ import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+import firebaseui from 'firebaseui';
 
 const LoginRegister = ({ location }) => {
   const { pathname } = location;
+ 
 
   return (
     <Fragment>
