@@ -9,10 +9,25 @@ import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
-import firebaseui from 'firebaseui';
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAUuLcZ3DGderbhff7YXom3nm9TFLMY1bY",
+  authDomain: "hawke-prohibition.firebaseapp.com",
+  projectId: "hawke-prohibition",
+  storageBucket: "hawke-prohibition.appspot.com",
+  messagingSenderId: "887683857141",
+  appId: "1:887683857141:web:1f1eb74c06aa452fd4e3bc",
+  measurementId: "G-8JK1YY7HBS"
+};
 
 const LoginRegister = ({ location }) => {
   const { pathname } = location;
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth();
+  const db = getFirestore(app);
+
  
 
   return (
