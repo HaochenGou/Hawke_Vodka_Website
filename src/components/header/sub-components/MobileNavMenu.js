@@ -31,7 +31,6 @@ const MobileNavMenu = ({ strings }) => {
                   </li>
                 </ul>
               </li>
-
             </ul>
           </li>
           <li>
@@ -49,6 +48,21 @@ const MobileNavMenu = ({ strings }) => {
               {strings["recipes"]}
             </Link>
           </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/buy"}>
+                      {strings["wholesale"]}
+            </Link>
+          </li>
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/silk"}>
+                        {strings["silk"]}
+            </Link>
+            </li>
+            <li>
+            <Link to={process.env.PUBLIC_URL + "/web"}>
+                      {strings["web"]}
+            </Link>
+            </li>
         </ul>
     </nav>
   );

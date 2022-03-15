@@ -71,7 +71,7 @@ export default function SimpleAccordion() {
       <Stack style={{width:'40%'}}>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>GIN & TONIC Ingredients</b><br></br>
-        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 25 ml Hope on William’s London Dry Gin<br></br>
+        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 25 ml William’s London Dry Gin<br></br>
         <i className="fa fa-circle" /> 75 ml ml Tonic Watere<br></br>
         <i className="fa fa-circle" /> lemon and a sprig of rosemary<br></br>
         </p><br></br>
@@ -271,7 +271,7 @@ export default function SimpleAccordion() {
       <Stack style={{width:"40%"}}>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>TOM COLLINS Ingredients</b><br></br>
-        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 50 ml Hope On Hopkins London Dry Gin<br></br>
+        <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 50 ml William’s London Dry Gin<br></br>
         <i className="fa fa-circle" /> 25 ml lemon juice<br></br>
         <i className="fa fa-circle" /> 15 ml sugar syrup<br></br>
         <i className="fa fa-circle" /> Soda water<br></br>
