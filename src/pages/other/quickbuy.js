@@ -8,6 +8,7 @@ import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 const Buy = ({location}) => {
   const { pathname } = location;
+  const script = document.getElementById("collection-component-1647372717930")
  
   return (
     <Fragment>
