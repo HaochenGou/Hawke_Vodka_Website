@@ -12,6 +12,7 @@ import { WebView } from 'react-native-webview';
 
 const LoginRegister = ({ location }) => {
   const { pathname } = location;
+ 
 
  
 
@@ -30,13 +31,9 @@ const LoginRegister = ({ location }) => {
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
+
         <Breadcrumb />
-        <WebView
-        source={{
-          uri: 'https://github.com/facebook/react-native'
-        }}
-        style={{ marginTop: 20 }}
-      />
+        <WebView source={{ uri: 'https://reactnative.dev/' }} />
         <div className="login-register-area pt-100 pb-100">
           <div className="container">
             <div className="row">
