@@ -8,6 +8,7 @@ import Nav from "react-bootstrap/Nav";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import {WebView} from 'react-native-webview';
+import { View } from 'react-native';
 
 
 
@@ -31,7 +32,9 @@ const LoginRegister = ({ location }) => {
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
-        <WebView source={{uri: 'https://baby-x-vodka.myshopify.com/account/'}} />
+        <View style={{ flex: 1, alignItems: 'flex-end' }}>
+        <WebView source={{uri: 'https://baby-x-vodka.myshopify.com/account/'}} style={{ marginTop: 20 }}/>
+        </View>
 
         <Breadcrumb />
 
