@@ -5,14 +5,10 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
-import { Helmet } from "react-helmet" 
+
 
 const Buy = ({location}) => {
   const { pathname } = location;
-  
-
-  
- 
   return (
     <Fragment>
       <MetaTags>
