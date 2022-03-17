@@ -49,9 +49,9 @@ const MobileNavMenu = ({ strings }) => {
             </Link>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/buy"}>
+            <a href="https://baby-x-vodka.myshopify.com/account/login" rel="noopener noreferrer" target="_blank">
                       {strings["wholesale"]}
-            </Link>
+            </a>
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/silk"}>
