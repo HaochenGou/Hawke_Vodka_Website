@@ -48,17 +48,17 @@ const IconGroup = ({
         <div className="account-dropdown">
           <ul>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/login-register"}>Login</Link>
+            <a href="https://baby-x-vodka.myshopify.com/account/login" rel="noopener noreferrer" target="_blank">Login</a>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/login-register"}>
+              <a href="https://baby-x-vodka.myshopify.com/account/register" rel="noopener noreferrer" target="_blank">
                 Register
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/my-account"}>
+            <a href="https://baby-x-vodka.myshopify.com/account" rel="noopener noreferrer" target="_blank">
                 my account
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

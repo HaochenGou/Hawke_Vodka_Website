@@ -49,16 +49,9 @@ const NavMenu = ({ strings }) => {
               <li>
                 <ul>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/wholesale"}>
+                  <a href="https://baby-x-vodka.myshopify.com/account/login" rel="noopener noreferrer" target="_blank">
                       {strings["wholesale"]}
-                    </Link>
-                  </li>
-                  </ul>
-                  <ul>
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "/buy"}>
-                      {strings["wholesale"]}
-                    </Link>
+                  </a>
                   </li>
                   </ul>
                   </li>

@@ -9,6 +9,8 @@ import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 const Buy = ({location}) => {
   const { pathname } = location;
+  let buylink = 'https://baby-x-vodka.myshopify.com/cart/';
+  let buyurl = '?channel=buy_button';
   return (
     <Fragment>
       <MetaTags>
@@ -25,6 +27,13 @@ const Buy = ({location}) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
+        <div className="cart-main-area pt-90 pb-100">
+          <div className="container">
+            
+          buylink += cartItem.id+':'+cartItem.quantity +','
+        <a href={buylink+buyurl} target = "_blank" rel="noopener noreferrer">Proceed to Checkout</a>
+        </div>
+      </div>
         
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-70" />
