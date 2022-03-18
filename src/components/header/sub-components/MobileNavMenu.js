@@ -12,27 +12,23 @@ const MobileNavMenu = ({ strings }) => {
               {strings["home"]} 
             </Link>
           </li>
-          <li>
+          <li  className="menu-item-has-children"> 
             <Link to={process.env.PUBLIC_URL + "/shop"}>
               {strings["shop"]}
             </Link>
-            <ul>
-              <li>
-                <ul>
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "/cart"}>
-                      {strings["cart"]}
-                    </Link>
-                  </li>
-                  <li>
-                  <Link to={process.env.PUBLIC_URL + "/wishlist"}>
+            <ul className="sub-menu">
+            <li>
+                <Link to={process.env.PUBLIC_URL + "/cart"}>
+                      {strings["cart"]}</Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/wishlist"}>
                     {strings["wishlist"]}
-                  </Link>
-                  </li>
-                </ul>
+              </Link>
               </li>
             </ul>
           </li>
+
           <li>
                 <Link to={process.env.PUBLIC_URL + "/about"}>
                   {strings["about_us"]}
@@ -53,6 +49,10 @@ const MobileNavMenu = ({ strings }) => {
                       {strings["wholesale"]}
             </a>
           </li>
+          <ul>
+        <li className="menu-item-has-children">
+          <Link to={process.env.PUBLIC_URL + "/tech"}>{strings["tech"]}</Link>
+          <ul className="sub-menu">
           <li>
             <Link to={process.env.PUBLIC_URL + "/silk"}>
                         {strings["silk"]}
@@ -63,6 +63,9 @@ const MobileNavMenu = ({ strings }) => {
                       {strings["web"]}
             </Link>
             </li>
+            </ul>
+            </li>
+        </ul>
         </ul>
     </nav>
   );
