@@ -35,6 +35,11 @@ const MobileNavMenu = ({ strings }) => {
                 </Link>
           </li>
           <li>
+            <Link to={process.env.PUBLIC_URL + "/friend"}>
+              {strings["friend"]}
+            </Link>
+          </li>
+          <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {strings["contact_us"]}
             </Link>
