@@ -46,7 +46,7 @@ const Friend = ({ location }) => {
         <p style={{margin: "100px"}}></p>
         <Stack spacing={15}>
         <Stack direction="row" spacing={15}>
-        <p style={{margin: "100px"}}></p>
+        <p className="boxstyle"></p>
           <Item>
           <div class="canvas-wrapper">
             <a href="http://www.crossroadsliquorstore.com/" class="canvas" rel="noopener noreferrer" target="_blank">
@@ -108,7 +108,7 @@ const Friend = ({ location }) => {
           </Item>
         </Stack>
         <Stack direction="row" spacing={15}>
-        <p style={{margin: "100px"}}></p>
+        <p className="boxstyle"></p>
           <Item>
           <div class="canvas-wrapper">
             <a href="https://sherwoodparkmall.com/stores/sherwood-sherwood-park-safeway-liquor" class="canvas" rel="noopener noreferrer" target="_blank">
