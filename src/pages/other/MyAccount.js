@@ -25,6 +25,7 @@ const MyAccount = ({ location }) => {
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
+      
         <Breadcrumb />
         <div className="myaccount-area pb-80 pt-100">
           <div className="container">
