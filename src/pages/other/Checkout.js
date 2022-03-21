@@ -14,6 +14,7 @@ const Checkout = ({ location, cartItems, currency }) => {
 
   return (
     <Fragment>
+      
       <MetaTags>
         <title>Hawke Vodka | Checkout</title>
         <meta
