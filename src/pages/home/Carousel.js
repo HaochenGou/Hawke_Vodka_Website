@@ -31,15 +31,11 @@ export default class Example extends Component {
 	  },
 	  {
 		key: uuidv4(),
-		content: <a href={process.env.PUBLIC_URL +"/product/" +37852889809047}><img width="380" height="400"src='/assets/img/Product1.webp' alt="4"/></a>
+		content: <a href={process.env.PUBLIC_URL +"/product/" +41873399251095}><img width="380" height="400"src='/assets/img/Product4.webp' alt="4"/></a>
 	  },
 	  {
 		key: uuidv4(),
-		content: <a href={process.env.PUBLIC_URL +"/product/" + 41435485995159}><img width="380" height="400" src='/assets/img/Product2.webp' alt="5"/></a>
-	  },
-	  {
-		key: uuidv4(),
-		content: <a href={process.env.PUBLIC_URL +"/product/" + 41435507064983}><img width="380" height="400" src='/assets/img/Product3.webp' alt="6"/></a>
+		content:  <a href={process.env.PUBLIC_URL +"/product/" + 41435507064983}><img width="380" height="400" src='/assets/img/Product3.webp' alt="3"/></a>
 	  },
 	 
 	].map((slide, index) => {
