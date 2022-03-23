@@ -19,7 +19,10 @@ export default function SimpleAccordion() {
   }));
 
   return (
-    <div>
+    <Stack
+    direction="column"
+    spacing={15}
+    >
       <Stack
       direction="row"
       spacing={5}
@@ -58,7 +61,7 @@ export default function SimpleAccordion() {
     
       </Stack>
 
-      <p style={{margin: "100px"}}></p>
+      
 
 
       <Stack
@@ -98,7 +101,7 @@ export default function SimpleAccordion() {
     
       </Stack>
 
-      <p style={{margin: "100px"}}></p>
+      
 
       <Stack
       direction="row"
@@ -140,7 +143,7 @@ export default function SimpleAccordion() {
     
       </Stack>
 
-      <p style={{margin: "100px"}}></p>
+     
 
 
       <Stack
@@ -178,7 +181,7 @@ export default function SimpleAccordion() {
     
       </Stack>
 
-      <p style={{margin: "100px"}}></p>
+      
 
 
       <Stack
@@ -217,7 +220,7 @@ export default function SimpleAccordion() {
     
       </Stack>
 
-      <p style={{margin: "100px"}}></p>
+      
 
 
       <Stack
@@ -258,7 +261,7 @@ export default function SimpleAccordion() {
     
       </Stack>
 
-      <p style={{margin: "100px"}}></p>
+      
 
 
       <Stack
@@ -301,7 +304,7 @@ export default function SimpleAccordion() {
     
       </Stack>
 
-      <p style={{margin: "100px"}}></p>
+      
 
 
       <Stack
@@ -341,8 +344,7 @@ export default function SimpleAccordion() {
     
       </Stack>
 
-      <p style={{margin: "100px"}}></p>
      
-    </div>
+    </Stack>
   );
 }

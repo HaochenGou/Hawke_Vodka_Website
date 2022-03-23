@@ -35,6 +35,7 @@ const Recipes = ({ location }) => {
             <SimpleAccordion/>
           </div>
         </div>
+        <p style={{margin: "100px"}}></p>
 
 
       </LayoutOne>
