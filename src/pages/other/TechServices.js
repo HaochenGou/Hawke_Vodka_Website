@@ -13,7 +13,7 @@ const Tech = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Tech Services </title>
+        <title>Hawke Prohibition Distilleries | Tech Services </title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."

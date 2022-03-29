@@ -16,7 +16,7 @@ const Checkout = ({ location, cartItems, currency }) => {
     <Fragment>
       
       <MetaTags>
-        <title>Hawke Vodka | Checkout</title>
+        <title>Hawke Prohibition Distilleries | Checkout</title>
         <meta
           name="description"
           content="Checkout page of Hawke Prohibition Distilleries."

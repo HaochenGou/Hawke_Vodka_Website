@@ -16,7 +16,7 @@ const Wholesale = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Shop Sign </title>
+        <title>Hawke Prohibition Distilleries | Shop Sign </title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."

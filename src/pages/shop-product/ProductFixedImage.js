@@ -14,7 +14,7 @@ const ProductFixedImage = ({ location, product }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Product Page</title>
+        <title>Hawke Prohibition Distilleries | Product Page</title>
         <meta
           name="description"
           content="Product page of Hawke Prohibition Distilleries."

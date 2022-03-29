@@ -48,10 +48,10 @@ const ShopListStandard = ({ location, products }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Shop Page</title>
+        <title>Hawke Prohibition Distilleries | Shop Page</title>
         <meta
           name="description"
-          content="Shop page of Hawke Vodka."
+          content="Shop page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
 

@@ -29,7 +29,7 @@ const Friend = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Friend </title>
+        <title>Hawke Prohibition Distilleries | Friend </title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."

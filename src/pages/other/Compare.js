@@ -26,7 +26,7 @@ const Compare = ({
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Compare</title>
+        <title>Hawke Prohibition Distilleries | Compare</title>
         <meta
           name="description"
           content="Compare page of Hawke Prohibition Distilleries."

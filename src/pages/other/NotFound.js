@@ -12,7 +12,7 @@ const NotFound = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Not Found</title>
+        <title>Hawke Prohibition Distilleries | Not Found</title>
         <meta
           name="description"
           content="404 page of Hawke Prohibition Distilleries."

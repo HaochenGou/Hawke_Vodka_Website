@@ -30,7 +30,7 @@ const Wishlist = ({
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Wishlist</title>
+        <title>Hawke Prohibition Distilleries | Wishlist</title>
         <meta
           name="description"
           content="Wishlist page of Hawke Prohibition Distilleries."

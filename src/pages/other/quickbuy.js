@@ -14,7 +14,7 @@ const Buy = ({location}) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | WholeSale buy </title>
+        <title>Hawke Prohibition Distilleries | WholeSale buy </title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."

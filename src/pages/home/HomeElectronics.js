@@ -25,10 +25,10 @@ const HomeElectronics = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Home</title>
+        <title>Hawke Prohibition Distilleries | Home</title>
         <meta
           name="description"
-          content="home page."
+          content="home page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
       <LayoutTwo>

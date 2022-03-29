@@ -13,7 +13,7 @@ const MyAccount = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | My Account</title>
+        <title>Hawke Prohibition Distilleries | My Account</title>
         <meta
           name="description"
           content="Compare page of Hawke Prohibition Distilleries."

@@ -13,7 +13,7 @@ const Web = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Web Services </title>
+        <title>Hawke Prohibition Distilleries | Web Services </title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."

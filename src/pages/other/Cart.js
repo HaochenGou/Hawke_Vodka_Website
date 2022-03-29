@@ -42,7 +42,7 @@ const Cart = ({
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Cart</title>
+        <title>Hawke Prohibition Distilleries | Cart</title>
         <meta
           name="description"
           content="Cart page of Hawke Prohibition Distilleries."

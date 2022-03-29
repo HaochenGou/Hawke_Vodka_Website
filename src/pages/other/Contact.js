@@ -12,7 +12,7 @@ const Contact = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Contact</title>
+        <title>Hawke Prohibition Distilleries | Contact</title>
         <meta
           name="description"
           content="Contact of flone Hawke Prohibition Distilleries."

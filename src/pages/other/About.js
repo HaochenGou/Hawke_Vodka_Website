@@ -16,7 +16,7 @@ const About = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | About us</title>
+        <title>Hawke Prohibition Distilleries | About us</title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."

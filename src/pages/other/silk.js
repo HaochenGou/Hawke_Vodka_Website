@@ -12,7 +12,7 @@ const Silk = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Vodka | Silk Screening </title>
+        <title>Hawke Prohibition Distilleries | Silk Screening </title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."
