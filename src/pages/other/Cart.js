@@ -45,7 +45,7 @@ const Cart = ({
         <title>Hawke Vodka | Cart</title>
         <meta
           name="description"
-          content="Cart page of flone Hawke Prohibition Distilleries."
+          content="Cart page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
 

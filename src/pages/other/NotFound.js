@@ -15,7 +15,7 @@ const NotFound = ({ location }) => {
         <title>Hawke Vodka | Not Found</title>
         <meta
           name="description"
-          content="404 page of flone Hawke Prohibition Distilleries."
+          content="404 page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>

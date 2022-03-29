@@ -14,10 +14,10 @@ const LoginRegister = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Login</title>
+        <title>Hawke Prohibition Distilleries | Login</title>
         <meta
           name="description"
-          content="Compare page of flone react minimalist eCommerce template."
+          content="Compare page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>

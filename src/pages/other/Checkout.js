@@ -19,7 +19,7 @@ const Checkout = ({ location, cartItems, currency }) => {
         <title>Hawke Vodka | Checkout</title>
         <meta
           name="description"
-          content="Checkout page of flone Hawke Prohibition Distilleries."
+          content="Checkout page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>

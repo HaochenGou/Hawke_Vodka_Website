@@ -1,3 +1,5 @@
+import { DirectionsSharp, LocationOnSharp } from "@material-ui/icons";
+import { GoogleApiWrapper } from "google-maps-react";
 
 
 /** Hide a DOM element. */
@@ -439,7 +441,6 @@ function initializeDetails(locator) {
             const url = new URL(place.website);
             place.websiteDomain = url.hostname;
           }
-
           context.place = place;
           renderDetails(context);
         }

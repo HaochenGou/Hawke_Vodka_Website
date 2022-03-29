@@ -33,7 +33,7 @@ const Wishlist = ({
         <title>Hawke Vodka | Wishlist</title>
         <meta
           name="description"
-          content="Wishlist page of flone Hawke Prohibition Distilleries."
+          content="Wishlist page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
 
