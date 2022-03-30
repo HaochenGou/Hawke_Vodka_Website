@@ -84,7 +84,7 @@ const FooterOne = ({
               <div className="footer-list">
                 <ul>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>Track Your Order</Link>
+                  <a href="https://baby-x-vodka.myshopify.com/account/login" rel="noopener noreferrer" target="_blank">Track Your Order</a>
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "#/"}>
