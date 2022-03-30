@@ -35,7 +35,7 @@ export default class Example extends Component {
 	  },
 	  {
 		key: uuidv4(),
-		content:  <a href={process.env.PUBLIC_URL +"/product/" + 41435507064983}><img width="380" height="400" src='/assets/img/Product3.webp' alt="3"/></a>
+		content:  <a href={process.env.PUBLIC_URL +"/product/" + 41907321995415}><img width="380" height="400" src='/assets/img/Product5.webp' alt="5"/></a>
 	  },
 	 
 	].map((slide, index) => {
