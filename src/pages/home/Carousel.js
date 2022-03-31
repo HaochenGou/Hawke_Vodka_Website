@@ -2,8 +2,8 @@ import React,{Component} from 'react';
 import Carousel from "react-spring-3d-carousel";
 import  { v4 as uuidv4 } from "uuid";
 import { config } from "react-spring";
-import './Carousel.css';
-
+import { Link } from "react-router-dom";
+import "./button.css";
 
 
 
@@ -52,12 +52,27 @@ export default class Example extends Component {
 	  return (
 		<div style={{ width: "100%", height: "500px",backgroundImage: `url('/assets/img/test.jpg')`}}>
 		<div style={{ width: "40%", height: "500px", margin: "0 auto", backgroundImage: `url('/assets/img/test.jpg')`}}>
-		<div class="startContainer">
-				<form action="/shop">
-
-  				<button class="button pulseBox button3">BUY</button>
-				</form>
-			</div>
+		<div className="container">
+        <div className="row">
+		<div className="bnt">
+		<div className="single-testimonial text-center">
+		<div className="col-lg-6 col-md-6 col-12 col-sm-6">
+        <div className="slider-content-7 slider-animated-1">
+		<div className="slider-btn-9 btn-hover">
+            <Link
+                  className="animated"
+                  to={process.env.PUBLIC_URL + "/shop"}
+                >
+                  BUY
+            </Link>
+        </div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		
 			<Carousel
 				slides={this.slides}
 				goToSlide={this.state.goToSlide}
