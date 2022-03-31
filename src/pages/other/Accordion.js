@@ -10,6 +10,7 @@ import Paper from '@mui/material/Paper';
 
 
 export default function SimpleAccordion() {
+  
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
     ...theme.typography.body2,
@@ -24,13 +25,13 @@ export default function SimpleAccordion() {
     spacing={15}
     >
       <Stack
-      direction="row"
-      spacing={5}
+       direction={{ xs: 'column', sm: 'row' }}
+       spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
       <img src="assets/img/recipes/1.webp" alt="recipes"/>
       </Item>
-      <Stack style={{width:'40%'}}>
+      <Stack >
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>BRAMBLE Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
@@ -65,13 +66,13 @@ export default function SimpleAccordion() {
 
 
       <Stack
-      direction="row"
-      spacing={5}
+      direction={{ xs: 'column', sm: 'row' }}
+      spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
       <img src="assets/img/recipes/2.webp" alt="recipes"/>
       </Item>
-      <Stack style={{width:'40%'}}>
+      <Stack>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>GIN & TONIC Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 25 ml William’s London Dry Gin<br></br>
@@ -104,13 +105,13 @@ export default function SimpleAccordion() {
       
 
       <Stack
-      direction="row"
-      spacing={5}
+      direction={{ xs: 'column', sm: 'row' }}
+      spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
       <img src="assets/img/recipes/3.webp" alt="recipes"/>
       </Item>
-      <Stack style={{width:'40%'}}>
+      <Stack>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>GIN FIZZ Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
@@ -147,8 +148,8 @@ export default function SimpleAccordion() {
 
 
       <Stack
-      direction="row"
-      spacing={5}
+      direction={{ xs: 'column', sm: 'row' }}
+      spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
       <img src="assets/img/recipes/4.webp" alt="recipes"/>
@@ -185,8 +186,8 @@ export default function SimpleAccordion() {
 
 
       <Stack
-      direction="row"
-      spacing={5}
+      direction={{ xs: 'column', sm: 'row' }}
+      spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
       <img src="assets/img/recipes/5.webp" alt="recipes"/>
@@ -224,8 +225,8 @@ export default function SimpleAccordion() {
 
 
       <Stack
-      direction="row"
-      spacing={5}
+      direction={{ xs: 'column', sm: 'row' }}
+      spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
       <img src="assets/img/recipes/6.webp" alt="recipes"/>
@@ -265,8 +266,8 @@ export default function SimpleAccordion() {
 
 
       <Stack
-      direction="row"
-      spacing={5}
+      direction={{ xs: 'column', sm: 'row' }}
+      spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
       <img src="assets/img/recipes/7.webp" alt="recipes"/>
@@ -308,8 +309,8 @@ export default function SimpleAccordion() {
 
 
       <Stack
-      direction="row"
-      spacing={5}
+      direction={{ xs: 'column', sm: 'row' }}
+      spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
       <img src="assets/img/recipes/8.webp" alt="recipes"/>
