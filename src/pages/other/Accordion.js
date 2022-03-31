@@ -154,7 +154,7 @@ export default function SimpleAccordion() {
       <Item>
       <img src="assets/img/recipes/4.webp" alt="recipes"/>
       </Item>
-      <Stack style={{width:'40%'}}>
+      <Stack>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>GIN MARTINI Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
@@ -192,7 +192,7 @@ export default function SimpleAccordion() {
       <Item>
       <img src="assets/img/recipes/5.webp" alt="recipes"/>
       </Item>
-      <Stack style={{width:'40%'}}>
+      <Stack>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>NEGRONI Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 1 oz. gin<br></br>
@@ -231,7 +231,7 @@ export default function SimpleAccordion() {
       <Item>
       <img src="assets/img/recipes/6.webp" alt="recipes"/>
       </Item>
-      <Stack style={{width:"40%"}}>
+      <Stack>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>PURPLE SUMMER KISS Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 2 oz. gin<br></br>
@@ -272,7 +272,7 @@ export default function SimpleAccordion() {
       <Item>
       <img src="assets/img/recipes/7.webp" alt="recipes"/>
       </Item>
-      <Stack style={{width:"40%"}}>
+      <Stack>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>TOM COLLINS Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 50 ml William’s London Dry Gin<br></br>
@@ -315,7 +315,7 @@ export default function SimpleAccordion() {
       <Item>
       <img src="assets/img/recipes/8.webp" alt="recipes"/>
       </Item>
-      <Stack style={{width:"40%"}}>
+      <Stack>
         <Stack>
         <b style={{ color: "#3498db", fontSize: "30px" }}>WINKLE 75 Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 1 oz. gin<br></br>
