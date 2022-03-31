@@ -1,7 +1,7 @@
 {
   "short_name": "Hawke Vodka",
   "name": "Hawke Prohibition Distilleries",
-  "start_url": ".",
+  "start_url": "/?source=pwa",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
@@ -11,12 +11,11 @@
       "sizes": "196x196",
       "type": "image/ico",
       "purpose": "any maskable"
-    }
+    },
     {
       "src": "favicon.ico",
       "sizes": "512x512",
-      "type": "image/ico",
-      "purpose": "any maskable"
+      "type": "image/ico"
     }
   ]
 }
