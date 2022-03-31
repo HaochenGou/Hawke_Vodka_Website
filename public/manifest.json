@@ -12,5 +12,11 @@
       "type": "image/ico",
       "purpose": "any maskable"
     }
+    {
+      "src": "favicon.ico",
+      "sizes": "512x512",
+      "type": "image/ico",
+      "purpose": "any maskable"
+    }
   ]
 }
