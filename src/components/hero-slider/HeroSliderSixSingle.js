@@ -7,7 +7,7 @@ const HeroSliderSixSingle = ({ data, sliderClassName }) => {
     <div
       className={`single-slider single-slider-10 slider-height-8 bg-aqua ${
         sliderClassName ? sliderClassName : ""
-      }`} style={{backgroundImage: "url('/assets/img/slider/slider.webp')",backgroundrepeat: "no-repeat", backgroundsize: "100% 100%",alt:"background"}}
+      }`} style={{backgroundImage: "url('/assets/img/slider/slider-4.jpg')",backgroundrepeat: "no-repeat", backgroundsize: "100% 100%",alt:"background"}}
     >
       <div className="container">
         <div className="row" >
