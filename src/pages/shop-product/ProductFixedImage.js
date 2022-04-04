@@ -7,7 +7,7 @@ import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
 import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
-import HeroSliderTwo from "../../wrappers/hero-slider/HeroSliderTwo";
+import HeroSliderSix from "../../wrappers/hero-slider/HeroSliderSix";
 
 const ProductFixedImage = ({ location, product }) => {
   const { pathname } = location;
@@ -31,8 +31,8 @@ const ProductFixedImage = ({ location, product }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
+        {product.id=="41907321995415" &&(<HeroSliderSix/>)}
         
-        <HeroSliderTwo/>
 
         {/* product description with image */}
         <ProductImageDescription

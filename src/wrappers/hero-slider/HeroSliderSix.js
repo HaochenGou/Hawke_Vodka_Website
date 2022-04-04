@@ -1,6 +1,6 @@
 import React from "react";
 import Swiper from "react-id-swiper";
-import heroSliderData from "../../data/hero-sliders/hero-slider-two.json";
+import heroSliderData from "../../data/hero-sliders/hero-slider-six.json";
 import HeroSliderSixSingle from "../../components/hero-slider/HeroSliderSixSingle.js";
 
 const HeroSliderSix = () => {
