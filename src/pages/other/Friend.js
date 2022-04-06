@@ -44,6 +44,7 @@ const Friend = ({ location }) => {
         {/* breadcrumb */}
         <Breadcrumb />
         <p style={{margin: "100px"}}></p>
+        
         <Stack direction={{ xs: 'row', sm: 'column'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="boxstyle"></p>
