@@ -7,7 +7,13 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 import { Stack } from "@mui/material";
 import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card'
 import Paper from '@mui/material/Paper';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -16,6 +22,77 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
+
+const bull = (
+  <Box
+    component="span"
+    sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+  >
+  </Box>
+);
+const card1 = (
+  <React.Fragment>
+    <CardContent>
+      <Typography variant="h5" component="div">
+      Android App Development
+      </Typography>
+      <br></br>
+      <Typography variant="body2">
+        Develop application on Android device 
+      </Typography>
+    </CardContent>
+    <CardActions>
+      <Button size="small" href="https://en.wikipedia.org/wiki/Java_(programming_language)" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    </CardActions>
+  </React.Fragment>
+);
+const card2 = (
+  <React.Fragment>
+    <CardContent>
+      <Typography variant="h5" component="div">
+      iOS App Development 
+      </Typography>
+      <br></br>
+      <Typography variant="body2">
+        Develop, host, optimize high-preformance crossplatform application 
+      </Typography>
+    </CardContent>
+    <CardActions>
+      <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    </CardActions>
+  </React.Fragment>
+);
+const card4 = (
+  <React.Fragment>
+    <CardContent>
+      <Typography variant="h5" component="div">
+      PWS App Development
+      </Typography>
+      <br></br>
+      <Typography variant="body2">
+        Develop, host, optimize high-preformance cross-platform application 
+      </Typography>
+    </CardContent>
+    <CardActions>
+      <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    </CardActions>
+  </React.Fragment>
+);
+const card5 = (
+  <React.Fragment>
+  <CardContent>
+    <Typography variant="h5" component="div">
+    Website Development
+    </Typography>
+    <Typography variant="body2">
+      Develop, host, optimize high-preformance website Development
+    </Typography>
+  </CardContent>
+  <CardActions>
+    <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+  </CardActions>
+</React.Fragment>
+);
 
 
 const Web = ({ location }) => {
@@ -38,11 +115,54 @@ const Web = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
+        <p style={{margin: "100px"}}></p>
         <Stack direction={{ xs: 'row', sm: 'column'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
-          <Item></Item>
-          </Stack>
-
-       
+        <Stack direction={{ xs: 'column', sm: 'row'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card1}</Card>
+          </Box>
+        </Item>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card2}</Card>
+          </Box>
+        </Item>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card4}</Card>
+          </Box>
+        </Item>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card5}</Card>
+          </Box>
+        </Item>
+        </Stack>
+        <Stack direction={{ xs: 'column', sm: 'row'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card1}</Card>
+          </Box>
+        </Item>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card2}</Card>
+          </Box>
+        </Item>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card4}</Card>
+          </Box>
+        </Item>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card5}</Card>
+          </Box>
+        </Item>
+        </Stack>
+        </Stack>
+        <p style={{margin: "100px"}}></p>  
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-70" />
       </LayoutOne>
