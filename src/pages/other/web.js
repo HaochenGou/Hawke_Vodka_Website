@@ -38,7 +38,9 @@ const card1 = (
       </Typography>
       <br></br>
       <Typography variant="body2">
-        Develop application on Android device 
+      We build high-performance, secure, 
+      and intuitive Android mobile applications to provide the ultimate user experience, 
+      help businesses improve their conversion rates, and boost customer loyalty. 
       </Typography>
     </CardContent>
     <CardActions>
@@ -51,6 +53,22 @@ const card2 = (
     <CardContent>
       <Typography variant="h5" component="div">
       iOS App Development 
+      </Typography>
+      <br></br>
+      <Typography variant="body2">
+        Develop, host, optimize high-preformance crossplatform application 
+      </Typography>
+    </CardContent>
+    <CardActions>
+      <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    </CardActions>
+  </React.Fragment>
+);
+const card3 = (
+  <React.Fragment>
+    <CardContent>
+      <Typography variant="h5" component="div">
+      Windows App Development 
       </Typography>
       <br></br>
       <Typography variant="body2">
@@ -85,7 +103,7 @@ const card5 = (
     Website Development
     </Typography>
     <Typography variant="body2">
-      Develop, host, optimize high-preformance website Development
+      Develop, host, optimize high-preformance website Development, SEO 
     </Typography>
   </CardContent>
   <CardActions>
@@ -93,7 +111,37 @@ const card5 = (
   </CardActions>
 </React.Fragment>
 );
-
+const card6 = (
+  <React.Fragment>
+  <CardContent>
+    <Typography variant="h5" component="div">
+    Programming language Service
+    </Typography>
+    <br></br>
+    <Typography variant="body2">
+      We provide Service for Python, Java, JavaScript, C++, 
+    </Typography>
+  </CardContent>
+  <CardActions>
+    <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+  </CardActions>
+</React.Fragment>
+);
+const card7 = (
+  <React.Fragment>
+  <CardContent>
+    <Typography variant="h5" component="div">
+    Frame Work
+    </Typography>
+    <Typography variant="body2">
+      
+    </Typography>
+  </CardContent>
+  <CardActions>
+    <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+  </CardActions>
+</React.Fragment>
+);
 
 const Web = ({ location }) => {
   const { pathname } = location;
@@ -104,7 +152,7 @@ const Web = ({ location }) => {
         <title>Hawke Prohibition Distilleries | Web Services </title>
         <meta
           name="description"
-          content="About page of Hawke Prohibition Distilleries."
+          content="Web Services page of Hawke Prohibition Distilleries."
         />
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
@@ -116,7 +164,7 @@ const Web = ({ location }) => {
         {/* breadcrumb */}
         <Breadcrumb />
         <p style={{margin: "100px"}}></p>
-        <Stack direction={{ xs: 'row', sm: 'column'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
+        <Stack spacing={5}>
         <Stack direction={{ xs: 'column', sm: 'row'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <Item>
           <Box sx={{ minWidth: 275 }}>
@@ -126,6 +174,11 @@ const Web = ({ location }) => {
         <Item>
           <Box sx={{ minWidth: 275 }}>
             <Card variant="outlined">{card2}</Card>
+          </Box>
+        </Item>
+        <Item>
+          <Box sx={{ minWidth: 275 }}>
+            <Card variant="outlined">{card3}</Card>
           </Box>
         </Item>
         <Item>
@@ -142,22 +195,12 @@ const Web = ({ location }) => {
         <Stack direction={{ xs: 'column', sm: 'row'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <Item>
           <Box sx={{ minWidth: 275 }}>
-            <Card variant="outlined">{card1}</Card>
+            <Card variant="outlined">{card6}</Card>
           </Box>
         </Item>
         <Item>
           <Box sx={{ minWidth: 275 }}>
-            <Card variant="outlined">{card2}</Card>
-          </Box>
-        </Item>
-        <Item>
-          <Box sx={{ minWidth: 275 }}>
-            <Card variant="outlined">{card4}</Card>
-          </Box>
-        </Item>
-        <Item>
-          <Box sx={{ minWidth: 275 }}>
-            <Card variant="outlined">{card5}</Card>
+            <Card variant="outlined">{card7}</Card>
           </Box>
         </Item>
         </Stack>
