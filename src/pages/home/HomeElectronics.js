@@ -44,7 +44,7 @@ const HomeElectronics = () => {
 
         <Carousel/>
  
-        <Popup/>
+        {/* <Popup/> */}
     
 
         <p style={{margin: "250px"}}></p>
