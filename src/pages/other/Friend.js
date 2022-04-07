@@ -112,88 +112,6 @@ const Friend = ({ location }) => {
           </div>
           </Item>
         </Stack>
-        </div>
-        </div>
-        </Item>
-        <Item>
-        <div class="c">
-        <input type="checkbox" id="faq-2"></input>
-        <h1 class="a"><label for="faq-2">South Edmonton Friends</label></h1>
-        <div class="p">
-        
-        </div>
-        </div>
-        </Item>
-        <Item>
-        <div class="c">
-        <input type="checkbox" id="faq-3"></input>
-        <h1 class="a"><label for="faq-3">North Edmonton Friends</label></h1>
-        <div class="p">
-        </div>
-        </div>
-        </Item>
-        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
-        <p className="boxstyle"></p>
-          <Item>
-          <div class="canvas-wrapper">
-            <a href="http://www.crossroadsliquorstore.com/" class="canvas" rel="noopener noreferrer" target="_blank">
-              <div class="canvas_border">
-                <svg>
-                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
-                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
-                </svg>
-              </div>
-              <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/1.webp" alt="logo"/>
-              </div>
-              <div class="canvas_copy canvas_copy--left">
-                <strong class="canvas_copy_title">CROSSROADS</strong>
-                <span class="canvas_copy_details">LIQUOR</span>
-              </div>
-            </a>
-          </div>
-          </Item>
-          <Item>
-          <div class="canvas-wrapper">
-            <a href="https://littleguyliquorstore.com/" class="canvas" rel="noopener noreferrer" target="_blank">
-              <div class="canvas_border">
-                <svg>
-                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
-                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
-                </svg>
-              </div>
-              <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/2.webp" alt="logo"/>
-              </div>
-              <div class="canvas_copy canvas_copy--left">
-                <strong class="canvas_copy_title">Little</strong>
-                <strong class="canvas_copy_title">Guy</strong>
-                <span class="canvas_copy_details">WE LOVE CRAFT BEER</span>
-              </div>
-            </a>
-          </div>
-          </Item>
-          <Item>
-          <div class="canvas-wrapper">
-            <a href="https://www.everythingwineandmore.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
-              <div class="canvas_border">
-                <svg>
-                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
-                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
-                </svg>
-              </div>
-              <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/3.svg" alt="logo"/>
-              </div>
-              <div class="canvas_copy canvas_copy--left">
-                <strong class="canvas_copy_title">everything</strong>
-                <strong class="canvas_copy_title">WINE</strong>
-                <span class="canvas_copy_details">AND MORE</span>
-              </div>
-            </a>
-          </div>
-          </Item>
-        </Stack>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="boxstyle"></p>
           <Item>
@@ -234,8 +152,106 @@ const Friend = ({ location }) => {
             </a>
           </div>
           </Item>
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="https://liquor.sobeys.com/stores/safeway-liquor-sherwood-park-mall/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/6.svg" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+                <strong class="canvas_copy_title">Sobeys</strong>
+                <strong class="canvas_copy_title">LIQUOR</strong>
+              </div>
+            </a>
+          </div>
+          </Item>
         </Stack>
-
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
+        <p className="boxstyle"></p>
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="https://www.liquordepot.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/7.webp" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+                <strong class="canvas_copy_title">LIQUOR</strong>
+                <span class="canvas_copy_details">DEPOT</span>
+              </div>
+            </a>
+          </div>
+          </Item>
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="https://www.wineandbeyond.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/8.webp" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+                <strong class="canvas_copy_title">WINE AND BEYOND</strong>
+                <span class="canvas_copy_details">SPIRITS BEER & MORE</span>
+              </div>
+            </a>
+          </div>
+          </Item>
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="https://liquor-exchange.business.site/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/9.webp" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+              <strong class="canvas_copy_title">LIQUOR</strong>
+                <span class="canvas_copy_details">EXCHANGE</span>
+              </div>
+            </a>
+          </div>
+          </Item>
+        </Stack>
+        </div>
+        </div>
+        </Item>
+        <Item>
+        <div class="c">
+        <input type="checkbox" id="faq-2"></input>
+        <h1 class="a"><label for="faq-2">South Edmonton Friends</label></h1>
+        <div class="p">
+        
+        </div>
+        </div>
+        </Item>
+        <Item>
+        <div class="c">
+        <input type="checkbox" id="faq-3"></input>
+        <h1 class="a"><label for="faq-3">North Edmonton Friends</label></h1>
+        <div class="p">
+        </div>
+        </div>
+        </Item>
         </Stack>
        
         {/* brand logo slider */}
