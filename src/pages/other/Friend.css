@@ -238,7 +238,7 @@ input{
   opacity:0;
   visibility: 0;
 }
-h1{
+h1.a{
   background:steelblue;
   color:white;
   padding:10px;
