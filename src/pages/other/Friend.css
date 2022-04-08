@@ -267,7 +267,7 @@ div.p{
 div.p p {
   padding:2em;
 }
-input.c:checked ~ h1.a label::before{
+input.c:checked ~ h1.a label.c::before{
   border-left:10px solid transparent;
   border-top:10px solid white;
   margin-top:10px;
