@@ -102,6 +102,7 @@ const card5 = (
     <Typography variant="h5" component="div">
     Website Development
     </Typography>
+    <br></br>
     <Typography variant="body2">
       Develop, host, optimize high-preformance website Development, SEO 
     </Typography>
@@ -119,7 +120,7 @@ const card6 = (
     </Typography>
     <br></br>
     <Typography variant="body2">
-      We provide Service for Python, Java, JavaScript, C++, 
+      We provide Service for Python, Java, JavaScript, HTML/CSS, TypeScript, C, C#, C++, 
     </Typography>
   </CardContent>
   <CardActions>
@@ -131,10 +132,11 @@ const card7 = (
   <React.Fragment>
   <CardContent>
     <Typography variant="h5" component="div">
-    Frame Work
+    Frame Work service
     </Typography>
+    <br></br>
     <Typography variant="body2">
-      
+      We provide development service based on React, Django, Angular, Docker
     </Typography>
   </CardContent>
   <CardActions>
@@ -186,13 +188,14 @@ const Web = ({ location }) => {
             <Card variant="outlined">{card4}</Card>
           </Box>
         </Item>
+        
+        </Stack>
+        <Stack direction={{ xs: 'column', sm: 'row'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <Item>
           <Box sx={{ minWidth: 275 }}>
             <Card variant="outlined">{card5}</Card>
           </Box>
         </Item>
-        </Stack>
-        <Stack direction={{ xs: 'column', sm: 'row'}} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <Item>
           <Box sx={{ minWidth: 275 }}>
             <Card variant="outlined">{card6}</Card>
