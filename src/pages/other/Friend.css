@@ -229,7 +229,7 @@ div.c{
   position: relative;
   margin:10px;
 }
-input{
+input.c{
   position: absolute;
   left: 0;
   top: 0;
@@ -267,13 +267,13 @@ div.p{
 div.p p {
   padding:2em;
 }
-input:checked ~ h1 label::before{
+input.c:checked ~ h1.a label::before{
   border-left:10px solid transparent;
   border-top:10px solid white;
   margin-top:10px;
   margin-right:10px;
 }
-input:checked ~ h1 ~ div.p{
+input:checked ~ h1.a ~ div.p{
   max-height:100%;
 }
 a{
