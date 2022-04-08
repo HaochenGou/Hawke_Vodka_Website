@@ -48,7 +48,7 @@ const Friend = ({ location }) => {
         <Item>
         <div class="c">
           <input class="c" type="checkbox" id="faq-1"></input>
-          <h1 class="a"><label for="faq-1">Sherwood Park Friends</label></h1>
+          <h1 class="a"><label class="c" for="faq-1">Sherwood Park Friends</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="boxstyle"></p>
@@ -238,7 +238,7 @@ const Friend = ({ location }) => {
         <Item>
         <div class="c">
         <input class="c" type="checkbox" id="faq-2"></input>
-        <h1 class="a"><label for="faq-2">South Edmonton Friends</label></h1>
+        <h1 class="a"><label class="c" for="faq-2">South Edmonton Friends</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="boxstyle"></p>
@@ -287,7 +287,7 @@ const Friend = ({ location }) => {
         <Item>
         <div class="c">
         <input class="c" type="checkbox" id="faq-3"></input>
-        <h1 class="a"><label for="faq-3">North Edmonton Friends</label></h1>
+        <h1 class="a"><label class="c" for="faq-3">North Edmonton Friends</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="boxstyle"></p>
