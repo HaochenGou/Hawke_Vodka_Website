@@ -2307,12 +2307,28 @@
     lodash.snakecase "^4.1.1"
     p-defer "^3.0.0"
 
+"@googlemaps/js-api-loader@1.13.10":
+  version "1.13.10"
+  resolved "https://registry.yarnpkg.com/@googlemaps/js-api-loader/-/js-api-loader-1.13.10.tgz#499cb58b9dcf8d29101d6d113650b27a55c70ae5"
+  integrity sha512-11AF8SdXca1+trN7kDYiPqwxcjQjet/e/A20PPR2hMHQIZ0ktxd4VsqbsSDLj1BZW1bke0FnZ4zY0KYmgWZ9cg==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+
 "@googlemaps/js-api-loader@^1.13.2", "@googlemaps/js-api-loader@^1.7.0":
   version "1.13.8"
   resolved "https://registry.yarnpkg.com/@googlemaps/js-api-loader/-/js-api-loader-1.13.8.tgz#9edfa766367dc145eec6a5ee6e90ba67244a4afb"
   integrity sha512-xsn4vmrRc/p8PW6p6PglfInGiW9haEgkAeby4BGxNkVipWy8q0Wv16+sWpQ3rP31RahfWBoyVgAc1DgLXcZY3Q==
   dependencies:
     fast-deep-equal "^3.1.3"
+
+"@googlemaps/markerclusterer@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@googlemaps/markerclusterer/-/markerclusterer-2.0.2.tgz#5849b208db67be7654a9cb33dd78abba14fc06bf"
+  integrity sha512-wApQwUZgxTDK69zkeNTZm6w5POEnpWPFOy+eRMRvgAdUCU7ky8siwoXbX3vChnCFHjVgIKLrC0YNjVCBJXLfLQ==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    fast-equals "^3.0.0"
+    supercluster "^7.1.3"
 
 "@googlemaps/react-wrapper@^1.1.27":
   version "1.1.27"
@@ -2800,6 +2816,30 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
+"@react-google-maps/api@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/api/-/api-2.8.1.tgz#4c7da4ba045c1dd38ceef9f4ad3a0c0f06965b89"
+  integrity sha512-JH35zv21socmbkEi/xTbNiXO794mGCFHXtxNeNY77ZvP2BtCzj2oXFTwGCslUUb1YMb/Aahka7sk7YR1vBAWOA==
+  dependencies:
+    "@googlemaps/js-api-loader" "1.13.10"
+    "@googlemaps/markerclusterer" "2.0.2"
+    "@react-google-maps/infobox" "2.8.0"
+    "@react-google-maps/marker-clusterer" "2.9.0"
+    "@types/google.maps" "3.48.3"
+    invariant "2.2.4"
+
+"@react-google-maps/infobox@2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/infobox/-/infobox-2.8.0.tgz#c4eaa27f20432d3dc0fa511c45d449aca015d0e0"
+  integrity sha512-OzLnJfPZnOJGRsS93Arq80ndLk7Etw07uyAqo5IPtS12Qs9rlm5+L3jDUdZKC3URlWEifHLeCykQbCVWHpA+pg==
+
+"@react-google-maps/marker-clusterer@2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/marker-clusterer/-/marker-clusterer-2.9.0.tgz#6f3c2f9e467a0e7594634ed205a1c171752d1630"
+  integrity sha512-BJJH2OXdUreVNdfTCuuO2oHoqBmXSnXtIQvbRYj3LwZ27nnzfY87D/KEUPXnCXj/56kEeVlBbvAbcKKeMRmkSw==
+  dependencies:
+    "@typescript/lib-dom" "npm:@types/web"
+
 "@react-native-community/cli-debugger-ui@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-5.0.1.tgz#6b1f3367b8e5211e899983065ea2e72c1901d75f"
@@ -3189,6 +3229,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/google.maps@3.48.3":
+  version "3.48.3"
+  resolved "https://registry.yarnpkg.com/@types/google.maps/-/google.maps-3.48.3.tgz#c554fbd7076c75fdd82dbae0ff3d541f67f5c599"
+  integrity sha512-JQuLWAEXDorNfarQy22WbIezbPKhLnsTBnDw25vyg61USZLTK8KqE1glNyASKn2v2mUOcEIWFMNHX5hNzjuw/g==
+
 "@types/hoist-non-react-statics@^3.3.0":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
@@ -3490,6 +3535,11 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
+
+"@typescript/lib-dom@npm:@types/web":
+  version "0.0.61"
+  resolved "https://registry.yarnpkg.com/@types/web/-/web-0.0.61.tgz#29bb8951e17b7597084c7a4cccd5072711b0ac09"
+  integrity sha512-lQ4M3OSh8eFj55fz1RJsLhCubET/7duOXoKcxVaUXYXyxikD9BA+WWrqAn5CjJxrc82b7zFY4OCVIeVdkPLaGg==
 
 "@vue/compiler-core@3.2.31":
   version "3.2.31"
@@ -7352,6 +7402,11 @@ dotenv@6.2.0, dotenv@^6.1.0:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
   integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
 
+dotenv@^16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.0.tgz#c619001253be89ebb638d027b609c75c26e47411"
+  integrity sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==
+
 duplexer2@~0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer2/-/duplexer2-0.1.4.tgz#8b12dab878c0d69e3e7891051662a32fc6bddcc1"
@@ -8350,6 +8405,11 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
+
+fast-equals@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/fast-equals/-/fast-equals-3.0.1.tgz#1e1ae440c04a32478faf698527315cdcf3ee7db2"
+  integrity sha512-J9FxqqC9E/ja0C+SYhoG3Jl6pQuhP92HNcVC75xDEhB+GUzPnjEp3vMfPIxPprYZFfXS5hpVvvPCWUMiDSMS8Q==
 
 fast-glob@^2.0.2:
   version "2.2.7"
@@ -11931,6 +11991,11 @@ jws@^4.0.0:
   dependencies:
     jwa "^2.0.0"
     safe-buffer "^5.0.1"
+
+kdbush@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/kdbush/-/kdbush-3.0.0.tgz#f8484794d47004cc2d85ed3a79353dbe0abc2bf0"
+  integrity sha512-hRkd6/XW4HTsA9vjVpY9tuXJYLSlelnkTmVFu4M9/7MIYQtFcHpbugAU7UbOfjOiVSVYl2fqgBuJ32JUmRo5Ew==
 
 keychain@1.3.0:
   version "1.3.0"
@@ -18080,6 +18145,13 @@ sudo-prompt@^8.2.0:
   version "8.2.5"
   resolved "https://registry.yarnpkg.com/sudo-prompt/-/sudo-prompt-8.2.5.tgz#cc5ef3769a134bb94b24a631cc09628d4d53603e"
   integrity sha512-rlBo3HU/1zAJUrkY6jNxDOC9eVYliG6nS4JA8u8KAshITd07tafMc/Br7xQwCSseXwJ2iCcHCE8SNWX3q8Z+kw==
+
+supercluster@^7.1.3:
+  version "7.1.5"
+  resolved "https://registry.yarnpkg.com/supercluster/-/supercluster-7.1.5.tgz#65a6ce4a037a972767740614c19051b64b8be5a3"
+  integrity sha512-EulshI3pGUM66o6ZdH3ReiFcvHpM3vAigyK+vcxdjpJyEbIIrtbmBdY23mGgnI24uXiGFvrGq9Gkum/8U7vJWg==
+  dependencies:
+    kdbush "^3.0.0"
 
 superstatic@^7.1.0:
   version "7.1.0"
