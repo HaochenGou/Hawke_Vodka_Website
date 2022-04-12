@@ -108,7 +108,7 @@ const card5 = (
     </Typography>
   </CardContent>
   <CardActions>
-    <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    <Button size="small" href="https://en.wikipedia.org/wiki/Search_engine_optimization" rel="noopener noreferrer" target= "_blank">Learn More</Button>
   </CardActions>
 </React.Fragment>
 );
@@ -124,7 +124,7 @@ const card6 = (
     </Typography>
   </CardContent>
   <CardActions>
-    <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    <Button size="small" href="https://www.java.com/en/" rel="noopener noreferrer" target= "_blank">Learn More</Button>
   </CardActions>
 </React.Fragment>
 );
@@ -140,7 +140,7 @@ const card7 = (
     </Typography>
   </CardContent>
   <CardActions>
-    <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    <Button size="small" href="https://reactjs.org/" rel="noopener noreferrer" target= "_blank">Learn More</Button>
   </CardActions>
 </React.Fragment>
 );
