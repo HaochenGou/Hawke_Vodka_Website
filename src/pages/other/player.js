@@ -11,8 +11,7 @@ export default function Player() {
         className='react-player'
         playing
         width="100%"
-        height="100%"
-        playing
+        height="60%"
       />
        </div>
     );

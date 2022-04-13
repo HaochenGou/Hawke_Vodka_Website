@@ -28,8 +28,8 @@ const Silk = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        <Player/>
-        
+        <p style={{margin: "100px"}}></p>
+        <Player/>    
        
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-70" />
