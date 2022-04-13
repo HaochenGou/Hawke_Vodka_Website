@@ -12,7 +12,7 @@ export default class Example extends Component {
 	state = {
 	  goToSlide: 0,
 	  offsetRadius: 2,
-	  showNavigation: true,
+	  showNavigation: false,
 	  config: config.gentle
 	};
   
