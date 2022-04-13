@@ -8,6 +8,8 @@ const FooterMap = props => {
     height: "100%"
   };
 
+  
+
   return (
     <Map
       google={props.google}

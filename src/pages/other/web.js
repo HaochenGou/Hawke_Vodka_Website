@@ -104,7 +104,7 @@ const card5 = (
     </Typography>
     <br></br>
     <Typography variant="body2">
-      Develop, host, optimize high-preformance website Development, SEO 
+      Develop, host, optimize high-preformance website Development, SEO, HTTPS, build secure communication over a computer network.
     </Typography>
   </CardContent>
   <CardActions>
