@@ -5,6 +5,8 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
+import Player from "./player";
+
 
 const Silk = ({ location }) => {
   const { pathname } = location;
@@ -26,6 +28,8 @@ const Silk = ({ location }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
+        <Player/>
+        
        
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-70" />

@@ -2,15 +2,15 @@
   {
     "id": "1",
     "image": "/assets/img/testimonial/1.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "customerName": "Grace Alvarado",
+    "content": "This place is awesome. We did the distillery night and the making the signs night last night. Awesome place. Awesome location. Great vibe. Owners are amazing. Bar tender is one of the best. The cocktails were soooo good. 10/10. Great place to plan a girl’s night. Highly recommend it.",
+    "customerName": "Colleen",
     "title": "customer"
   },
   {
     "id": "2",
     "image": "/assets/img/testimonial/2.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "customerName": "John Doe",
+    "content": "Love their story. Hawke and Alana (and their crew) are such passionate, hardworking, great people. Love the small business story and sending vibes out to the universe to make it happen for these great humans. I bought their ‘GOLD medal winning’ vodka and their Periwinkle gin. Both delicious! Aim for the stars, you’re on your way!",
+    "customerName": "Terri",
     "title": "customer"
   }
 ]
