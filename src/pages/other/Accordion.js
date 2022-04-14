@@ -288,7 +288,7 @@ export default function SimpleAccordion() {
         </p><br></br>
         </Stack>
       
-      <Accordion> 
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -299,10 +299,7 @@ export default function SimpleAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography fontSize="20px">
-          1. Mix the gin, lemon juice and sugar syrup over ice.<br></br>
-          2. Pour into a tall glass and top with soda water.<br></br>
-          3. Garnish with a lemon slice.<br></br>
-
+          Mix the gin, lemon juice and sugar syrup over ice. Pour into a tall glass and top with soda water. Garnish with a lemon slice.
           </Typography>
         </AccordionDetails>
       </Accordion>
