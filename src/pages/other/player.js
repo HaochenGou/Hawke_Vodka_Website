@@ -12,7 +12,7 @@ export default function Player() {
         playing
         controls
         width="100%"
-        height="60%"
+        height="100%"
       />
        </div>
     );

@@ -29,7 +29,8 @@ const Silk = ({ location }) => {
         {/* breadcrumb */}
         <Breadcrumb />
         <p style={{margin: "100px"}}></p>
-        <Player/>    
+        <Player/>   
+        <p style={{margin: "100px"}}></p> 
        
         {/* brand logo slider */}
         <BrandLogoSliderOne spaceBottomClass="pb-70" />
