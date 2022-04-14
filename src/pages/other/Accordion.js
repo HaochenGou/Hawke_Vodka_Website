@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Paper from '@mui/material/Paper';
+import "./Friend.css";
 
 
 export default function SimpleAccordion() {
@@ -20,6 +21,10 @@ export default function SimpleAccordion() {
   }));
 
   return (
+        <div class="c">
+          <input class="c" type="checkbox" id="faq-1"></input>
+          <h1 class="a"><label class="c" for="faq-1">Cocktail Recipes for William’s London Dry Gin</label></h1>
+        <div class="p">
     <Stack
     direction="column"
     spacing={15}
@@ -347,5 +352,8 @@ export default function SimpleAccordion() {
 
      
     </Stack>
+    </div>
+    </div>
+   
   );
 }
