@@ -18,7 +18,6 @@ import ShopListStandard from "./pages/shop/ShopListStandard";
 // product pages
 import ProductFixedImage from "./pages/shop-product/ProductFixedImage";
 import Friend from "./pages/other/Friend";
-import Tech from "./pages/other/TechServices";
 import Web from "./pages/other/web";
 import Wholesale from "./pages/other/Whole";
 
@@ -131,10 +130,7 @@ const App = props => {
                 component={Web}
                />
 
-                <Route 
-                path={process.env.PUBLIC_URL + "/tech"} 
-                component={Tech}
-               />
+            
 
 
               <Route 
