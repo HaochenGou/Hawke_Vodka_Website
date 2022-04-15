@@ -10,6 +10,7 @@ import { Stack } from "@mui/material";
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import LocationMap from "../../components/contact/LocationMap";
+import FriendMap from "./Map";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -338,7 +339,7 @@ const Friend = ({ location }) => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-                  <LocationMap latitude="53.540202" longitude="-113.320967"/>
+                  <FriendMap/>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
-import React from 'react';
+import { Map, GoogleApiWrapper, Marker, InfoWindow, google} from 'google-maps-react';
+import React, {useState}from 'react';
+import { PropTypes } from "prop-types";
 
 const markers = [
     {
@@ -20,32 +21,32 @@ const markers = [
     {
       id: 4,
       name: "Safeway Liquor",
-      position: { lat: 53.530747, lng: -113.2941718 }
+      position: { lat: 53.531001, lng: -113.2955138 }
     },
     {
         id: 5,
         name: "Sherwood Park Liquor",
-        position: { lat: 53.5046048, lng: -113.2690759 }
+        position: { lat: 53.512759, lng: -113.322763 }
     },
     {
         id: 6,
         name: "Sobeys Liquor",
-        position: { lat: 53.5046048, lng: -113.2690759 }
+        position: { lat: 53.54191354, lng: -113.2659252}
     },
     {
         id: 7,
         name: "Liquor Depot",
-        position: { lat: 53.5046048, lng: -113.2690759 }
+        position: { lat: 53.5389321, lng: -113.4262557 }
     },
     {
         id: 8,
         name: "Wine and Beyond",
-        position: { lat: 53.5046048, lng: -113.2690759 }
+        position: { lat: 53.5691549, lng: -113.2848948 }
     },
     {
         id: 9,
         name: "Liquor Exchange",
-        position: { lat: 53.5046048, lng: -113.2690759 }
+        position: { lat: 53.5549187, lng: -113.364679 }
     },
     {
         id: 10,
@@ -71,7 +72,8 @@ const markers = [
     
   ];
 
-  function FriendMap() {
+  const FriendMap = props => {
+    
     const [activeMarker, setActiveMarker] = useState(null);
   
     const handleActiveMarker = (marker) => {
@@ -89,8 +91,11 @@ const markers = [
   
     return (
       <Map
+        google={props.google}
         onLoad={handleOnLoad}
         onClick={() => setActiveMarker(null)}
+        zoom={10}
+        initialCenter={{ lat: 53.536850, lng: -113.331281 }}
         mapContainerStyle={{ width: "100vw", height: "100vh" }}
       >
         {markers.map(({ id, name, position }) => (
@@ -106,9 +111,13 @@ const markers = [
             ) : null}
           </Marker>
         ))}
-      </GoogleMap>
+      </Map>
     );
   }
+
+  FriendMap.propTypes = {
+    google: PropTypes.object,
+  };
 
   export default GoogleApiWrapper({
     apiKey: 'AIzaSyBciIwP37arb8OwWxQ7Fc7bSOag_91jwvY'
