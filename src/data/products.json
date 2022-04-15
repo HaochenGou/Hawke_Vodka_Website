@@ -56,7 +56,19 @@
         "alt":"Scoundrel Rumbum",
         "shortDescription": "Scoundrel is a spiced rumbum with a caribbean soul, inspired by the daring & boldly independent spirit of rum and pirate lore. Notes of oak and vanilla create a deliciously smooth taste, perfect in rum cocktails and mixed drinks.",
         "fullDescription": "Scoundrel is a spiced rumbum with a caribbean soul, inspired by the daring & boldly independent spirit of rum and pirate lore. Notes of oak and vanilla create a deliciously smooth taste, perfect in rum cocktails and mixed drinks."
+    },
+    {
+        "id": "41907321995415",
+        "sku": "asdf126",
+        "name": "Thick & Dirty",
+        "price": 38.00,
+        "stock": 0,
+        "image": ["/assets/img/Product6.webp"],
+        "alt":"Thick & Dirty",
+        "shortDescription": "Thick & Dirty is a rum based Irish cream, decadent can be the only description. ",
+        "fullDescription": "Thick, Dirty & Delicious. Serve on ice, with your coffee, over ice cream. Whip it real good over desserts, use as dessert. Use as breakfast, use before skiing or golfing. Oh and maybe try a paralyzer, we thought it was amazing, etc……"
     }
+
 
 
 ]
