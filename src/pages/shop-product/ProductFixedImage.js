@@ -8,6 +8,7 @@ import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab";
 import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
 import HeroSliderSix from "../../wrappers/hero-slider/HeroSliderSix";
+import HeroSliderSeven from "../../wrappers/hero-slider/HeroSliderSeven";
 
 const ProductFixedImage = ({ location, product }) => {
   const { pathname } = location;
@@ -32,6 +33,7 @@ const ProductFixedImage = ({ location, product }) => {
         {/* breadcrumb */}
         <Breadcrumb />
         {product.id=="41907321995415" &&(<HeroSliderSix/>)}
+        {product.id=="41873399251095" &&(<HeroSliderSeven/>)}
         
 
         {/* product description with image */}
