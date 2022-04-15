@@ -112,6 +112,7 @@ const Friend = ({ location }) => {
           </div>
           </Item>
         </Stack>
+        
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="boxstyle"></p>
           <Item>
