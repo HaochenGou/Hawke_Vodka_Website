@@ -9,7 +9,6 @@ import "./Friend.css";
 import { Stack } from "@mui/material";
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import LocationMap from "../../components/contact/LocationMap";
 import FriendMap from "./Map";
 
 
@@ -339,7 +338,7 @@ const Friend = ({ location }) => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-                  <FriendMap/>
+             <FriendMap /> 
             </div>
           </div>
         </div>
