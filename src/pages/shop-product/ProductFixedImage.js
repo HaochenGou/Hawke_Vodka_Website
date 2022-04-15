@@ -41,8 +41,11 @@ const ProductFixedImage = ({ location, product }) => {
         {product.id == "41873399251095" &&(<HeroSliderSeven/>)}
 
         {product.id == "37852889809047" &&(<HeroSliderEight/>)}
+
         {product.id == "41435507064983" &&(<HeroSliderNine/>)}
+
         {product.id == "41435485995159" &&(<HeroSliderTen/>)}
+        
      
         
 
