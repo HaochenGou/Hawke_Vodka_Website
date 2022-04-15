@@ -1,17 +1,22 @@
 
 import React from "react";
-import { Stack } from "@mui/material";
-
+import ReactPlayer from "react-player/file";
+import "../../pages/other/player.css";
 
 
 const HeroSliderSix = () => {
 
   return (
-    <Stack>
-        <video autoPlay muted loop > 
-          <source src="/assets/img/add.webm" type="video/webm" alt></source>
-        </video>
-    </Stack>
+    <div className='player-wrapper'>
+        <ReactPlayer
+        url={[{src:"/assets/img/add.webm", type:"video/webm"}]}
+        className='react-player'
+        playing
+        controls
+        width="100%"
+        height="100%"
+      />
+    </div>
   );
 };
 
