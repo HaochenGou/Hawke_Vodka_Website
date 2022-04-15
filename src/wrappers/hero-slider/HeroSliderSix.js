@@ -12,7 +12,7 @@ const HeroSliderSix = () => {
         url={[{src:"/assets/img/add.webm", type:"video/webm"}]}
         className='react-player'
         playing
-        controls
+        loop
         width="100%"
         height="100%"
       />

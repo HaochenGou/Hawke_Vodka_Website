@@ -11,6 +11,7 @@ export default function Player() {
         className='react-player'
         playing
         controls
+        loop
         width="100%"
         height="100%"
       />
