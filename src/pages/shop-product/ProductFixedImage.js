@@ -11,6 +11,8 @@ import HeroSliderSix from "../../wrappers/hero-slider/HeroSliderSix";
 import HeroSliderSeven from "../../wrappers/hero-slider/HeroSliderSeven";
 import HeroSliderEight from "../../wrappers/hero-slider/HeroSliderEight";
 import HeroSliderNine from "../../wrappers/hero-slider/HeroSliderNine";
+import HeroSliderTen from "../../wrappers/hero-slider/HeroSliderTen";
+
 
 const ProductFixedImage = ({ location, product }) => {
   const { pathname } = location;
@@ -40,6 +42,7 @@ const ProductFixedImage = ({ location, product }) => {
 
         {product.id == "37852889809047" &&(<HeroSliderEight/>)}
         {product.id == "41435507064983" &&(<HeroSliderNine/>)}
+        {product.id == "41435485995159" &&(<HeroSliderTen/>)}
      
         
 
