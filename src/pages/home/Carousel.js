@@ -37,6 +37,10 @@ export default class Example extends Component {
 		key: uuidv4(),
 		content:  <a href={process.env.PUBLIC_URL +"/product/" + 41907321995415}><img width="380" height="400" src='/assets/img/Product5.webp' alt="5"/></a>
 	  },
+	  {
+		key: uuidv4(),
+		content:  <a href={process.env.PUBLIC_URL +"/product/" + 41981615636631}><img width="380" height="400" src='/assets/img/Product6.webp' alt="6"/></a>
+	  },
 	 
 	].map((slide, index) => {
 	  return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
