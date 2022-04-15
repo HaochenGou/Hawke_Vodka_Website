@@ -82,7 +82,7 @@ export default function SimpleAccordion() {
         <b style={{ color: "#3498db", fontSize: "30px" }}>GIN & TONIC Ingredients</b><br></br>
         <p style={{fontSize:"20px"}}> <i className="fa fa-circle" /> 25 ml William’s London Dry Gin<br></br>
         <i className="fa fa-circle" /> 75 ml ml Tonic Watere<br></br>
-        <i className="fa fa-circle" /> lemon and a sprig of rosemary<br></br>
+        <i className="fa fa-circle" /> lemon and a sprig of rosemary
         </p><br></br>
         </Stack>
       
