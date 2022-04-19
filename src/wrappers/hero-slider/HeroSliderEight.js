@@ -9,7 +9,7 @@ const HeroSliderEight = () => {
   return (
     <div className='player-wrapper'>
         <ReactPlayer
-        url={[{src:"/assets/img/baby.webm", type:"video/webm"}]}
+        url={[{src:"/assets/img/baby.mp4", type:"video/mp4"}]}
         className='react-player'
         playing
         loop
