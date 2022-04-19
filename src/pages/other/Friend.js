@@ -51,7 +51,7 @@ const Friend = ({ location }) => {
           <h1 class="a"><label class="c" for="faq-1">Sherwood Park Friends</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
-        <p className="boxstyle"></p>
+        <p className="canvas_front"></p>
           <Item>
           <div class="canvas-wrapper">
             <a href="http://www.crossroadsliquorstore.com/" class="canvas" rel="noopener noreferrer" target="_blank">
@@ -114,7 +114,7 @@ const Friend = ({ location }) => {
         </Stack>
         
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
-        <p className="boxstyle"></p>
+        <p className="canvas_front"></p>
           <Item>
           <div class="canvas-wrapper">
             <a href="https://sherwoodparkmall.com/stores/sherwood-sherwood-park-safeway-liquor" class="canvas" rel="noopener noreferrer" target="_blank">
@@ -174,7 +174,7 @@ const Friend = ({ location }) => {
           </Item>
         </Stack>
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
-        <p className="boxstyle"></p>
+        <p className="canvas_front"></p>
           <Item>
           <div class="canvas-wrapper">
             <a href="https://www.liquordepot.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
@@ -242,7 +242,7 @@ const Friend = ({ location }) => {
         <h1 class="a"><label class="c" for="faq-2">South Edmonton Friends</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
-        <p className="boxstyle"></p>
+        <p className="canvas_front"></p>
           <Item>
           <div class="canvas-wrapper">
             <a href="https://sherbrookeliquor.com/" class="canvas" rel="noopener noreferrer" target="_blank">
@@ -291,7 +291,7 @@ const Friend = ({ location }) => {
         <h1 class="a"><label class="c" for="faq-3">North Edmonton Friends</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
-        <p className="boxstyle"></p>
+        <p className="canvas_front"></p>
           <Item>
           <div class="canvas-wrapper">
             <a href="https://econoliquor.business.site/" class="canvas" rel="noopener noreferrer" target="_blank">

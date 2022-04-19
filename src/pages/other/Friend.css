@@ -40,9 +40,9 @@ strong {
   .canvas{
     position: relative;
     display: block;
-    width: 100px;
-    height: 100px;
-    padding: 7px;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
     color: inherit;
     text-decoration: none;
   }
@@ -59,6 +59,15 @@ strong {
   height: 100%;
   width: 100%;
 }
+
+.canvas_front{
+  margin:100px;
+}
+  @media only screen and (max-width: 600px){
+    .canvas_front{
+      display: none;
+    }
+  }
 
 .rect-gradient {
   stroke-dasharray: 2000;
@@ -91,8 +100,8 @@ strong {
   .canvas_img{
     transform: scale3d(0.9, 0.9, 0.9);
     opacity: 0.3;
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 100px;
+    max-height: 100px;
   }
 }
 
