@@ -7,6 +7,7 @@ import ReactPlayer from "react-player/file";
 
 const HeroSliderThreeSingle = ({ data, sliderClass }) => {
   return (
+    
     <div
       className={`slider-height-7 bg-glaucous d-flex align-items-center ${
         sliderClass ? sliderClass : ""
@@ -16,7 +17,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
             <video autoplay="autoplay" loop="loop" defaultMuted playsinline className="videoStyle" id="content-desktop" >
               <source src="/assets/img/background.mp4" type ="video/mp4" alt="backgroud"></source>
             </video> 
-            <div id="content-mobile"  >
+            <div className="player" id="content-mobile"  >
             <ReactPlayer
               url={[{src:"/assets/img/background.mp4", type:"video/mp4"}]}
               className='react-player'
@@ -27,8 +28,10 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
               width = "100%"
               height="100%"
             /> 
-      </div>
+            </div>  
+            <div className="mobilebg" id="content-mobile2" >
             <div className="container">
+          
         <div className="row align-items-left slider-h9-mrg">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
             <div className="slider-singleimg-hm9 slider-animated-1">
@@ -55,7 +58,9 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
           </div>      
         </div>
       </div>
+      </div>
       </Container> 
+      
       
     </div>
   );

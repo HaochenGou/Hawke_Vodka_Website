@@ -1,3 +1,22 @@
+.player{
+  position: relative;
+  width: auto;
+  height: auto;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.mobilebg {
+  /* The image used */
+  background-image: url("/assets/img/bg.webp");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .videoStyle {
     position: absolute;
@@ -18,11 +37,13 @@
 
   #content-desktop {display: block;}
 #content-mobile {display: none;}
+#content-mobile2 {display: none;}
 
 @media screen and (max-width: 768px) {
 
 #content-desktop {display: none;}
 #content-mobile {display: block;}
+#content-mobile2 {display: block;}
 
 }
 
