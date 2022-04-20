@@ -38,12 +38,14 @@
   #content-desktop {display: block;}
 #content-mobile {display: none;}
 #content-mobile2 {display: none;}
+#content-desktop2 {display: block;}
 
 @media screen and (max-width: 768px) {
 
 #content-desktop {display: none;}
 #content-mobile {display: block;}
 #content-mobile2 {display: block;}
+#content-desktop2 {display: none;}
 
 }
 
