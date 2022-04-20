@@ -391,8 +391,8 @@ const Friend = ({ location }) => {
         </Item>
         <Item>
         <div class="c">
-        <input class="c" type="checkbox" id="faq-3"></input>
-        <h1 class="a"><label class="c" for="faq-3">North Edmonton Friends</label></h1>
+        <input class="c" type="checkbox" id="faq-4"></input>
+        <h1 class="a"><label class="c" for="faq-4">Fort Saskatchewan Friends</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="canvas_front"></p>

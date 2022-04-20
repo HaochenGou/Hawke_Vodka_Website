@@ -1,3 +1,11 @@
+.player{
+  position: relative;
+  width: auto;
+  height: auto;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+
 .videoStyle {
     position: absolute;
     right: 0;
@@ -14,4 +22,16 @@
       height:100%;
     }
   }
+
+  #content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+
  
