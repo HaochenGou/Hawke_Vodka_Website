@@ -238,7 +238,7 @@ const Friend = ({ location }) => {
         <p className="canvas_front"></p>
           <Item>
           <div class="canvas-wrapper">
-            <a href="https://www.liquordepot.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
+            <a href="https://www.facebook.com/liquorvault.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
               <div class="canvas_border">
                 <svg>
                   <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
@@ -246,32 +246,31 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/7.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/14.webp" alt="logo"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">LIQUOR</strong>
-                <span class="canvas_copy_details">DEPOT</span>
+                <span class="canvas_copy_details">Vault</span>
               </div>
             </a>
           </div>
           </Item>
           <Item>
-          <div class="canvas-wrapper">
-            <a href="https://www.wineandbeyond.ca/" class="canvas" rel="noopener noreferrer" target="_blank">
-              <div class="canvas_border">
-                <svg>
-                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
-                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
-                </svg>
-              </div>
-              <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/8.webp" alt="logo"/>
-              </div>
-              <div class="canvas_copy canvas_copy--left">
-                <strong class="canvas_copy_title">WINE AND BEYOND</strong>
-                <span class="canvas_copy_details">SPIRITS BEER & MORE</span>
-              </div>
-            </a>
+            <div style={{fontSize:'20px',alignContent:'center'}}>
+          <a href="https://www.facebook.com/GREAT-Liquor-106117591113442/" class="canvas" rel="noopener noreferrer" target="_blank">Great Liquor</a>
+          </div>
+          </Item>
+          <Item>
+            <div style={{fontSize:'20px',alignContent:'center'}}>
+          <a href="https://www.skipthedishes.com/maplewood-liquor-store" class="canvas" rel="noopener noreferrer" target="_blank">Maplewood Liquor Store</a>
+          </div>
+          </Item>
+        </Stack>
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
+        <p className="canvas_front"></p>
+          <Item>
+            <div style={{fontSize:'20px',alignContent:'center'}}>
+          <a href="https://www.skipthedishes.com/sss-liquor" class="canvas" rel="noopener noreferrer" target="_blank">SSS Liquor</a>
           </div>
           </Item>
           <Item>
@@ -279,7 +278,7 @@ const Friend = ({ location }) => {
           <a href="mailto:baselineliquor@shaw.ca" class="canvas" rel="noopener noreferrer" target="_blank">PRAIRIE LAND LIQUOR STORE</a>
           </div>
           </Item>
-        </Stack>
+        </Stack>      
         </div>
         </div>
         </Item>
