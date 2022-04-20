@@ -13,6 +13,8 @@ const HeroSliderEight = () => {
         className='react-player'
         playing
         loop
+        playsinline
+        controls
         width="100%"
         height="100%"
       />

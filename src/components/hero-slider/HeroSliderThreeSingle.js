@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import './HeroSlider.css';
+import ReactPlayer from "react-player/file";
 
 const HeroSliderThreeSingle = ({ data, sliderClass }) => {
   return (
@@ -12,9 +13,24 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
       }`}
     >
       <Container fluid>
-            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  className="videoStyle">
+            <ReactPlayer
+              url={[{src:"/assets/img/background.mp4", type:"video/mp4"}]}
+              className='react-player'
+              playing
+              loop
+              playsinline
+              muted
+              position="absolute"
+              right="0"
+              bottom="0"
+              top="0"
+              left="0"
+              width="100%"
+              height="100%"
+            />
+            {/* <video autoplay="autoplay" loop="loop" defaultMuted playsinline className="videoStyle">
               <source src="/assets/img/background.mp4" type ="video/mp4" alt="backgroud"></source>
-            </video>
+            </video> */}
             <div className="container">
         <div className="row align-items-left slider-h9-mrg">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">

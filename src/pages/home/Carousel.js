@@ -55,7 +55,7 @@ export default class Example extends Component {
 	render() {
 	  return (
 		<div style={{ width: "100%", height: "500px",backgroundImage: `url('/assets/img/test.jpg')`}}>
-		<div style={{ width: "40%", height: "500px", margin: "0 auto", backgroundImage: `url('/assets/img/test.jpg')`}}>
+		<div style={{ width: "45%", height: "100%", margin: "0 auto", backgroundImage: `url('/assets/img/test.jpg')`}}>
 		<div className="container">
         <div className="row">
 		<div className="bnt">
