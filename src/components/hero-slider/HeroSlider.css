@@ -1,10 +1,3 @@
-.player{
-  position: relative;
-  width: auto;
-  height: auto;
-  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
-}
-
 
 .videoStyle {
     position: absolute;

@@ -13,7 +13,10 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
       }`}
     >
       <Container fluid>
-      <div className='player' id="content-mobile"  >
+            <video autoplay="autoplay" loop="loop" defaultMuted playsinline className="videoStyle" id="content-desktop" >
+              <source src="/assets/img/background.mp4" type ="video/mp4" alt="backgroud"></source>
+            </video> 
+            <div id="content-mobile"  >
             <ReactPlayer
               url={[{src:"/assets/img/background.mp4", type:"video/mp4"}]}
               className='react-player'
@@ -25,9 +28,6 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
               height="100%"
             /> 
       </div>
-            <video autoplay="autoplay" loop="loop" defaultMuted playsinline className="videoStyle" id="content-desktop" >
-              <source src="/assets/img/background.mp4" type ="video/mp4" alt="backgroud"></source>
-            </video> 
             <div className="container">
         <div className="row align-items-left slider-h9-mrg">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
