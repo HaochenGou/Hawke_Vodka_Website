@@ -284,6 +284,64 @@ const Friend = ({ location }) => {
         </Item>
         <Item>
         <div class="c">
+        <input class="c" type="checkbox" id="faq-3"></input>
+        <h1 class="a"><label class="c" for="faq-3">North Edmonton Friends</label></h1>
+        <div class="p">
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
+        <p className="canvas_front"></p>
+        
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="https://econoliquor.business.site/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/12.webp" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+                <strong class="canvas_copy_title">econo liquor</strong>
+              </div>
+            </a>
+          </div>
+          </Item>
+          <Item>
+          <div class="canvas-wrapper">
+            <a href="https://www.bossliquor156.com/" class="canvas" rel="noopener noreferrer" target="_blank">
+              <div class="canvas_border">
+                <svg>
+                  <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopcolor:'rgb(253,137,68)',stopopacity:'1'}}></stop><stop offset="100%" style={{stopcolor:'rgb(153,75,23)',stopopacity:'1'}}></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                  <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                </svg>
+              </div>
+              <div class="canvas_img-wrapper">
+                <img class="canvas_img" src="assets/img/logo/13.webp" alt="logo"/>
+              </div>
+              <div class="canvas_copy canvas_copy--left">
+                <strong class="canvas_copy_title">boss liquor</strong>
+              </div>
+            </a>
+          </div>
+          </Item>
+          <Item>
+            <div style={{fontSize:'20px',alignContent:'center'}}>
+          <a href="https://www.facebook.com/pineviewliquor" class="canvas" rel="noopener noreferrer" target="_blank">Pineview Liquor</a>
+          </div>
+          </Item>
+          <Item>
+            <div style={{fontSize:'20px',alignContent:'center'}}>
+          <a href="https://www.facebook.com/angiescoldbeerandliquorstore/" class="canvas" rel="noopener noreferrer" target="_blank">Angie’s Cold Beer & Liquor Store</a>
+          </div>
+          </Item>
+        </Stack>
+        </div>
+        </div>
+        </Item>
+        <Item>
+        <div class="c">
         <input class="c" type="checkbox" id="faq-2"></input>
         <h1 class="a"><label class="c" for="faq-2">South Edmonton Friends</label></h1>
         <div class="p">
@@ -378,10 +436,9 @@ const Friend = ({ location }) => {
         </div>
         </div>
         </Item>
+        
         </Stack>
        
-        {/* brand logo slider */}
-        <p style={{margin: "100px"}}></p>
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">

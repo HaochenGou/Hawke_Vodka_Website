@@ -12,8 +12,8 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
       }`}
     >
       <Container fluid>
-            <video autoPlay muted loop className="videoStyle">
-              <source src="/assets/img/background.webm" type ="video/webm" alt="backgroud"></source>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  className="videoStyle">
+              <source src="/assets/img/background.mp4" type ="video/mp4" alt="backgroud"></source>
             </video>
             <div className="container">
         <div className="row align-items-left slider-h9-mrg">
