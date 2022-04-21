@@ -58,7 +58,6 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
         </div>
       </div>
       <div className="mobilebg" id="content-mobile2" >
-      <p style={{margin: "10px"}}></p>
       <div className="container">
         <div className="row align-items-left slider-h9-mrg">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
