@@ -112,11 +112,7 @@ const markers = [
       id: 22,
       name: "Liquor Vault",
       position: { lat: 53.529036, lng: -113.2922286 }
-    },
-
-    
-
-    
+    },   
   ];
 
   const FriendMap = props => {
