@@ -68,6 +68,53 @@ const markers = [
         name: "Boss Liquor",
         position: { lat: 53.4087788, lng: -113.5177239 }
     },
+    {
+      id: 14,
+      name: "Spiritson 101",
+      position: { lat: 53.70074, lng: -113.20333 }
+    },
+    {
+      id: 15,
+      name: "cono Liquor",
+      position: { lat: 53.6814298, lng: -113.2440551 }
+    },
+    {
+      id: 16,
+      name: "Liquor House",
+      position: { lat: 53.681458, lng: -113.248677 }
+    },
+    {
+      id: 17,
+      name: "Pineview Liquor",
+      position: { lat: 53.7004122, lng: -113.2320329 }
+    },
+    {
+      id: 18,
+      name: "Angie’s Cold Beer & Liquor Store",
+      position: { lat: 53.698574, lng: -113.2314527 }
+    },
+    {
+      id: 19,
+      name: "SSS Liquor",
+      position: { lat: 53.5349542, lng: -113.3236367 }
+    },
+    {
+      id: 20,
+      name: "Maplewood Liquor Store",
+      position: { lat: 53.5151546, lng: -113.2965409 }
+    },
+    {
+      id: 21,
+      name: "GREAT Liquor",
+      position: { lat: 53.5053799, lng: -113.3278285 }
+    },
+    {
+      id: 22,
+      name: "Liquor Vault",
+      position: { lat: 53.529036, lng: -113.2922286 }
+    },
+
+    
 
     
   ];
