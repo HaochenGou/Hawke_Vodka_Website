@@ -44,7 +44,7 @@ const card1 = (
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small" href="https://en.wikipedia.org/wiki/Java_(programming_language)" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+      <Button size="small" href="https://github.com/HaochenGou/InstantCab" rel="noopener noreferrer" target= "_blank">Example</Button>
     </CardActions>
   </React.Fragment>
 );
@@ -60,7 +60,7 @@ const card2 = (
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+      <Button size="small" href="https://www.youtube.com/watch?v=DEOFRJ3TSiM" rel="noopener noreferrer" target= "_blank">Example</Button>
     </CardActions>
   </React.Fragment>
 );
@@ -76,7 +76,7 @@ const card3 = (
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+      <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Example</Button>
     </CardActions>
   </React.Fragment>
 );
@@ -92,7 +92,7 @@ const card4 = (
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small" href="https://en.wikipedia.org/wiki/Progressive_web_application" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+      <Button size="small" href="https://www.youtube.com/watch?v=DEOFRJ3TSiM" rel="noopener noreferrer" target= "_blank">Example</Button>
     </CardActions>
   </React.Fragment>
 );
@@ -108,7 +108,7 @@ const card5 = (
     </Typography>
   </CardContent>
   <CardActions>
-    <Button size="small" href="https://en.wikipedia.org/wiki/Search_engine_optimization" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    <Button size="small" href="https://en.wikipedia.org/wiki/Search_engine_optimization" rel="noopener noreferrer" target= "_blank">Example</Button>
   </CardActions>
 </React.Fragment>
 );
