@@ -34,16 +34,6 @@ const markers = [
         position: { lat: 53.54191354, lng: -113.2659252}
     },
     {
-        id: 7,
-        name: "Liquor Depot",
-        position: { lat: 53.5389321, lng: -113.4262557 }
-    },
-    {
-        id: 8,
-        name: "Wine and Beyond",
-        position: { lat: 53.5691549, lng: -113.2848948 }
-    },
-    {
         id: 9,
         name: "Liquor Exchange",
         position: { lat: 53.5549187, lng: -113.364679 }
