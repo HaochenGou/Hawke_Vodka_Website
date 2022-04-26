@@ -108,7 +108,22 @@ const card5 = (
     </Typography>
   </CardContent>
   <CardActions>
-    <Button size="small" href="https://en.wikipedia.org/wiki/Search_engine_optimization" rel="noopener noreferrer" target= "_blank">Example</Button>
+    <Button size="small" href="https://www.autoplexalberta.ca/" rel="noopener noreferrer" target= "_blank">Example</Button>
+  </CardActions>
+  <CardActions>
+    <Button size="small" href="https://www.willowstonemarketing.com/" rel="noopener noreferrer" target= "_blank">Example</Button>
+  </CardActions>
+  <CardActions>
+    <Button size="small" href="https://www.eastviewdentureclinic.ca/" rel="noopener noreferrer" target= "_blank">Example</Button>
+  </CardActions>
+  <CardActions>
+    <Button size="small" href="https://www.promopainting.com/" rel="noopener noreferrer" target= "_blank">Example</Button>
+  </CardActions>
+  <CardActions>
+    <Button size="small" href="https://www.financeandleaseauto.ca/" rel="noopener noreferrer" target= "_blank">Example</Button>
+  </CardActions>
+  <CardActions>
+    <Button size="small" href="https://www.viroffect.ca/" rel="noopener noreferrer" target= "_blank">Example</Button>
   </CardActions>
 </React.Fragment>
 );
