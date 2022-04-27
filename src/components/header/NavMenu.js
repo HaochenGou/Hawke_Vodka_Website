@@ -63,9 +63,8 @@ const NavMenu = ({ strings }) => {
             </Link>
           </li>
           <li>
-            <Link>
-              {" "}
-              {strings["tech"]} <i className="fa fa-angle-down" />{" "}
+            <Link to={process.env.PUBLIC_URL + "/silk"}>
+              {strings["tech"]} <i className="fa fa-angle-down" />
             </Link>
             <ul className="submenu">
               <li>
