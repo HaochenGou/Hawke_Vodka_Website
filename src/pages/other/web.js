@@ -139,7 +139,7 @@ const card6 = (
     </Typography>
   </CardContent>
   <CardActions>
-    <Button size="small" href="https://www.java.com/en/" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    <Button size="small" href="https://www.java.com/en/" rel="noopener noreferrer" target= "_blank">Technology Details</Button>
   </CardActions>
 </React.Fragment>
 );
@@ -155,7 +155,7 @@ const card7 = (
     </Typography>
   </CardContent>
   <CardActions>
-    <Button size="small" href="https://reactjs.org/" rel="noopener noreferrer" target= "_blank">Learn More</Button>
+    <Button size="small" href="https://reactjs.org/" rel="noopener noreferrer" target= "_blank">Technology Details</Button>
   </CardActions>
 </React.Fragment>
 );
