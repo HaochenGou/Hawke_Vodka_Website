@@ -9,7 +9,7 @@ const BannerTwoSingle = ({ data, spaceBottomClass }) => {
         className={`single-banner ${spaceBottomClass ? spaceBottomClass : ""}`}
       >
         <Link to={process.env.PUBLIC_URL + data.link}>
-          <img src={process.env.PUBLIC_URL + data.image} alt="" />
+          <img src={process.env.PUBLIC_URL + data.image} alt="" loading="lazy"/>
         </Link>
       </div>
     </div>

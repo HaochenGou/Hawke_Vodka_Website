@@ -15,10 +15,11 @@ const FeatureIconFourSingle = ({ data, spaceBottomClass }) => {
             className="animated"
             src={process.env.PUBLIC_URL + data.iconImage}
             alt=""
+            loading="lazy"
           />
         </div>
         <div className="support-content-3">
-          <img src={process.env.PUBLIC_URL + data.titleImage} alt="" />
+          <img src={process.env.PUBLIC_URL + data.titleImage} alt="" loading="lazy"/>
           <p>{data.title}</p>
         </div>
       </div>

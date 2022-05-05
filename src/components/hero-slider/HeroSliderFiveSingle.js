@@ -10,6 +10,7 @@ const HeroSliderFiveSingle = () => {
       className="d-block w-100"
       src="/assets/img/slider/slider-1.webp"
       alt="First slide"
+      loading="lazy"
     />
   </Carousel.Item>
   <Carousel.Item>
@@ -17,6 +18,7 @@ const HeroSliderFiveSingle = () => {
       className="d-block w-100"
       src="/assets/img/slider/slider-2.webp"
       alt="Second slide"
+      loading="lazy"
     />
 
   </Carousel.Item>
@@ -25,6 +27,7 @@ const HeroSliderFiveSingle = () => {
       className="d-block w-100"
       src="/assets/img/slider/slider-3.webp"
       alt="Third slide"
+      loading="lazy"
     />
 
   </Carousel.Item>

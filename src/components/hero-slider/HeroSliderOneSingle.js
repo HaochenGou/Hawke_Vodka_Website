@@ -31,6 +31,7 @@ const HeroSliderOneSingle = ({ data, sliderClassName }) => {
                 className="animated img-fluid"
                 src={process.env.PUBLIC_URL + data.image}
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>

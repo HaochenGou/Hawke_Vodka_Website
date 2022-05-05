@@ -14,6 +14,7 @@ const FeatureIconTwoSingle = ({ data, spaceBottomClass, textAlignClass }) => {
             className="animated"
             src={process.env.PUBLIC_URL + data.image}
             alt=""
+            loading="lazy"
           />
           <h5>{data.title}</h5>
           <p>{data.subtitle}</p>

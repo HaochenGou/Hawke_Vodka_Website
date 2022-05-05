@@ -38,6 +38,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
                 className="animated"
                 src={process.env.PUBLIC_URL + data.image}
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>
@@ -66,6 +67,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
                 className="animated"
                 src={process.env.PUBLIC_URL + data.image}
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>

@@ -7,7 +7,7 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass }) => {
     <div className={`copyright ${spaceBottomClass ? spaceBottomClass : ""}`}>
       <div className="footer-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
+          <img alt="" src={process.env.PUBLIC_URL + footerLogo} loading="lazy"/>
         </Link>
       </div>
       <p>

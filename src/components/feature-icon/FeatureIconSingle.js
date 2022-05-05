@@ -10,6 +10,7 @@ const FeatureIconSingle = ({ singleFeature }) => {
             className="animated"
             src={process.env.PUBLIC_URL + singleFeature.image}
             alt=""
+            loading="lazy"
           />
         </div>
         <div className="support-content">

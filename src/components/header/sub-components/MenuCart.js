@@ -36,6 +36,7 @@ const MenuCart = ({ cartData, currency, removeFromCart }) => {
                         alt=""
                         src={process.env.PUBLIC_URL + single.image[0]}
                         className="img-fluid"
+                        loading="lazy"
                       />
                     </Link>
                   </div>
