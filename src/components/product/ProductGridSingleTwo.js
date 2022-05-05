@@ -44,12 +44,14 @@ const ProductGridSingleTwo = ({
                 className="default-img"
                 src={process.env.PUBLIC_URL + product.image[0]}
                 alt=""
+                loading="lazy"
               />
               {product.image.length > 1 ? (
                 <img
                   className="hover-img"
                   src={process.env.PUBLIC_URL + product.image[1]}
                   alt=""
+                  loading="lazy"
                 />
               ) : (
                 ""

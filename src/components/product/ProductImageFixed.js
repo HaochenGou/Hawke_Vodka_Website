@@ -23,6 +23,7 @@ const ProductImageFixed = ({ product }) => {
             src={process.env.PUBLIC_URL + product.image[0]}
             alt={product.alt}
             className="img-fluid"
+            loading="lazy"
           />
         ) : (
           ""

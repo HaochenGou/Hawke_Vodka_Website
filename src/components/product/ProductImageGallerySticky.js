@@ -25,6 +25,7 @@ const productImageGallerySticky = ({ product }) => {
                   src={process.env.PUBLIC_URL + single}
                   alt=""
                   className="img-fluid"
+                  loading="lazy"
                 />
               </div>
             );
