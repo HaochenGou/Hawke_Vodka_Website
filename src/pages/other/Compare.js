@@ -80,6 +80,7 @@ const Compare = ({
                                         compareItem.image[0]
                                       }
                                       alt={compareItem.alt}
+                                      loading="lazy"
                                     />
                                   </Link>
                                   <div className="product-title">

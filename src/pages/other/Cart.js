@@ -113,6 +113,7 @@ const Cart = ({
                                         cartItem.image[0]
                                       }
                                       alt={cartItem.alt}
+                                      loading="lazy"
                                     />
                                   </Link>
                                 </td>

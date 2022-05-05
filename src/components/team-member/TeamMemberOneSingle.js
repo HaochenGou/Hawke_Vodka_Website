@@ -12,6 +12,7 @@ const TeamMemberOneSingle = ({ data, spaceBottomClass }) => {
             src={process.env.PUBLIC_URL + data.image}
             alt={data.alt}
             className="img-fluid"
+            loading="lazy"
           />
           <div className="team-action">
             <a
