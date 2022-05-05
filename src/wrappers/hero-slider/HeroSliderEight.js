@@ -7,7 +7,8 @@ import "../../pages/other/player.css";
 const HeroSliderEight = () => {
 
   return (
-    <div className='player-wrapper'>
+    
+    <div className='player-wrapper'>  
         <ReactPlayer
         url={[{src:"/assets/img/baby.mp4", type:"video/mp4"}]}
         className='react-player'

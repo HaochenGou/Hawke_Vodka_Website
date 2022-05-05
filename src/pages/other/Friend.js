@@ -63,7 +63,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/1.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/1.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">CROSSROADS</strong>
@@ -82,7 +82,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/2.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/2.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">Little</strong>
@@ -102,7 +102,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/3.svg" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/3.svg" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">everything</strong>
@@ -126,7 +126,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/4.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/4.webp" alt="logo"loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">SAFEWAY</strong>
@@ -145,7 +145,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/5.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/5.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">SHWEWOOD PARK</strong>
@@ -164,7 +164,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/6.svg" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/6.svg" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">Sobeys</strong>
@@ -186,7 +186,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/9.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/9.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
               <strong class="canvas_copy_title">LIQUOR</strong>
@@ -205,7 +205,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/14.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/14.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">LIQUOR</strong>
@@ -259,7 +259,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/12.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/12.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">econo liquor</strong>
@@ -277,7 +277,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/13.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/13.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">boss liquor</strong>
@@ -306,7 +306,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/10.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/10.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">SHERBROOKE</strong>
@@ -325,7 +325,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/11.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/11.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">sandy lane liquor</strong>
@@ -355,7 +355,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/15.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/15.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">spiritson 101</strong>
@@ -373,7 +373,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/16.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/16.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">Econo Liquor</strong>
@@ -391,7 +391,7 @@ const Friend = ({ location }) => {
                 </svg>
               </div>
               <div class="canvas_img-wrapper">
-                <img class="canvas_img" src="assets/img/logo/17.webp" alt="logo"/>
+                <img class="canvas_img" src="assets/img/logo/17.webp" alt="logo" loading="lazy"/>
               </div>
               <div class="canvas_copy canvas_copy--left">
                 <strong class="canvas_copy_title">Liquor House</strong>
