@@ -34,7 +34,7 @@ export default function SimpleAccordion() {
        spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
-      <img src="assets/img/recipes/1.webp" alt="recipes"/>
+      <img src="assets/img/recipes/1.webp" alt="recipes" loading="lazy"/>
       </Item>
       <Stack >
         <Stack>
@@ -75,7 +75,7 @@ export default function SimpleAccordion() {
       spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
-      <img src="assets/img/recipes/2.webp" alt="recipes"/>
+      <img src="assets/img/recipes/2.webp" alt="recipes" loading="lazy"/>
       </Item>
       <Stack>
         <Stack>
@@ -114,7 +114,7 @@ export default function SimpleAccordion() {
       spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
-      <img src="assets/img/recipes/3.webp" alt="recipes"/>
+      <img src="assets/img/recipes/3.webp" alt="recipes" loading="lazy"/>
       </Item>
       <Stack>
         <Stack>
@@ -157,7 +157,7 @@ export default function SimpleAccordion() {
       spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
-      <img src="assets/img/recipes/4.webp" alt="recipes"/>
+      <img src="assets/img/recipes/4.webp" alt="recipes" loading="lazy"/>
       </Item>
       <Stack>
         <Stack>
@@ -195,7 +195,7 @@ export default function SimpleAccordion() {
       spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
-      <img src="assets/img/recipes/5.webp" alt="recipes"/>
+      <img src="assets/img/recipes/5.webp" alt="recipes" loading="lazy"/>
       </Item>
       <Stack>
         <Stack>
@@ -234,7 +234,7 @@ export default function SimpleAccordion() {
       spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
-      <img src="assets/img/recipes/6.webp" alt="recipes"/>
+      <img src="assets/img/recipes/6.webp" alt="recipes" loading="lazy"/>
       </Item>
       <Stack>
         <Stack>
@@ -275,7 +275,7 @@ export default function SimpleAccordion() {
       spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
-      <img src="assets/img/recipes/7.webp" alt="recipes"/>
+      <img src="assets/img/recipes/7.webp" alt="recipes" loading="lazy"/>
       </Item>
       <Stack>
         <Stack>
@@ -315,7 +315,7 @@ export default function SimpleAccordion() {
       spacing={{ xs: 1, sm: 2, md: 4 }}
       >
       <Item>
-      <img src="assets/img/recipes/8.webp" alt="recipes"/>
+      <img src="assets/img/recipes/8.webp" alt="recipes" loading="lazy"/>
       </Item>
       <Stack>
         <Stack>
