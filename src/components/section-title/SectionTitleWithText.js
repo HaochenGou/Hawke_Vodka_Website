@@ -13,8 +13,7 @@ const SectionTitleWithText = ({ spaceTopClass, spaceBottomClass }) => {
           <h5>Our Commitment</h5>
           <p style={{margin: "100px"}}></p>
           <h1>We have distilled life down to what’s
-important and how to move forward with
-smiles and love in our hearts.</h1>
+important.</h1>
          
 
           <p>
