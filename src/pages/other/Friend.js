@@ -30,7 +30,7 @@ const Friend = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Hawke Prohibition Distilleries | Friend </title>
+        <title>Hawke Prohibition Distilleries | where_to_buy </title>
         <meta
           name="description"
           content="About page of Hawke Prohibition Distilleries."
@@ -38,7 +38,7 @@ const Friend = ({ location }) => {
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Friend
+        Where To Buy
       </BreadcrumbsItem>
      
       <LayoutOne headerTop="visible">
@@ -49,7 +49,7 @@ const Friend = ({ location }) => {
         <Item>
         <div class="c">
           <input class="c" type="checkbox" id="faq-1"></input>
-          <h1 class="a"><label class="c" for="faq-1">Sherwood Park Friends</label></h1>
+          <h1 class="a"><label class="c" for="faq-1">Sherwood Park</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="canvas_front"></p>
@@ -244,7 +244,7 @@ const Friend = ({ location }) => {
         <Item>
         <div class="c">
         <input class="c" type="checkbox" id="faq-3"></input>
-        <h1 class="a"><label class="c" for="faq-3">North Edmonton Friends</label></h1>
+        <h1 class="a"><label class="c" for="faq-3">North Edmonton</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="canvas_front"></p>
@@ -292,7 +292,7 @@ const Friend = ({ location }) => {
         <Item>
         <div class="c">
         <input class="c" type="checkbox" id="faq-2"></input>
-        <h1 class="a"><label class="c" for="faq-2">South Edmonton Friends</label></h1>
+        <h1 class="a"><label class="c" for="faq-2">South Edmonton</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="canvas_front"></p>
@@ -341,7 +341,7 @@ const Friend = ({ location }) => {
         <Item>
         <div class="c">
         <input class="c" type="checkbox" id="faq-4"></input>
-        <h1 class="a"><label class="c" for="faq-4">Fort Saskatchewan Friends</label></h1>
+        <h1 class="a"><label class="c" for="faq-4">Fort Saskatchewan</label></h1>
         <div class="p">
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={{ xs: 1, sm: 2, md: 8 }}>
         <p className="canvas_front"></p>
