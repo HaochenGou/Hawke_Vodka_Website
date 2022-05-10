@@ -85,7 +85,7 @@ const NavMenu = ({ strings }) => {
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/friend"}>
-              {strings["friend"]}
+              {strings["where_to_buy"]}
             </Link>
           </li>
         </ul>
