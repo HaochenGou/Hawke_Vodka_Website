@@ -17,13 +17,9 @@ important.</h1>
          
 
           <p>
-          At Hawke Prohibition Distilleries and years behind us, we
-have realized that life and business are one of the same.
-Cool is everything, it means you live well, chase dreams and
-elevate those around you. Enjoy, it’s smiles, love, embracing
-all things positive. Have fun, with playful hearts the day-to-
-day grind becomes bright and cheerful with pleasant
-surprises around every corner.{" "}
+          Hawke Prohibition Distilleries is an indigenous- and female-owned business based in Sherwood Park, Alberta. We pride ourselves on crafting premium spirits using only the highest quality ingredients and our one-of-a-kind continuous distillation process to create a full range of premium alcohol spirits. We use organic and locally sourced ingredients whenever possible. There are no additives, essences, preservatives or artificial colors in any of our spirits. Our goal is to provide the finest quality, smoothest, award-winning spirits; in fact, our premier spirit, baby-X-vodka, won a gold medal at the Alberta Spirits Awards in 2021.<br></br><br></br>
+
+Our lineup of premium spirits includes baby-X-vodka, our modern William’s London dry, Sir Periwinkle’s colour-changing gin, Lady Sophia Strawberry Hibiscus Gin, Scoundrel Spiced RumBum, and our newest Thick & Dirty Cream Liquor.{" "}
           </p>
         </div>
       </div>
