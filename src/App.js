@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 import ScrollToTop from "./helpers/scroll-top";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { ToastProvider } from "react-toast-notifications";
