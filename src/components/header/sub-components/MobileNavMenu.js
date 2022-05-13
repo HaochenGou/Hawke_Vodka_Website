@@ -56,7 +56,7 @@ const MobileNavMenu = ({ strings }) => {
           </li>
           <ul>
         <li className="menu-item-has-children">
-          <Link to={process.env.PUBLIC_URL + "/tech"}>{strings["tech"]}</Link>
+          <Link to={process.env.PUBLIC_URL + "/silk"}>{strings["tech"]}</Link>
           <ul className="sub-menu">
           <li>
             <Link to={process.env.PUBLIC_URL + "/silk"}>
