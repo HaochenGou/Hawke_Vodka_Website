@@ -29,7 +29,9 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
               height="100%"
             /> 
             </div>  
+            <p style={{margin: "10px"}}></p>
             <div className="container" id="content-desktop2">
+            
           
         <div className="row align-items-left slider-h9-mrg">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
