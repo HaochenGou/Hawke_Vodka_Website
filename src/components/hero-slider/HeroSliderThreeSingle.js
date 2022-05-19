@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import './HeroSlider.css';
 import ReactPlayer from "react-player/file";
+import * as THREE from 'three';
+import { useRef, useState, useMemo, useEffect } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
+import { Text, TrackballControls } from '@react-three/drei';
 
 const HeroSliderThreeSingle = ({ data, sliderClass }) => {
   return (

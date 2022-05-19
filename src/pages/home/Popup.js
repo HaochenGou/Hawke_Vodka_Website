@@ -8,13 +8,13 @@ import Logo from "../../components/header/Logo";
 
 const Popup = (props) => {
   const[isShow, setIsShow] = useState(true);
-  const showcase=(window.localStorage.getItem("show")===null)
+  const showcase=(window.localStorage.getItem("show")===null);
 
   
   function toggle(){
     setIsShow(!isShow)
     document.getElementById("pop").style.visibility="hidden";
-    window.localStorage.setItem("show",JSON.stringify(isShow))
+    window.localStorage.setItem("show",JSON.stringify(isShow));
   }
 
   return (
