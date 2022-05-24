@@ -1,7 +1,10 @@
-import { createDerivedMaterial } from 'troika-three-utils';
+import React,{Component} from 'react';
+
+import { DerivedMaterial } from 'troika-three-utils';
+
 
 export function createBillboardMaterial(baseMaterial, opts) {
-  return createDerivedMaterial(
+  return DerivedMaterial(
     baseMaterial,
     Object.assign(
       {

@@ -6,7 +6,7 @@ import SectionTitleWithText from "../../components/section-title/SectionTitleWit
 import BannerThree from "../../wrappers/banner/BannerThree";
 import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
-import heroback from "./heroback";
+
 
 import Carousel from './Carousel';
 import Popup from "./Popup";
@@ -35,9 +35,8 @@ const HomeElectronics = () => {
       <LayoutTwo>
     
         {/* hero slider */}
-        {/* <HeroSliderThree /> */}
+        <HeroSliderThree />
         <heroback/>
-        
         
 
         <p style={{margin: "100px"}}></p>

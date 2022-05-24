@@ -15903,6 +15903,11 @@ raf@^3.4.1:
   dependencies:
     performance-now "^2.1.0"
 
+random-words@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/random-words/-/random-words-1.1.2.tgz#edd0aa531cafc9d1499cb06f7314ac93a9086496"
+  integrity sha512-GwgC+Yu+D5/044grf2QqaYk3ZrQip7yfgvkj/6bJ3H3B3KrE7qoNPbWaYd06hrigqAkrPzNVEpRlnBaNx4bDuA==
+
 randomatic@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/randomatic/-/randomatic-3.1.1.tgz#b776efc59375984e36c537b2f51a1f0aff0da1ed"
@@ -19029,6 +19034,11 @@ troika-three-text@^0.46.4:
     troika-three-utils "^0.46.0"
     troika-worker-utils "^0.46.0"
     webgl-sdf-generator "1.1.1"
+
+troika-three-utils@0.38.1:
+  version "0.38.1"
+  resolved "https://registry.yarnpkg.com/troika-three-utils/-/troika-three-utils-0.38.1.tgz#99c91cca4fbf215adf5782382962ca9c969b052f"
+  integrity sha512-uJM1K219B/q3q7SNnWzthSWHzE80JGNPqP4yBKPGqZ0RaXLhzTBtFuKvSQlVYYrqb/RK21iCOf13vtGyPhwM2A==
 
 troika-three-utils@^0.46.0:
   version "0.46.0"

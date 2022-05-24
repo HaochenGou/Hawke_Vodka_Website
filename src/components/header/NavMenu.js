@@ -62,7 +62,7 @@ const NavMenu = ({ strings }) => {
               {strings["recipes"]}
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to={process.env.PUBLIC_URL + "/silk"}>
               {strings["tech"]} <i className="fa fa-angle-down" />
             </Link>
@@ -82,7 +82,7 @@ const NavMenu = ({ strings }) => {
                 </ul>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <Link to={process.env.PUBLIC_URL + "/friend"}>
               {strings["where_to_buy"]}
