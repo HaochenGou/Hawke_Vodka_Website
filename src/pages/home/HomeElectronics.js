@@ -43,7 +43,7 @@ const HomeElectronics = () => {
         
         <Demo/>
         </div>
-        <p style={{margin: "1000px"}}></p>
+        
        
         
 
