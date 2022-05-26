@@ -36,7 +36,7 @@ const HomeElectronics = () => {
       <LayoutTwo>
     
         {/* hero slider */}
-        <p style={{margin: "250px"}}></p>
+        
         <Demo/>
         <p style={{margin: "1000px"}}></p>
        

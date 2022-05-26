@@ -19,9 +19,8 @@ export class Demo extends React.Component {
           height: "100vh",
           display: "flex",
 		  alignItems:"center",
-		  paddingTop:"100px",
-		  paddingBottom:"300px",
-		  paddingLeft:"600px",
+		 
+		  
 		  backgroundImage: `url(https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
 		  backgroundPosition: "center",
 		  position: "absolute",
@@ -29,7 +28,7 @@ export class Demo extends React.Component {
         }}
       >
             <TagCloud tagName={tagName} url="https://hawkeprohibition.com/shop" radius={250}></TagCloud>
-			<p style={{margin: "100px"}}></p>
+			
 		</div>
 		
 		
