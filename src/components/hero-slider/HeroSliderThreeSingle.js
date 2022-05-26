@@ -18,7 +18,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
       }`}
     >
       <Container fluid>
-            <video autoplay="autoplay" loop="loop" defaultMuted playsinline className="videoStyle" id="content-desktop" >
+            {/* <video autoplay="autoplay" loop="loop" defaultMuted playsinline className="videoStyle" id="content-desktop" >
               <source src="/assets/img/background.mp4" type ="video/mp4" alt="backgroud"></source>
             </video> 
             <div className="player" id="content-mobile"  >
@@ -32,7 +32,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
               width = "100%"
               height="100%"
             /> 
-            </div>  
+            </div>   */}
             <p style={{margin: "10px"}}></p>
             <div className="container" id="content-desktop2">
             

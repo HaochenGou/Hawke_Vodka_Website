@@ -6,7 +6,8 @@ import SectionTitleWithText from "../../components/section-title/SectionTitleWit
 import BannerThree from "../../wrappers/banner/BannerThree";
 import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
-
+import { Demo } from "./wordcloud";
+import { Stack } from "@mui/material";
 
 import Carousel from './Carousel';
 import Popup from "./Popup";
@@ -16,13 +17,13 @@ import { Card, Button} from "react-bootstrap";
 
 
 const HomeElectronics = () => {
-  const videoRef = useRef(null)
+  const videoRef = useRef(null);
   const {
     isPictureInPictureActive,
     isPictureInPictureAvailable,
     togglePictureInPicture,
-  } = usePictureInPicture(videoRef)
-  
+  } = usePictureInPicture(videoRef);
+
   return (
     <Fragment>
       <MetaTags>
@@ -35,8 +36,10 @@ const HomeElectronics = () => {
       <LayoutTwo>
     
         {/* hero slider */}
-        <HeroSliderThree />
-        <heroback/>
+        <p style={{margin: "250px"}}></p>
+        <Demo/>
+        <p style={{margin: "1000px"}}></p>
+       
         
 
         <p style={{margin: "100px"}}></p>

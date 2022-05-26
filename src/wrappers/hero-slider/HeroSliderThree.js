@@ -2,6 +2,7 @@ import React from "react";
 import Swiper from "react-id-swiper";
 import heroSliderData from "../../data/hero-sliders/hero-slider-three.json";
 import HeroSliderThreeSingle from "../../components/hero-slider/HeroSliderThreeSingle.js";
+import { Demo } from "../../pages/home/wordcloud";
 
 const HeroSliderThree = () => {
   const params = {
@@ -9,7 +10,7 @@ const HeroSliderThree = () => {
     loop: true,
     speed: 300,
     autoplay: {
-      delay: 62000,
+      delay: 6000,
       disableOnInteraction: true
     },
     watchSlidesVisibility: true,
@@ -22,11 +23,13 @@ const HeroSliderThree = () => {
           {heroSliderData &&
             heroSliderData.map((single, key) => {
               return (
+                
                 <HeroSliderThreeSingle
                   data={single}
                   key={key}
                   sliderClass="swiper-slide"
                 />
+                
               );
             })}
         </Swiper>
