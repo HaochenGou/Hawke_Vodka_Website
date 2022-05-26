@@ -8,6 +8,7 @@ import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
 import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 import { Demo } from "./wordcloud";
 import { Stack } from "@mui/material";
+import './wordcloud.css';
 
 import Carousel from './Carousel';
 import Popup from "./Popup";
@@ -34,10 +35,14 @@ const HomeElectronics = () => {
         />
       </MetaTags>
       <LayoutTwo>
-    
-        {/* hero slider */}
+      <div className="container" id="content-mobile3">
+         <HeroSliderThree/>
+
+        </div>
+        <div id="content-desktop3">
         
         <Demo/>
+        </div>
         <p style={{margin: "1000px"}}></p>
        
         

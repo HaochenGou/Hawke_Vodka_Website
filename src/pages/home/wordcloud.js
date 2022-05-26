@@ -19,15 +19,14 @@ export class Demo extends React.Component {
           height: "100vh",
           display: "flex",
 		  alignItems:"center",
-		 
-		  
 		  backgroundImage: `url(https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
 		  backgroundPosition: "center",
 		  position: "absolute",
+		  paddingRight:"250px",
           top: "0"
         }}
       >
-            <TagCloud tagName={tagName} url="https://hawkeprohibition.com/shop" radius={250}></TagCloud>
+            <TagCloud tagName={tagName} url="https://hawkeprohibition.com/shop" radius={260}></TagCloud>
 			
 		</div>
 		

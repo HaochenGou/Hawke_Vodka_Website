@@ -1,0 +1,9 @@
+#content-desktop3 {display: block;}
+#content-mobile3 {display: none;}
+
+@media screen and (max-width: 768px) {
+
+    #content-desktop3 {display: none;}
+#content-mobile3 {display: block;}
+    
+}
