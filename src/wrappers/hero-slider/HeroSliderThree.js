@@ -2,7 +2,6 @@ import React from "react";
 import Swiper from "react-id-swiper";
 import heroSliderData from "../../data/hero-sliders/hero-slider-three.json";
 import HeroSliderThreeSingle from "../../components/hero-slider/HeroSliderThreeSingle.js";
-import { Demo } from "../../pages/home/wordcloud";
 
 const HeroSliderThree = () => {
   const params = {
