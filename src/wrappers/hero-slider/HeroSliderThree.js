@@ -23,7 +23,6 @@ const HeroSliderThree = () => {
           {heroSliderData &&
             heroSliderData.map((single, key) => {
               return (
-                
                 <HeroSliderThreeSingle
                   data={single}
                   key={key}
