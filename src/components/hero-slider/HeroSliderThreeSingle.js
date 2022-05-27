@@ -43,7 +43,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
             <div className="slider-singleimg-hm9 slider-animated-1">
               <img
                 className="animated"
-                src={process.env.PUBLIC_URL + data.image}
+                src='/assets/img/97.png'
                 alt=""
                 loading="lazy"
               />
@@ -72,7 +72,8 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
             <div className="slider-singleimg-hm9 slider-animated-1">
               <img
                 className="animated"
-                src={process.env.PUBLIC_URL + data.image}
+                // src={process.env.PUBLIC_URL + data.image}
+                src='/assets/img/97.png'
                 alt=""
                 loading="lazy"
               />
