@@ -1018,8 +1018,16 @@
 
 /* slider hm9 */
 .slider-height-7 {
+    
     height: 950px;
     z-index: -1;
+    background: linear-gradient(
+    to bottom,
+    #FF4C00 0%,
+    #FF4C00 50%,
+    #041E42 50%,
+    #041E42 100%
+  );
     @media #{$lg-layout}{
         height: 800px;
     }

@@ -13,7 +13,8 @@ export class Demo extends React.Component {
 	 "William's London Dry", "Sir Peri Winkle's", 
 	'Lady Sophia','Thick & Dirty','Scoundrel Rumbum','Lady Sophia'];
 	  return (
-		<div className='cloud'
+		<div 
+		className='cloud'
         style={{
           width: "100%",
           height: "100vh",
