@@ -5,18 +5,6 @@
   padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
 }
 
-.colorpart{
-  background: linear-gradient(
-    to top,
-    #FF4C00 0%,
-    #FF4C00 50%,
-    #041E42 50%,
-    #041E42 100%
-  );
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .mobilebg {
   /* The image used */
   /* background-image: url("/assets/img/bg.webp"); */
