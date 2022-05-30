@@ -30,7 +30,7 @@ const HeaderTop = ({
           <span>
             {currency.currencySymbol + (100 * currency.currencyRate).toFixed(2)}
           </span>
-           in Edmonton
+          &nbsp;in Edmonton
         </p>
       </div>
     </div>
