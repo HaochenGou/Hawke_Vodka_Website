@@ -52,7 +52,7 @@
         "price": 28.00,
         "new": false,
         "stock": 10000,
-        "image": ["/assets/img/product/2.webp"],
+        "image": ["/assets/img/Product2.webp"],
         "alt":"baby-X-vodka",
         "shortDescription": "By definition, vodka is without colour, without flavour and without smell. For this to be possible vodka needs to be distilled at 96% after distillation we move into our proprietary filtration system. This crafts an ultra smooth vodka, perfect for martinis and any vodka related cocktail.",
         "fullDescription": "By definition, vodka is without colour, without flavour and without smell. For this to be possible vodka needs to be distilled at 96% after distillation we move into our proprietary filtration system. This crafts an ultra smooth vodka, perfect for martinis and any vodka related cocktail."
@@ -65,7 +65,7 @@
         "price": 32.00,
         "new": false,
         "stock": 10000,
-        "image": ["/assets/img/product/1.webp"],
+        "image": ["/assets/img/Product1.webp"],
         "alt":"William's Londaon Dry",
         "shortDescription": "London dry is a style of gin, we chose this method as it achieves the freshest possible gin. Expect subtle juniper notes, a forward citrus and light tea balance.",
         "fullDescription": "Williams London dry gin is not your average gin, we use our Alberta spirits gold metal award winning baby-X-vodka. We then macerate 11 different botanicals putting much emphasis on orange, lemon and grapefruit. This is where the journey of freshness begins. Blending with our chosen teas has created a truly fresh and balanced spirit."
