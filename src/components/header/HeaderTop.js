@@ -24,7 +24,14 @@ const HeaderTop = ({
         currentLanguageCode={currentLanguageCode}
         dispatch={dispatch}
       />
-      
+      <div className="header-offer">
+        <p>
+          Free delivery for anything over{"100"}in Edmonton
+          <span>
+            {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)}
+          </span>
+        </p>
+      </div>
     </div>
   );
 };

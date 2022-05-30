@@ -1,19 +1,53 @@
-[
+[    {
+    "id": "42145440301207",
+    "sku": "asdf1",
+    "name": "Baby-X-vodka 97",
+    "price": 36.00,
+    "stock": 10000,
+    "image": ["/assets/img/Product7.webp"],
+    "alt":"Baby-X-vodka 97",
+    "shortDescription": "",
+    "fullDescription": ""
+    },
+
     {
-        "id": "41435507064983",
-        "sku": "asdf123",
-        "name": "William's London Dry",
-        "price": 32.00,
-        "new": false,
-        "stock": 10000,
-        "image": ["/assets/img/product/1.webp"],
-        "alt":"William's Londaon Dry",
-        "shortDescription": "London dry is a style of gin, we chose this method as it achieves the freshest possible gin. Expect subtle juniper notes, a forward citrus and light tea balance.",
-        "fullDescription": "Williams London dry gin is not your average gin, we use our Alberta spirits gold metal award winning baby-X-vodka. We then macerate 11 different botanicals putting much emphasis on orange, lemon and grapefruit. This is where the journey of freshness begins. Blending with our chosen teas has created a truly fresh and balanced spirit."
+    "id": "41873399251095",
+    "sku": "asdf2",
+    "name": "Lady Sophia",
+    "price": 36.00,
+    "stock": 10000,
+    "image": ["/assets/img/Product4.webp"],
+    "alt":"Lady Sophia",
+    "shortDescription": "Celebrating women everywhere, Lady Sophia is an elegant, sophisticated spirit. Enjoy a rich bouquet of strawberry and hibiscus infused with a sensuous hint of rose and elderflower creates a spirit as beautiful, feminine and timeless as the women who drink it.",
+    "fullDescription": "Celebrating women everywhere, Lady Sophia is an elegant, sophisticated spirit. Enjoy a rich bouquet of strawberry and hibiscus infused with a sensuous hint of rose and elderflower creates a spirit as beautiful, feminine and timeless as the women who drink it."
     },
     {
+        "id": "41435485995159",
+        "sku": "asdf3",
+        "name": "Sir Peri Winkle's",
+        "price": 36.00,
+        "stock": 10000,
+        "image": ["/assets/img/Product3.webp"],
+        "alt":"Sir Peri Winkle's",
+        "shortDescription": "We take our Williams London dry and further macerate a few magic botanicals. A truly interesting gin is created. Sir Peri Winkles is the delicacy of gins everywhere, A perfect blend of sweet teas and citrus.",
+        "fullDescription": "Sir Peri Winkle's is our amazing London Dry Gin with a further maceration of Butterfly Pea Blossom and Hibiscus to achieve its brilliant purple colour. Lastly a chamomile is added to bring you one of the most delicate, well rounded gins that have ever come out of this great country of ours."
+    },
+
+    {
+        "id": "41907321995415",
+        "sku": "asdf4",
+        "name": "Scoundrel Rumbum",
+        "price": 36.00,
+        "stock": 10000,
+        "image": ["/assets/img/Product5.webp"],
+        "alt":"Scoundrel Rumbum",
+        "shortDescription": "Scoundrel is a spiced rumbum with a caribbean soul, inspired by the daring & boldly independent spirit of rum and pirate lore. Notes of oak and vanilla create a deliciously smooth taste, perfect in rum cocktails and mixed drinks.",
+        "fullDescription": "Scoundrel is a spiced rumbum with a caribbean soul, inspired by the daring & boldly independent spirit of rum and pirate lore. Notes of oak and vanilla create a deliciously smooth taste, perfect in rum cocktails and mixed drinks."
+    },
+
+    {
         "id": "37852889809047",
-        "sku": "asdf124",
+        "sku": "asdf5",
         "name": "baby-X-vodka",
         "price": 28.00,
         "new": false,
@@ -23,43 +57,24 @@
         "shortDescription": "By definition, vodka is without colour, without flavour and without smell. For this to be possible vodka needs to be distilled at 96% after distillation we move into our proprietary filtration system. This crafts an ultra smooth vodka, perfect for martinis and any vodka related cocktail.",
         "fullDescription": "By definition, vodka is without colour, without flavour and without smell. For this to be possible vodka needs to be distilled at 96% after distillation we move into our proprietary filtration system. This crafts an ultra smooth vodka, perfect for martinis and any vodka related cocktail."
     },
- 
+
     {
-        "id": "41435485995159",
-        "sku": "asdf125",
-        "name": "Sir Peri Winkle's",
-        "price": 36.00,
+        "id": "41435507064983",
+        "sku": "asdf6",
+        "name": "William's London Dry",
+        "price": 32.00,
+        "new": false,
         "stock": 10000,
-        "image": ["/assets/img/Product3.webp"],
-        "alt":"Sir Peri Winkle's",
-        "shortDescription": "We take our Williams London dry and further macerate a few magic botanicals. A truly interesting gin is created. Sir Peri Winkles is the delicacy of gins everywhere, A perfect blend of sweet teas and citrus.",
-        "fullDescription": "Sir Peri Winkle's is our amazing London Dry Gin with a further maceration of Butterfly Pea Blossom and Hibiscus to achieve its brilliant purple colour. Lastly a chamomile is added to bring you one of the most delicate, well rounded gins that have ever come out of this great country of ours."
+        "image": ["/assets/img/product/1.webp"],
+        "alt":"William's Londaon Dry",
+        "shortDescription": "London dry is a style of gin, we chose this method as it achieves the freshest possible gin. Expect subtle juniper notes, a forward citrus and light tea balance.",
+        "fullDescription": "Williams London dry gin is not your average gin, we use our Alberta spirits gold metal award winning baby-X-vodka. We then macerate 11 different botanicals putting much emphasis on orange, lemon and grapefruit. This is where the journey of freshness begins. Blending with our chosen teas has created a truly fresh and balanced spirit."
     },
-    {
-        "id": "41873399251095",
-        "sku": "asdf126",
-        "name": "Lady Sophia",
-        "price": 36.00,
-        "stock": 10000,
-        "image": ["/assets/img/Product4.webp"],
-        "alt":"Lady Sophia",
-        "shortDescription": "Celebrating women everywhere, Lady Sophia is an elegant, sophisticated spirit. Enjoy a rich bouquet of strawberry and hibiscus infused with a sensuous hint of rose and elderflower creates a spirit as beautiful, feminine and timeless as the women who drink it.",
-        "fullDescription": "Celebrating women everywhere, Lady Sophia is an elegant, sophisticated spirit. Enjoy a rich bouquet of strawberry and hibiscus infused with a sensuous hint of rose and elderflower creates a spirit as beautiful, feminine and timeless as the women who drink it."
-    },
-    {
-        "id": "41907321995415",
-        "sku": "asdf126",
-        "name": "Scoundrel Rumbum",
-        "price": 36.00,
-        "stock": 10000,
-        "image": ["/assets/img/Product5.webp"],
-        "alt":"Scoundrel Rumbum",
-        "shortDescription": "Scoundrel is a spiced rumbum with a caribbean soul, inspired by the daring & boldly independent spirit of rum and pirate lore. Notes of oak and vanilla create a deliciously smooth taste, perfect in rum cocktails and mixed drinks.",
-        "fullDescription": "Scoundrel is a spiced rumbum with a caribbean soul, inspired by the daring & boldly independent spirit of rum and pirate lore. Notes of oak and vanilla create a deliciously smooth taste, perfect in rum cocktails and mixed drinks."
-    },
+   
+    
     {
         "id": "41981615636631",
-        "sku": "asdf126",
+        "sku": "asdf7",
         "name": "Thick & Dirty",
         "price": 38.00,
         "stock": 0,
@@ -68,7 +83,5 @@
         "shortDescription": "Thick & Dirty is a rum based Irish cream, decadent can be the only description. ",
         "fullDescription": "Thick, Dirty & Delicious. Serve on ice, with your coffee, over ice cream. Whip it real good over desserts, use as dessert. Use as breakfast, use before skiing or golfing. Oh and maybe try a paralyzer, we thought it was amazing, etc……"
     }
-
-
 
 ]
