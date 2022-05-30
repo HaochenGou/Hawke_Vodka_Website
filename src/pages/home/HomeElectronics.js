@@ -71,9 +71,7 @@ const HomeElectronics = () => {
         {/* banner */}
         <BannerThree spaceBottomClass="pb-100" />
 
-        
-
-
+    
         {/* testimonial */}
         <TestimonialOne
           spaceTopClass="pt-100"
