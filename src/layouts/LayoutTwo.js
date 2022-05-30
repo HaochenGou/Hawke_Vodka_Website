@@ -3,10 +3,12 @@ import React, { Fragment } from "react";
 import HeaderTwo from "../wrappers/header/HeaderTwo";
 import FooterOne from "../wrappers/footer/FooterOne";
 
-const LayoutTwo = ({ children, footerBgClass }) => {
+const LayoutTwo = ({ children, footerBgClass,headerTop }) => {
   return (
     <Fragment>
-      <HeaderTwo />
+      <HeaderTwo 
+      top={headerTop}
+      />
       {children}
       <FooterOne
         backgroundColorClass={footerBgClass ? footerBgClass : "bg-gray"}
