@@ -41,18 +41,24 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
         <div className="row align-items-left slider-h9-mrg">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
             <div className="slider-singleimg-hm9 slider-animated-1">
+            <Link
+                to={process.env.PUBLIC_URL +"/product/" + 42145440301207}>
               <img
                 className="animated"
                 src='/assets/img/97.png'
                 alt="baby-x-vodka-97"
                 loading="lazy"
               />
+              </Link>
+              <Link
+                to={process.env.PUBLIC_URL +"/product/" + 42145440301207}>
                 <img
                 className="animated"
                 src='/assets/img/7.png'
                 alt="baby-x-vodka-97"
                 loading="lazy"
               />
+              </Link>
             </div>
           </div>
           
@@ -63,7 +69,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
               <div className="slider-btn-9 btn-hover">
                 <Link
                   className="animated"
-                  to={process.env.PUBLIC_URL + data.url}
+                  to={process.env.PUBLIC_URL +"/product/" + 42145440301207}
                 >
                   BUY NOW
                 </Link>
@@ -94,7 +100,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
               <div className="slider-btn-9 btn-hover">
                 <Link
                   className="animated"
-                  to={process.env.PUBLIC_URL + data.url}
+                  to={process.env.PUBLIC_URL + "/product/" + 41435507064983}
                 >
                   BUY NOW
                 </Link>
