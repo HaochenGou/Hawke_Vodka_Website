@@ -87,7 +87,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
                 className="animated"
                 // src={process.env.PUBLIC_URL + data.image}
                 src='/assets/img/97.png'
-                alt=""
+                alt="97"
                 loading="lazy"
               />
             </div>
