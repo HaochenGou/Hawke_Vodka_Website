@@ -47,6 +47,12 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
                 alt="baby-x-vodka-97"
                 loading="lazy"
               />
+                <img
+                className="animated"
+                src='/assets/img/7.png'
+                alt="baby-x-vodka-97"
+                loading="lazy"
+              />
             </div>
           </div>
           
