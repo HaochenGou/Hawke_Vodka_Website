@@ -36,7 +36,7 @@ const ProductFixedImage = ({ location, product }) => {
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
-        {product.id == "41907321995415" &&(<HeroSliderSix/>)}
+        {/* {product.id == "41907321995415" &&(<HeroSliderSix/>)}
 
         {product.id == "41873399251095" &&(<HeroSliderSeven/>)}
 
@@ -44,7 +44,7 @@ const ProductFixedImage = ({ location, product }) => {
 
         {product.id == "41435507064983" &&(<HeroSliderNine/>)}
 
-        {product.id == "41435485995159" &&(<HeroSliderTen/>)}
+        {product.id == "41435485995159" &&(<HeroSliderTen/>)} */}
         
      
         
