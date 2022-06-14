@@ -108,20 +108,11 @@ const FooterOne = ({
                 <ul>
                   <li>
                     <a
-                      href="//www.facebook.com"
+                      href="https://www.facebook.com/HawkeProhibition"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       Facebook
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="//www.twitter.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Twitter
                     </a>
                   </li>
                   <li>
@@ -135,7 +126,7 @@ const FooterOne = ({
                   </li>
                   <li>
                     <a
-                      href="//www.youtube.com"
+                      href="https://www.youtube.com/channel/UCcbQ_uMl6FKt7GfLgv-vOQw"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

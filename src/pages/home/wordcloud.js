@@ -20,7 +20,7 @@ export class Demo extends React.Component {
           height: "100vh",
           display: "flex",
 		  alignItems:"center",
-		  backgroundImage: `url(https://images.pexels.com/photos/6985045/pexels-photo-6985045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
+		  backgroundImage: `url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)`,
 		  paddingRight:"250px",
           top: "0"
         }}
