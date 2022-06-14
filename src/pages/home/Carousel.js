@@ -17,10 +17,6 @@ export default class Example extends Component {
 	};
   
 	slides = [
-		{
-			key: uuidv4(),
-		content:<Link to={process.env.PUBLIC_URL +"/product/" + 42145440301207}><img width="380" height="400"src='/assets/img/Product7.webp' alt="1" loading="lazy"/></Link>
-		},
 	  {
 		key: uuidv4(),
 		content:<Link to={process.env.PUBLIC_URL +"/product/" + 41435507064983}><img width="380" height="400"src='/assets/img/Product1.webp' alt="1" loading="lazy"/></Link>
