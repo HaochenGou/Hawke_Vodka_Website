@@ -127,7 +127,7 @@ const FooterOne = ({
                   </li>
                   <li>
                     <a
-                      href="//www.tiktok.com"
+                      href="https://www.tiktok.com/@hawkeprohibition2022"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
