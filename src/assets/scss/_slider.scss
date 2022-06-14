@@ -1021,13 +1021,6 @@
     
     height: 950px;
     z-index: -1;
-    background: linear-gradient(
-    to bottom,
-    #FF4C00 0%,
-    #FF4C00 57%,
-    #041E42 57%,
-    #041E42 100%
-  );
     @media #{$lg-layout}{
         height: 800px;
     }

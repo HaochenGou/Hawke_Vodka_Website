@@ -35,16 +35,16 @@ const HomeElectronics = () => {
         />
       </MetaTags>
       <LayoutTwo>
-      {/* <div id="content-mobile3"> */}
+      <div id="content-mobile3">
          <HeroSliderThree/>
 
-        {/* </div> */}
+        </div>
         
         
-        {/* <div id="content-desktop3">
+       <div id="content-desktop3">
         
         <Demo/>
-        </div> */}
+        </div>
         
        
         

@@ -7,7 +7,7 @@
 
 .mobilebg {
   /* The image used */
-  /* background-image: url("/assets/img/bg.webp"); */
+  background-image: url("/assets/img/bg.webp");
 
   /* Full height */
   height: 100%; 

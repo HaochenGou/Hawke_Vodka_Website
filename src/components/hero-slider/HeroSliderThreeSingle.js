@@ -19,7 +19,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
     >
       
       <Container fluid>
-            {/* <video autoplay="autoplay" loop="loop" defaultMuted playsinline className="videoStyle" id="content-desktop" >
+            <video autoplay="autoplay" loop="loop" defaultMuted playsinline className="videoStyle" id="content-desktop" >
               <source src="/assets/img/background.mp4" type ="video/mp4" alt="backgroud"></source>
             </video> 
             <div className="player" id="content-mobile"  >
@@ -33,7 +33,7 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
               width = "100%"
               height="100%"
             /> 
-            </div>   */}
+            </div>  
             <p style={{margin: "10px"}}></p>
             <div className="container" id="content-desktop2">
             
@@ -41,24 +41,6 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
         <div className="row align-items-left slider-h9-mrg">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
             <div className="slider-singleimg-hm9 slider-animated-1">
-            <Link
-                to={process.env.PUBLIC_URL +"/product/" + 42145440301207}>
-              <img
-                className="animated"
-                src='/assets/img/97.png'
-                alt="97"
-                loading="lazy"
-              />
-              </Link>
-              <Link
-                to={process.env.PUBLIC_URL +"/product/" + 42145440301207}>
-                <img
-                className="animated"
-                src='/assets/img/7.png'
-                alt="baby-x-vodka-97"
-                loading="lazy"
-              />
-              </Link>
             </div>
           </div>
           
@@ -81,17 +63,6 @@ const HeroSliderThreeSingle = ({ data, sliderClass }) => {
       <div className="mobilebg" id="content-mobile2" >
       <div className="container">
         <div className="row align-items-left slider-h9-mrg">
-        <div className="col-lg-6 col-md-6 col-12 col-sm-6">
-            <div className="slider-singleimg-hm9 slider-animated-1">
-              <img
-                className="animated"
-                // src={process.env.PUBLIC_URL + data.image}
-                src='/assets/img/97.png'
-                alt="97"
-                loading="lazy"
-              />
-            </div>
-          </div>
          
           <div className="col-lg-6 col-md-6 col-12 col-sm-6">
             <div className="slider-content-7 slider-animated-1">
