@@ -86,15 +86,7 @@ const FooterOne = ({
                   <li>
                   <a href="https://baby-x-vodka.myshopify.com/account/login" rel="noopener noreferrer" target="_blank">Track Your Order</a>
                   </li>
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
-                      Support Policy
-                    </Link>
-                  </li>
-        
-                  <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>FAQs</Link>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
