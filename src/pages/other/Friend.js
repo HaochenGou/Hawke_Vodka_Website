@@ -422,7 +422,7 @@ const Friend = ({ location }) => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-             <FriendMap /> 
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SkIbjQbA75bKSyYJZPXRqQiIHyzBMxY&ehbc=2E312F" width="100%" height="100%" title='friend map'></iframe>
             </div>
           </div>
         </div>
